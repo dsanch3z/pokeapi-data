@@ -4,7 +4,7 @@ command = "bash build.sh"
 functions = "_functions"
 
 [template.environment]
-BASE_URL = "set your base url (no trailing slash)"
+BASE_URL = "http://pokeapi.co"
 
 [[redirects]]
 from = "/api/v2/"
