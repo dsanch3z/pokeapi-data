@@ -1,36 +1,140 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import Layout from '../components/layout'
+import React from "react"
+import { css } from "emotion"
+import { graphql } from "gatsby"
+
+import Layout from "@/components/layout"
+import EvolutionChain from "@/components/evolution-chain"
+import PokemonName from "@/components/pokemon-name"
+import PokemonSummary from "@/components/pokemon-summary"
+import PokemonVarieties from "@/components/pokemon-varieties"
+
+const styles = {
+  root: css({
+    maxWidth: 960,
+    margin: "0 auto",
+  }),
+  animatedSprite: css({
+    margin: "0 auto",
+    height: 140,
+  }),
+  animatedSpriteImg: css({
+    height: "100%",
+  }),
+  intro: css({
+    textAlign: "center",
+  }),
+  flavorText: css({
+    textAlign: "left",
+  }),
+  evolutionChain: css({}),
+}
 
 export default ({ data }) => {
-  const pokemon = data.pokemonJson
+  const {
+    pokeapiPokemon: pokemon,
+    pokeapiPokemonSpecies: pokemonSpecies,
+    pokeapiEvolutionChain: evolutionChain,
+    evolutionChainSprites,
+    varietiesSprites,
+  } = data
+
+  const flavorTextEntry = pokemonSpecies.flavor_text_entries.find(
+    flavorText => flavorText.language.name === "en"
+  )
+
+  console.log(pokemon)
+  console.log(pokemonSpecies)
+  console.log(evolutionChain)
+  console.log(evolutionChainSprites)
+  console.log(varietiesSprites)
+
   return (
     <Layout>
-      <div>
-        <h1>
-          {+pokemon.id}.{' '}
-          {pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}
-        </h1>
-        Male front
-        <img alt={pokemon.name} src={pokemon.sprites.front_default} />
-        Female front
-        <img alt={pokemon.name} src={pokemon.sprites.front_female} />
-        Male back
-        <img alt={pokemon.name} src={pokemon.sprites.back_default} />
-        Female back
-        <img alt={pokemon.name} src={pokemon.sprites.back_female} />
-        <h2>Moves</h2>
-        {pokemon.moves.map(({ name }) => (
-          <div>Move: {name}</div>
-        ))}
+      <div className={styles.root}>
+        <div className={styles.intro}>
+          <div className={styles.animatedSprite}>
+            <img
+              className={styles.animatedSpriteImg}
+              src={`http://pokestadium.com/sprites/xy/${pokemon.name}.gif`}
+              title={`${pokemon.name}`}
+              alt={`${pokemon.name}`}
+            />
+          </div>
+          <h1>
+            <PokemonName id={pokemon.id} name={pokemon.name} />
+          </h1>
+
+          <PokemonSummary
+            types={pokemon.types}
+            height={pokemon.height}
+            weight={pokemon.weight}
+          />
+
+          <p className={styles.flavorText}>{flavorTextEntry.flavor_text}</p>
+        </div>
+
+        <h2>Evolution chain</h2>
+
+        {evolutionChain && (
+          <div className={styles.evolutionChain}>
+            <EvolutionChain
+              evolutionChain={evolutionChain}
+              evolutionChainSprites={evolutionChainSprites}
+            />
+          </div>
+        )}
+
+        <h2>Other forms</h2>
+        <PokemonVarieties
+          varieties={pokemonSpecies.varieties.filter(
+            variety => variety.pokemon.name !== pokemon.name
+          )}
+          sprites={varietiesSprites}
+        />
+
+        {/*<h2>Moves</h2>
+        <PokemonMoves moves={pokemon.moves} />*/}
       </div>
     </Layout>
   )
 }
 
 export const query = graphql`
-  query($name: String!) {
-    pokemonJson(name: { eq: $name }) {
+  query(
+    $name: String!
+    $evolutionChainId: String
+    $evolutionChainSpriteIds: [String!]!
+    $varietySpriteIds: [String]
+  ) {
+    evolutionChainSprites: allFile(
+      filter: { id: { in: $evolutionChainSpriteIds } }
+    ) {
+      edges {
+        node {
+          id
+          childImageSharp {
+            fluid(maxWidth: 800, quality: 80) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+
+    varietiesSprites: allFile(filter: { id: { in: $varietySpriteIds } }) {
+      edges {
+        node {
+          id
+          childImageSharp {
+            fluid(maxWidth: 800, quality: 80) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+
+    pokeapiPokemon(name: { eq: $name }) {
       id
       name
       abilities {
@@ -54,11 +158,13 @@ export const query = graphql`
       held_items {
         item {
           name
+          url
         }
         version_details {
           rarity
           version {
             name
+            url
           }
         }
       }
@@ -102,6 +208,155 @@ export const query = graphql`
         }
       }
       weight
+    }
+
+    pokeapiPokemonSpecies(name: { eq: $name }) {
+      id
+      name
+      base_happiness
+      capture_rate
+      color {
+        name
+      }
+      egg_groups {
+        name
+      }
+      evolution_chain {
+        url
+      }
+      evolves_from_species {
+        name
+      }
+      flavor_text_entries {
+        flavor_text
+        language {
+          name
+        }
+        version {
+          name
+        }
+      }
+      forms_switchable
+      gender_rate
+      genera {
+        genus
+        language {
+          name
+        }
+      }
+      generation {
+        name
+        url
+      }
+      growth_rate {
+        name
+        url
+      }
+      habitat {
+        name
+        url
+      }
+      has_gender_differences
+      hatch_counter
+      is_baby
+      order
+      pal_park_encounters {
+        area {
+          name
+          url
+        }
+        base_score
+        rate
+      }
+      pokedex_numbers {
+        entry_number
+        pokedex {
+          name
+          url
+        }
+      }
+      shape {
+        name
+        url
+      }
+      varieties {
+        is_default
+        pokemon {
+          name
+          url
+        }
+      }
+    }
+
+    pokeapiEvolutionChain(id: { eq: $evolutionChainId }) {
+      id
+      chain {
+        species {
+          name
+        }
+        evolves_to {
+          species {
+            name
+          }
+          evolution_details {
+            held_item {
+              name
+            }
+            item {
+              name
+            }
+            known_move {
+              name
+            }
+            known_move_type {
+              name
+            }
+            location {
+              name
+            }
+            min_affection
+            min_happiness
+            min_level
+            needs_overworld_rain
+            party_species {
+              name
+            }
+            relative_physical_stats
+            time_of_day
+            trigger {
+              name
+            }
+            turn_upside_down
+          }
+          evolves_to {
+            species {
+              name
+            }
+            evolution_details {
+              held_item {
+                name
+              }
+              item {
+                name
+              }
+              known_move {
+                name
+              }
+              location {
+                name
+              }
+              min_happiness
+              min_level
+              needs_overworld_rain
+              time_of_day
+              trigger {
+                name
+              }
+              turn_upside_down
+            }
+          }
+        }
+      }
     }
   }
 `

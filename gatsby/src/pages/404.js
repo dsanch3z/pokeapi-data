@@ -1,10 +1,25 @@
-import React from 'react'
-import Layout from '../components/layout'
+import React from "react"
+import { css } from "emotion"
+
+import Layout from "@/components/layout"
+import Placeholder from "@/components/pokemon-placeholder"
+
+const classNames = {
+  root: css({
+    textAlign: "center",
+  }),
+  placeholder: css({
+    marginTop: 50,
+    marginBottom: 50,
+  }),
+}
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div className={classNames.root}>
+      <h1>NOT FOUND</h1>
+      <Placeholder width={300} className={classNames.placeholder} />
+    </div>
   </Layout>
 )
 

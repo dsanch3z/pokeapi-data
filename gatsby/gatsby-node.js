@@ -1,189 +1,224 @@
-const _ = require(`lodash`)
-const path = require(`path`)
+const path = require("path")
 
-async function onCreateNode(
-  { node, actions, loadNodeContent, createNodeId, createContentDigest },
-  pluginOptions
-) {
-  function getPokeType(pokePath) {
-    const dirs = path.dirname(pokePath).split(path.sep)
-    const dir = dirs.pop()
-    const type = isNaN(parseInt(dir)) ? dir : dirs.pop()
-    return type.includes('pokemon') ? type : `Pokemon${_.upperFirst(type)}`
-  }
-
-  function getType({ node, object, isArray }) {
-    if (pluginOptions && _.isFunction(pluginOptions.typeName)) {
-      return pluginOptions.typeName({ node, object, isArray })
-    } else if (pluginOptions && _.isString(pluginOptions.typeName)) {
-      return pluginOptions.typeName
-    } else if (node.internal.type !== `File`) {
-      return _.upperFirst(_.camelCase(`${node.internal.type} Json`))
-    } else if (isArray) {
-      return _.upperFirst(_.camelCase(`${getPokeType(node.relativePath)} Json`))
-    } else {
-      return _.upperFirst(
-        _.camelCase(
-          `${getPokeType(node.relativePath) || path.basename(node.dir)} Json`
-        )
-      )
-    }
-  }
-
-  function transformObject(obj, id, type) {
-    const jsonNode = {
-      ...obj,
-      id: id,
-      children: [],
-      parent: node.id,
-      internal: {
-        contentDigest: createContentDigest(obj),
-        type,
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        "@": path.resolve("src"),
       },
-    }
-    createNode(jsonNode)
-    createParentChildLink({ parent: node, child: jsonNode })
-  }
-
-  const { createNode, createParentChildLink } = actions
-
-  // We only care about JSON content.
-  if (node.internal.mediaType !== `application/json`) {
-    return
-  }
-
-  const content = await loadNodeContent(node)
-  const parsedContent = JSON.parse(content)
-
-  function formatId(id) {
-    return id.toLocaleString('es-MX', {
-      minimumIntegerDigits: 5,
-      useGrouping: false,
-    })
-  }
-
-  if (_.isArray(parsedContent)) {
-    parsedContent.forEach((obj, i) => {
-      transformObject(
-        obj,
-        obj.id ? formatId(obj.id) : createNodeId(`${node.id} [${i}] >>> JSON`),
-        getType({ node, object: obj, isArray: true })
-      )
-    })
-  } else if (_.isPlainObject(parsedContent)) {
-    transformObject(
-      parsedContent,
-      parsedContent.id
-        ? formatId(parsedContent.id)
-        : createNodeId(`${node.id} >>> JSON`),
-      getType({ node, object: parsedContent, isArray: false })
-    )
-  }
+    },
+  })
 }
 
-function createPages({ graphql, actions }) {
+exports.createPages = async function createPages({ graphql, actions }) {
   const { createPage } = actions
-  return new Promise((resolve, reject) => {
-    graphql(`
-      {
-        allPokemonJson {
-          edges {
-            node {
-              id
-              name
-              abilities {
-                ability {
-                  name
-                }
-                is_hidden
-                slot
-              }
-              base_experience
-              forms {
+
+  const allPokeapiPokemonResult = await graphql(`
+    {
+      allPokeapiPokemon {
+        edges {
+          node {
+            id
+            name
+            abilities {
+              ability {
                 name
               }
-              game_indices {
-                game_index
+              is_hidden
+              slot
+            }
+            base_experience
+            forms {
+              name
+            }
+            game_indices {
+              game_index
+              version {
+                name
+              }
+            }
+            height
+            held_items {
+              item {
+                name
+                url
+              }
+              version_details {
+                rarity
                 version {
                   name
+                  url
                 }
               }
-              height
-              held_items {
-                item {
-                  name
-                }
-                version_details {
-                  rarity
-                  version {
-                    name
-                  }
-                }
-              }
-              is_default
-              location_area_encounters
-              moves {
-                move {
-                  name
-                }
-                version_group_details {
-                  level_learned_at
-                  move_learn_method {
-                    name
-                  }
-                  version_group {
-                    name
-                  }
-                }
-              }
-              order
-              species {
+            }
+            is_default
+            location_area_encounters
+            moves {
+              move {
                 name
               }
-              sprites {
-                front_default
-                back_default
-                front_female
-                back_female
-              }
-              stats {
-                stat {
+              version_group_details {
+                level_learned_at
+                move_learn_method {
                   name
                 }
-                base_stat
-                effort
-              }
-              types {
-                slot
-                type {
+                version_group {
                   name
                 }
               }
-              weight
+            }
+            order
+            species {
+              name
+            }
+            sprites {
+              front_default
+              back_default
+              front_female
+              back_female
+            }
+            stats {
+              stat {
+                name
+              }
+              base_stat
+              effort
+            }
+            types {
+              slot
+              type {
+                name
+              }
+            }
+            weight
+          }
+        }
+      }
+    }
+  `)
+  if (allPokeapiPokemonResult.errors) {
+    console.error(
+      "fucking allPokeapiPokemon query errors",
+      allPokeapiPokemonResult.errors
+    )
+  }
+
+  const {
+    data: {
+      allPokeapiPokemon: { edges: allPokemon },
+    },
+  } = allPokeapiPokemonResult
+
+  createPage({
+    path: `/`,
+    component: require.resolve(`./src/templates/all-pokemon.js`),
+    context: {
+      slug: "/",
+    },
+  })
+
+  allPokemon.forEach(async ({ node }) => {
+    const pokemonSpeciesResult = await graphql(`
+      {
+        pokeapiPokemonSpecies(name: { eq: "${node.name}" }) {
+          evolution_chain {
+            url
+          }
+          varieties {
+            pokemon {
+              name
             }
           }
         }
       }
-    `).then(result => {
-      if (result.errors) {
-        console.error('fucking errors', result.errors)
-        reject(result.errors)
+    `)
+
+    const {
+      data: { pokeapiPokemonSpecies },
+    } = pokemonSpeciesResult
+
+    const evolutionChainId = pokeapiPokemonSpecies.evolution_chain
+      ? pokeapiPokemonSpecies.evolution_chain.url
+        ? `${pokeapiPokemonSpecies.evolution_chain.url
+            .slice(0, -1)
+            .split("/")
+            .pop()}-pokeapi-evolution-chain`
+        : ""
+      : ""
+
+    const varietySpriteIds = Array.isArray(pokeapiPokemonSpecies.varieties)
+      ? pokeapiPokemonSpecies.varieties
+          .filter(({ pokemon }) => pokemon.name !== node.name)
+          .map(({ pokemon }) => `${pokemon.name}_front`)
+      : []
+
+    console.log(node.node, "varieties", varietySpriteIds)
+
+    const pokemonEvolutionChainResult = await graphql(`
+      {
+        pokeapiEvolutionChain(id: { eq: "${evolutionChainId}" }) {
+          chain {
+            species {
+              name
+            }
+            evolves_to {
+              species {
+                name
+              }
+              evolves_to {
+                species {
+                  name
+                }
+              }
+            }
+          }
+        }
       }
-      result.data.allPokemonJson.edges.forEach(({ node }) => {
-        createPage({
-          path: node.name,
-          component: path.resolve(`./src/templates/pokemon.js`),
-          context: {
-            // Data passed to context is available
-            // in page queries as GraphQL variables.
-            name: node.name,
-          },
-        })
-      })
-      resolve()
+    `)
+
+    const {
+      data: { pokeapiEvolutionChain },
+    } = pokemonEvolutionChainResult
+
+    const evolutionChainNames = getEvolutionChainNames(pokeapiEvolutionChain)
+    const evolutionChainSpriteIds = evolutionChainNames.map(
+      name => `${name}_front`
+    )
+
+    createPage({
+      path: `/pokemon/${node.name}`,
+      component: require.resolve(`./src/templates/pokemon.js`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        name: node.name,
+        evolutionChainId,
+        evolutionChainSpriteIds,
+        varietySpriteIds,
+      },
     })
   })
 }
 
-exports.onCreateNode = onCreateNode
-exports.createPages = createPages
+function getEvolutionChainNames(evolutionChain) {
+  try {
+    const { species, evolves_to } = evolutionChain.chain
+
+    return [species.name].concat(
+      Array.isArray(evolves_to) ? flattenEvolutionChainNames(evolves_to) : []
+    )
+
+    function flattenEvolutionChainNames(evolves_to) {
+      return evolves_to.reduce(function(names, chain) {
+        if (chain.species && chain.species.name) {
+          return names
+            .concat(chain.species.name)
+            .concat(flattenEvolutionChainNames(chain.evolves_to || []))
+        }
+      }, [])
+    }
+  } catch (err) {
+    console.error("fucking error getEvolutionNames", evolutionChain, err)
+    return []
+  }
+}
