@@ -106,6 +106,8 @@ This project wolud not exist whitout these guys.
 
 [Pokedex.org](https://pokedex.org) (ideas and inspiration) - Great project
 
+[Pokestadium](http://pokestadium.com/) - I'm pokemon sprites they host to upload them to Cloudinary.
+
 [CSS Animated Pokeball Codepen](https://codepen.io/raubaca/pen/obaZmG) by [Rau](https://codepen.io/raubaca/#) - Awesome css only animated pokeball.
 
 [Cloudinary](https://cloudinary.com) - Great free tier and fast CDN for images.
