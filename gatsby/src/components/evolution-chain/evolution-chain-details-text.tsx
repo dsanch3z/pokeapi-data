@@ -48,6 +48,32 @@ export default function EvolutionChainDetailsText({
         details += `with ${evolutionDetails.min_affection} affection `
       }
 
+      /**
+       * @see https://pokeapi.co/docs/v2.html#evolution-chains
+       * The required relation between the Pokémon's Attack and Defense stats.
+       * 1 means Attack > Defense.
+       * 0 means Attack = Defense.
+       * -1 means Attack < Defense.
+       */
+      if (typeof evolutionDetails.relative_physical_stats === "number") {
+        switch (`${evolutionDetails.relative_physical_stats}`) {
+          case "-1": {
+            details += `with Attack > Defense `
+            break
+          }
+          case "0": {
+            details += `with Attack = Defense `
+            break
+          }
+          case "1": {
+            details += `with Attack < Defense `
+            break
+          }
+          default:
+            break
+        }
+      }
+
       return (
         <>
           level {evolutionDetails.min_level || "up"} {details}

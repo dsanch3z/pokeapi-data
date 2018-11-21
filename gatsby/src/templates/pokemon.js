@@ -36,6 +36,7 @@ export default ({ data }) => {
     pokeapiEvolutionChain: evolutionChain,
     evolutionChainSprites,
     varietiesSprites,
+    animatedSprite,
   } = data
 
   const flavorTextEntry = pokemonSpecies.flavor_text_entries.find(
@@ -55,7 +56,7 @@ export default ({ data }) => {
           <div className={styles.animatedSprite}>
             <img
               className={styles.animatedSpriteImg}
-              src={`http://pokestadium.com/sprites/xy/${pokemon.name}.gif`}
+              src={animatedSprite ? animatedSprite.src : null}
               title={`${pokemon.name}`}
               alt={`${pokemon.name}`}
             />
@@ -132,6 +133,10 @@ export const query = graphql`
           }
         }
       }
+    }
+
+    animatedSprite: pokeapiPokemonImages(name: { eq: $name }) {
+      src
     }
 
     pokeapiPokemon(name: { eq: $name }) {

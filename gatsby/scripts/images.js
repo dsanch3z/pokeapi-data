@@ -27,6 +27,7 @@ spinner.info(`Source path: ${POKEMONS_DIR}`)
 
 const pokemonIds = fs.readdirSync(POKEMONS_DIR)
 const pokemonImagesJSONFolder = `${DEST}/pokemon-images`
+const pokemonImages = []
 
 if (fs.existsSync(pokemonImagesJSONFolder)) {
   spinner.info(`Deleting previously created: ${pokemonImagesJSONFolder}`)
@@ -38,6 +39,11 @@ fs.mkdirSync(pokemonImagesJSONFolder)
 
 main()
   .then(() => {
+    const pokemonImageJSONFile = `${pokemonImagesJSONFolder}/pokemon-images.json`
+    fs.createFileSync(pokemonImageJSONFile)
+
+    fs.writeJSONSync(pokemonImageJSONFile, pokemonImages)
+
     spinner.succeed(
       `Created json files containing the necessary references to the uploaded assets in ${pokemonImagesJSONFolder}`
     )
@@ -51,7 +57,6 @@ async function main() {
       `${POKEMONS_DIR}/${pokemonId}/index.json`
     )
     const pokemonName = pokemonJSON.name
-    const pokemonImageJSONFile = `${pokemonImagesJSONFolder}/${pokemonName}.json`
 
     const id = `${pokemonName}_front_animated`
     const img = `${BASE_URL}/xy/${patchPokemonName(pokemonName)}.gif`
@@ -59,15 +64,17 @@ async function main() {
     try {
       spinner.info(`Uploading: ${img}`)
 
-      fs.createFileSync(pokemonImageJSONFile)
-
       const result = await uploadImage(img, {
         public_id: id,
         folder: `pokeapi_sprites`,
         overwrite: true,
       })
 
-      fs.writeJSONSync(pokemonImageJSONFile, { [id]: result.secure_url })
+      pokemonImages.push({
+        id,
+        name: pokemonName,
+        src: result.secure_url,
+      })
 
       spinner.succeed(`Uploaded to: ${result.secure_url}`)
     } catch (err) {

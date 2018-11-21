@@ -37,10 +37,11 @@ exports.onCreateNode = async function onCreateNode({
   }
 
   function getType({ node }) {
-    const dirs = path.dirname(node.relativePath).split(path.sep)
+    const dirs = path.dirname(node.absolutePath).split(path.sep)
     const dir = dirs.pop()
     let type = isNaN(parseInt(dir)) ? dir : dirs.pop()
     type = `Pokeapi${_.upperFirst(type)}`
+
     return _.upperFirst(_.camelCase(type))
   }
 
@@ -51,15 +52,11 @@ exports.onCreateNode = async function onCreateNode({
           minimumIntegerDigits: 5,
           useGrouping: false,
         })
-      }
-
-      if (obj.id) {
+      } else if (obj.id) {
         return `${obj.id}-${_.lowerCase(type)
           .split(" ")
           .join("-")}`
-      }
-
-      if (obj.name) {
+      } else if (obj.name) {
         return `${obj.name}-${_.lowerCase(type)
           .split(" ")
           .join("-")}`
