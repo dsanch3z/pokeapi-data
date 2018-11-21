@@ -2,6 +2,5 @@
 # Editor
 .vscode
 
-gatsby/.env
-gatsby/src/data/pokeapi/*
-gatsby/src/data/pokemon-images/*
+
+

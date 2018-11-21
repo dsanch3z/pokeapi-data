@@ -6,3 +6,14 @@ yarn-error.log
 # Build directory
 /public
 .DS_Store
+
+# .env files
+.env
+
+# Generated folders
+
+src/data/pokeapi/*
+src/data/pokemon-images/*
+
+!src/data/pokeapi/.gitkeep
+!src/data/pokemon-images/.gitkeep
