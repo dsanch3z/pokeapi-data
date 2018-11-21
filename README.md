@@ -1,5 +1,9 @@
 [![CircleCI](https://circleci.com/gh/PokeAPI/api-data.svg?style=shield)](https://circleci.com/gh/PokeAPI/api-data)
 
+# This is a Fork
+
+This project is a fork of https://github.com/PokeAPI/api-data, it contains all the Pokeapi JSON files and a `gatsby` folder containing the static site and additional data and assets generated using custom scripts and gatsby plugins.
+
 # PokeAPI Data
 
 This repository contains:
@@ -7,6 +11,7 @@ This repository contains:
 - [data/api](data/api): a static copy of the JSON data generated with the above script
 - [data/schema](data/schema): a static copy of the PokeAPI schema generated from the above data
 - [updater](updater): a [Ditto][1] based bot that runs in docker and can update the data stored in this repo
+- [gatsby](gatsby) a folder containing the Gatsby project to create a static site using all this data. I was created in this fork.
 
 # Usage
 

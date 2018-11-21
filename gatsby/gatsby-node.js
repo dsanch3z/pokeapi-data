@@ -152,8 +152,6 @@ exports.createPages = async function createPages({ graphql, actions }) {
           .map(({ pokemon }) => `${pokemon.name}_front`)
       : []
 
-    console.log(node.node, "varieties", varietySpriteIds)
-
     const pokemonEvolutionChainResult = await graphql(`
       {
         pokeapiEvolutionChain(id: { eq: "${evolutionChainId}" }) {

@@ -3,8 +3,8 @@ import { css } from "emotion"
 import { graphql, StaticQuery } from "gatsby"
 import Headroom from "react-headroom"
 
-import PokemonThumbnailItem from "@/components/pokemon-thumbnail"
 import SearchBar from "@/components/search-bar"
+import PokemonThumbnailItem from "@/components/pokemon-thumbnail"
 
 const styles = {
   root: css({
@@ -20,12 +20,10 @@ export default class AllPokemon extends Component {
     searchTerm: "",
   }
 
-  handleSearchChange = e => {
-    const { value } = e.target
+  handleSearchChange = e =>
     this.setState({
-      searchTerm: value,
+      searchTerm: e.target.value,
     })
-  }
 
   render() {
     const { handleSearchChange } = this
@@ -52,6 +50,12 @@ export default class AllPokemon extends Component {
                 node {
                   id
                   name
+                  types {
+                    slot
+                    type {
+                      name
+                    }
+                  }
                   sprites {
                     front_default
                   }

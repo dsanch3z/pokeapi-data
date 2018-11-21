@@ -4,11 +4,12 @@ const ora = require("ora")
 const argv = require("yargs").argv
 
 const SRC = `${path.dirname(path.dirname(__dirname))}/data/api/v2`
-const DEST = `${path.dirname(__dirname)}/src/data`
+const DEST = `${path.dirname(__dirname)}/src/data/pokeapi`
 const FILES = ["pokemon", "pokemon-species", "evolution-chain"] // necessary folders only
 const isProduction = process.env.NODE_ENV === "production"
 
-const spinner = ora(`Copying files from ${SRC} to ${DEST}`).start()
+const spinner = ora(`Initiating`).start()
+spinner.info(`Copying files from ${SRC} to ${DEST}`)
 
 if (fs.existsSync(DEST)) fs.removeSync(DEST)
 

@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-source-pokeapi",
+  "name": "gatsby-source-pokeapi-local",
   "version": "1.0.0",
   "description": "Takes the pokeapi-data generated with ditto and creates the necessary gatsby nodes.",
   "main": "gatsby-node.js",

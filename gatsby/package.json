@@ -40,9 +40,12 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node scripts/seed.js"
+    "seed": "node scripts/seed.js",
+    "images": "node scripts/image.js"
   },
   "devDependencies": {
+    "cloudinary": "^1.13.2",
+    "dotenv": "^6.1.0",
     "fs-extra": "^7.0.1",
     "ora": "^3.0.0",
     "prettier": "^1.14.2",

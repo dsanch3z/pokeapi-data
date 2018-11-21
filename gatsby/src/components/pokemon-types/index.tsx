@@ -1,5 +1,5 @@
 import React from "react"
-import styled, { css } from "react-emotion"
+import styled from "react-emotion"
 import { upperFirst } from "lodash"
 
 import { IPokemonType } from "@typings/pokemon"
@@ -26,8 +26,19 @@ const PokemonType = styled("li")`
   margin: 0.5rem;
   padding: 0.2rem 0.5rem;
   border-radius: 5px;
-  background: ${({ type }: IPokemonTypeProps) => getTypeBackgroundColor(type)};
+  background: ${({ type }: IPokemonTypeProps) =>
+    getPokemonTypeBackgroundColor(type)};
 `
+
+function getPokemonTypeBackgroundColor(type: string): string {
+  const color = getPokemonTypeColor(type)
+
+  if (Array.isArray(color)) {
+    return `linear-gradient(to bottom, ${color[0]} 50%, ${color[1]} 50%)`
+  }
+
+  return color
+}
 
 export default function PokemonTypes({
   types,
@@ -51,7 +62,7 @@ export default function PokemonTypes({
   )
 }
 
-export function getTypeBackgroundColor(type: string) {
+export function getPokemonTypeColor(type: string): string | string[] {
   const typeColor = {
     bug: "#729f3f",
     dark: "#707070",
@@ -62,7 +73,7 @@ export function getTypeBackgroundColor(type: string) {
     fire: "#fd7d24",
     flying: ["#3dc7ef", "#bdb9b8"],
     ghost: "#7b62a3",
-    grass: "#729f3f",
+    grass: "#9bcc50",
     ground: ["#f7de3f", "#ab9842"],
     ice: "#51c4e7",
     normal: "#a4acaf",
@@ -73,9 +84,5 @@ export function getTypeBackgroundColor(type: string) {
     water: "#4592c4",
   }
 
-  const color = typeColor[type]
-
-  return Array.isArray(color)
-    ? `linear-gradient(180deg, ${color[0]} 50%, ${color[1]} 50%)`
-    : color
+  return typeColor[type]
 }

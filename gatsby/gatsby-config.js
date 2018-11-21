@@ -1,18 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: "Pokeapi powered static site",
+    title: "Super Pokedex",
   },
   plugins: [
     "gatsby-plugin-typescript",
     "gatsby-plugin-react-helmet",
-    "gatsby-source-pokeapi",
+    "gatsby-source-pokeapi-local",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pokeapi`,
-        path: `${__dirname}/src/data/`,
+        path: `${__dirname}/src/data/pokeapi`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pokeapi`,
+        path: `${__dirname}/src/data/pokemon-images`,
       },
     },
     {

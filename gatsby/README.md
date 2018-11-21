@@ -4,85 +4,85 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Pokedex static site powered by Pokeapi & Gatsby
 </h1>
 
-Kick off your project with this default boilerplate. This barebones starter ships with the main Gatsby configuration files you might need.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+This project is a fork of https://github.com/PokeAPI/api-data, it contains all the Pokeapi JSON files and a `gatsby` folder containing the static site and additional data and assets generated using custom scripts and gatsby plugins.
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+1.  **Clone the project and install dependencies.**
 
     ```sh
-    # create a new Gatsby site using the default starter
-    npx gatsby new my-default-starter
+    git clone https://github.com/cube5/pokeapi-data
     ```
-
-1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-default-starter/
-    gatsby develop
+    # Navigate to gatsby folder and install dependencies
+    cd gatsby && npm i
     ```
 
-1.  **Open the source code and start editing!**
+1.  **Seed the `data` folder.**
+
+    Run the `seed` script (see `gatsby/package.json`).
+
+    ```sh
+    # You can use the --limit {number} arg to copy just the files you specify
+    npm run seed
+    ```
+
+1.  **Upload the images to [Coludinary](https://cloudinary.com/) and create references to them in JSON files**
+
+    This script takes the `pokemon` folder from the folder generated with the `seed` script and uploads the necessary sprites to a cloudinary account (you'll need to provide the env keys included in the `.env.example` file). Currently the source of those images is [Pokestadium](http://pokestadium.com/).
+
+    After each uploaded img, the script creates a JSON file inside `data/pokemon-images` containing the uploaded asset url.
+
+    ```sh
+    npm run images
+    ```
+
+1.  **Star the project (finally xD)**
+
+    ```sh
+    npm run develop
+    ```
 
     Your site is now running at `http://localhost:8000`!
 
     \_Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).\_
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-
 ## 🧐 What's inside?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+A quick look at the important files and directories to undestand what do they do and how the project works.
 
     .
-    ├── node_modules
     ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
+      ├── data
+        ├── pokeapi
+        ├── pokemon-images
+    ├── plugins
+      ├── gatsby-source-pokeapi-local
+    ├── scripts
+      ├── seed.js
+      ├── images.js
     ├── gatsby-config.js
     ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    ├── README.md
-    └── yarn.lock
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+1.  **`src/data`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+1.  **`src/data/pokeapi`**: This folder remains empty until you run the `seed` script, then it contains the necessary json files extracted from the `../data/api/v2` folder.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+1.  **`src/data/pokemon-images`**: This folder remains empty until yo run the `images` script, then it contains one JSON file for each pokemon in `src/data/pokeapi/pokemon` (you have to run the `seed` script first) with the uploaded images urls so we can use them in the project.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+1.  **`/plugins/gatsby-source-pokeapi-local`**: This is a local gatsby plugin that takes the pokeapi data (`src/data/pokeapi`) and create the GraphQL nodes so we can query them in the project with some Gatsby magic.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+1.  **`/scripts/seed.js`**: It takes the pokeapi data from `../data/api/v2` folder and copies the indicated files to `src/data/pokeapi`. During development it only copies a limit of 151 children (you can use the `--limit {number}` flag to indicate a different quantity) of each specified folder to avoid memory issues. In the production build it copies everything. It detects the current environment with the `NODE_ENV` env variable.
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+1.  **`/scripts/images.js`**: It reads the `src/data/pokeapi/pokemon` folder and uploads an image for each pokemon you have in there, it also generates the JSON files to reference them into `src/data/pokemon-images`.
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+1.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-13. **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm, though all of the Gatsby docs reference npm. This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
+1.  **`gatsby-node.js`**: This is were we query some GraphQL nodes and generate the necessary pages using the templates from the `src/templates` folder.
 
 ## 🎓 Learning Gatsby
 
@@ -96,10 +96,18 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
-# Credits
+## 🙏🏽 Credits
 
-[Gatsby](https://github.com/gatsbyjs/gatsby) - Freaking fast
-[Pokeapi Data](https://github.com/PokeAPI/api-data)
-[Pokedex.org](https://pokedex.org) (ideas) - Great project
-[Wiki media](https://commons.wikimedia.org/wiki/File:Pok%C3%A9_Ball.svg) - Poke Ball SVG
-[CSS Animated Pokeball Codepen](https://codepen.io/raubaca/pen/obaZmG) by [Rau](https://codepen.io/raubaca/#) - Awesome css pokeball with animations
+This project wolud not exist whitout these guys.
+
+[Gatsby](https://github.com/gatsbyjs/gatsby) - REALLY FUCKING FAST
+
+[Pokeapi Data](https://github.com/PokeAPI/api-data) - Well, I'm using all their data so this project would not be possible whitout those guys, it contains a BUNCH of data, it is an incredible project and great effort.
+
+[Pokedex.org](https://pokedex.org) (ideas and inspiration) - Great project
+
+[CSS Animated Pokeball Codepen](https://codepen.io/raubaca/pen/obaZmG) by [Rau](https://codepen.io/raubaca/#) - Awesome css only animated pokeball.
+
+[Cloudinary](https://cloudinary.com) - Great free tier and fast CDN for images.
+
+[Netlify](https://www.netlify.com) - Incredible static hosting.
