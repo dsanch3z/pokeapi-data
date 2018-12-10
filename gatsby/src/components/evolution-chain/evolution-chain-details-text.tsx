@@ -96,10 +96,7 @@ export default function EvolutionChainDetailsText({
 
     case "shed": {
       return (
-        <>
-          appears if there's space in the party and a (regular) pokeball in the
-          bag
-        </>
+        <>if there's space in the party and a (regular) pokéball in the bag</>
       )
     }
   }

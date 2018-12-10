@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["super-pokedex"],
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@now/static",
+      "config": { "distDir": "public" }
+    }
+  ]
+}

@@ -48,7 +48,8 @@ export default function PokemonSummary({
       <ul className={classNames.list}>
         <li className={classNames.listItem}>
           <p>
-            {weight / 10} Kg.
+            {weight / 10}
+            Kg.
             <br />
             <small className={classNames.lightText}>Weight</small>
           </p>
@@ -56,12 +57,15 @@ export default function PokemonSummary({
 
         <li className={`${classNames.listItem} ${classNames.bordered}`}>
           <PokemonTypes types={types} itemClassName={classNames.type} />
-          <small className={classNames.lightText}>Type</small>
+          <p>
+            <small className={classNames.lightText}>Type</small>
+          </p>
         </li>
 
         <li className={classNames.listItem}>
           <p>
-            {height / 10} m.
+            {height / 10}
+            m.
             <br />
             <small className={classNames.lightText}>Height</small>
           </p>

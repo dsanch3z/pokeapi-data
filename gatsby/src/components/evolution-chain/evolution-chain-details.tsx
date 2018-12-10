@@ -12,10 +12,7 @@ export interface IEvolutionDetailsProps {
 
 const styles = {
   item: css({
-    textAlign: `center`,
-    listStyle: `none`,
-    display: `inline-block`,
-    margin: `1rem`,
+    textAlign: "center",
   }),
   arrow: css({
     fontSize: 26,
@@ -34,9 +31,21 @@ export default function EvolutionChainDetails({
           className={styles.item}
         >
           <p className={styles.arrow}>
-            <strong>{i === 0 ? "->" : <small>or</small>}</strong>
+            <strong>
+              {i === 0 ? (
+                evolutionDetail.trigger.name === "shed" ? (
+                  "+"
+                ) : (
+                  "→"
+                )
+              ) : (
+                <small>or</small>
+              )}
+            </strong>
           </p>
-          <EvolutionChainDetailsText evolutionDetails={evolutionDetail} />
+          <p>
+            <EvolutionChainDetailsText evolutionDetails={evolutionDetail} />
+          </p>
         </li>
       ))}
     </>

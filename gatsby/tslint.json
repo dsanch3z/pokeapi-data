@@ -11,6 +11,7 @@
     "object-literal-sort-keys": false,
     "no-console": [false],
     "no-implicit-dependencies": false,
+    "no-shadowed-variable": false,
     "no-submodule-imports": false,
     "no-var-requires": true,
     "quotemark": [true, "double", "jsx-double"]

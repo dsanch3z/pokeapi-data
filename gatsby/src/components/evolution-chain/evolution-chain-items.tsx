@@ -3,8 +3,8 @@ import { css } from "emotion"
 import { isArray } from "lodash"
 
 import { IChain } from "@typings/evolution-chain"
+import PokemonThumbnailItem from "@/components/pokemon-thumbnail"
 import EvolutionChainDetails from "./evolution-chain-details"
-import PokemonThumbnailItem from "../pokemon-thumbnail"
 
 export interface IEvolutionChainItemsProps {
   chain: IChain
@@ -12,13 +12,17 @@ export interface IEvolutionChainItemsProps {
 }
 
 const styles = {
-  itemParent: css({}),
+  itemParent: css({
+    margin: 0,
+    listStyle: "none",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-around",
+  }),
   item: css({
     textAlign: `center`,
     listStyle: `none`,
-    display: `inline-block`,
-    margin: `1rem`,
-    width: 120,
+    // width: 120,
   }),
   imgPlaceholder: css({
     opacity: 0.6,
@@ -33,8 +37,6 @@ export default function EvolutionChainItems({
 
   const evolves = isArray(evolves_to) && evolves_to.length
   const mayEvolveDifferently = evolves && evolves_to!.length > 1
-
-  console.log("sprites mf", sprites!.edges)
 
   let imgFluid = null
   try {

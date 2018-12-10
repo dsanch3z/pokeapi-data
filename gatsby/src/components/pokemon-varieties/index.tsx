@@ -14,6 +14,7 @@ export interface IPokemonVarietiesProps {
 const classNames = {
   center: css({
     display: "flex",
+    flexWrap: "wrap",
     justifyContent: "space-around",
   }),
 }

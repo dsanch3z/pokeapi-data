@@ -12,6 +12,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
     "noEmit": true,
     "skipLibCheck": true,
     "paths": {

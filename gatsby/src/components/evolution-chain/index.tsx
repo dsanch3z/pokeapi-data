@@ -11,8 +11,10 @@ export interface IEvolutionChainProps {
 
 const styles = {
   root: css({
-    padding: 0,
+    margin: 0,
+    listStyle: "none",
     display: "flex",
+    flexFlow: "wrap",
     alignItems: "center",
     justifyContent: "center",
   }),
@@ -21,11 +23,14 @@ const styles = {
 export default ({
   evolutionChain,
   evolutionChainSprites,
-}: IEvolutionChainProps) => (
-  <ul className={styles.root}>
-    <EvolutionChainItems
-      chain={evolutionChain.chain}
-      sprites={evolutionChainSprites}
-    />
-  </ul>
-)
+}: IEvolutionChainProps) =>
+  evolutionChain.chain.evolves_to!.length ? (
+    <ul className={styles.root}>
+      <EvolutionChainItems
+        chain={evolutionChain.chain}
+        sprites={evolutionChainSprites}
+      />
+    </ul>
+  ) : (
+    <p>This pokemon does not evolve.</p>
+  )
