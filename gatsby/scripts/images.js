@@ -2,7 +2,6 @@ require("dotenv").config()
 const fs = require("fs-extra")
 const path = require("path")
 const ora = require("ora")
-const argv = require("yargs").argv
 const cloudinary = require("cloudinary").v2
 
 const {
@@ -25,23 +24,26 @@ cloudinary.config({
 const spinner = ora("Uploading necessary pokemon assets").start()
 spinner.info(`Source path: ${POKEMONS_DIR}`)
 
-const pokemonIds = fs.readdirSync(POKEMONS_DIR)
 const pokemonImagesJSONFolder = `${DEST}/pokemon-images`
-const pokemonImages = []
+const pokemonImageJSONFile = `${pokemonImagesJSONFolder}/pokemon-images.json`
+let pokemonImages = []
 
-if (fs.existsSync(pokemonImagesJSONFolder)) {
-  spinner.info(`Deleting previously created: ${pokemonImagesJSONFolder}`)
-  fs.removeSync(pokemonImagesJSONFolder)
+if (fs.existsSync(pokemonImageJSONFile)) {
+  spinner.info(`There is a ${pokemonImageJSONFile} already created`)
+
+  pokemonImages = fs.readJSONSync(pokemonImageJSONFile)
+} else {
+  spinner.info(`Creating: ${pokemonImagesJSONFolder}`)
+
+  fs.mkdirSync(pokemonImagesJSONFolder)
+
+  spinner.info(`Creating ${pokemonImageJSONFile}`)
+
+  fs.createFileSync(pokemonImageJSONFile)
 }
-
-spinner.info(`Creating: ${pokemonImagesJSONFolder}`)
-fs.mkdirSync(pokemonImagesJSONFolder)
 
 main()
   .then(() => {
-    const pokemonImageJSONFile = `${pokemonImagesJSONFolder}/pokemon-images.json`
-    fs.createFileSync(pokemonImageJSONFile)
-
     fs.writeJSONSync(pokemonImageJSONFile, pokemonImages)
 
     spinner.succeed(
@@ -52,6 +54,8 @@ main()
   .catch(err => spinner.fail(err))
 
 async function main() {
+  const pokemonIds = fs.readdirSync(POKEMONS_DIR)
+
   for (let pokemonId of pokemonIds) {
     const pokemonJSON = fs.readJSONSync(
       `${POKEMONS_DIR}/${pokemonId}/index.json`
@@ -62,21 +66,24 @@ async function main() {
     const img = `${BASE_URL}/xy/${patchPokemonName(pokemonName)}.gif`
 
     try {
-      spinner.info(`Uploading: ${img}`)
+      if (!pokemonImages.find(pokemonImage => pokemonImage.id === id)) {
+        spinner.info(`Uploading: ${img}`)
+        const result = await uploadImage(img, {
+          public_id: id,
+          folder: `pokeapi_sprites`,
+          overwrite: true,
+        })
 
-      const result = await uploadImage(img, {
-        public_id: id,
-        folder: `pokeapi_sprites`,
-        overwrite: true,
-      })
+        pokemonImages.push({
+          id,
+          name: pokemonName,
+          src: result.secure_url,
+        })
 
-      pokemonImages.push({
-        id,
-        name: pokemonName,
-        src: result.secure_url,
-      })
-
-      spinner.succeed(`Uploaded to: ${result.secure_url}`)
+        spinner.succeed(`Uploaded to: ${result.secure_url}`)
+      } else {
+        spinner.text = `There's already an image with name id`
+      }
     } catch (err) {
       spinner.fail(`Failed to upload ${img}, ${err}`)
     }
@@ -94,6 +101,10 @@ function patchPokemonName(pokemonName = "") {
 
   if (pokemonName.includes("mega-y")) {
     return pokemonName.replace("mega-y", "megay")
+  }
+
+  if (pokemonName.includes("deoxys")) {
+    return pokemonName.replace("-normal", "")
   }
 
   return pokemonName
