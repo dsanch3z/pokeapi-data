@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { css } from "emotion"
-import { graphql, StaticQuery } from "gatsby"
+import { graphql, StaticQuery, navigate } from "gatsby"
 import Headroom from "react-headroom"
 
 import SearchBar from "@/components/search-bar"
@@ -10,8 +10,20 @@ const styles = {
   root: css({
     margin: `0 auto`,
   }),
+  count: css({
+    background: "navy",
+    width: "fit-content",
+    color: "white",
+    margin: "2px 0",
+    padding: "1px 10px 1px 10px",
+    borderRadius: "0 10px 10px 0",
+    "& p": {
+      margin: 0,
+    },
+  }),
   list: css({
-    padding: 0,
+    margin: 0,
+    textAlign: "center",
   }),
 }
 
@@ -20,19 +32,41 @@ export default class AllPokemon extends Component {
     searchTerm: "",
   }
 
-  handleSearchChange = e =>
+  componentDidMount() {
+    const searchTerm = new URLSearchParams(window.location.search).get("q")
+    if (searchTerm) {
+      this.setState({ searchTerm })
+    }
+  }
+
+  handleSearchChange = e => {
+    const searchTerm = e.target.value
     this.setState({
-      searchTerm: e.target.value,
+      searchTerm,
     })
+    if (searchTerm) {
+      navigate(`?q=${searchTerm}`)
+    } else {
+      navigate(`/`)
+    }
+  }
+
+  getImgFluid = (allFrontSprite, nodeName) => {
+    const imgFluidEdge = allFrontSprite.edges.find(
+      sprite => sprite.node.id === `${nodeName}_front`
+    )
+    return imgFluidEdge ? imgFluidEdge.node.childImageSharp.fluid : null
+  }
 
   render() {
-    const { handleSearchChange } = this
+    const { handleSearchChange, getImgFluid } = this
     const { searchTerm } = this.state
+
     return (
       <StaticQuery
         query={graphql`
           query {
-            allFrontSprite: allFile(filter: { ext: { eq: ".png" } }) {
+            allFrontSprite: allFile(filter: { id: { regex: "/_front/" } }) {
               edges {
                 node {
                   id
@@ -66,6 +100,11 @@ export default class AllPokemon extends Component {
         `}
         render={data => {
           const { allPokemon, allFrontSprite } = data
+
+          const filteredPokemon = allPokemon.edges
+            .sort((a, b) => +a.node.id - +b.node.id)
+            .filter(({ node }) => node.name.includes(searchTerm))
+
           return (
             <>
               <Headroom>
@@ -73,24 +112,27 @@ export default class AllPokemon extends Component {
                   searchTerm={searchTerm}
                   onChange={handleSearchChange}
                 />
+                <div className={styles.count}>
+                  <p>{`${filteredPokemon.length} pokémon`}</p>
+                </div>
               </Headroom>
               <div className={styles.root}>
                 <ul className={styles.list}>
-                  {allPokemon.edges
-                    .sort((a, b) => +a.node.id - +b.node.id)
-                    .filter(({ node }) => node.name.includes(searchTerm))
-                    .map(({ node }) => (
+                  {filteredPokemon.length ? (
+                    filteredPokemon.map(({ node }) => (
                       <PokemonThumbnailItem
                         key={node.id}
                         id={node.id}
                         name={node.name}
-                        imgFluid={
-                          allFrontSprite.edges.find(
-                            sprite => sprite.node.id === `${node.name}_front`
-                          ).node.childImageSharp.fluid
-                        }
+                        types={node.types}
+                        imgFluid={getImgFluid(allFrontSprite, node.name)}
                       />
-                    ))}
+                    ))
+                  ) : (
+                    <li>
+                      <p>No results for "{searchTerm}"</p>
+                    </li>
+                  )}
                 </ul>
               </div>
             </>

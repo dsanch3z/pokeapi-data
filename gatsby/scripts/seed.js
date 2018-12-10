@@ -5,7 +5,7 @@ const argv = require("yargs").argv
 
 const SRC = `${path.dirname(path.dirname(__dirname))}/data/api/v2`
 const DEST = `${path.dirname(__dirname)}/src/data/pokeapi`
-const FILES = ["pokemon", "pokemon-species", "evolution-chain"] // necessary folders only
+const FILES = ["pokemon", "pokemon-species", "evolution-chain", "type"] // necessary folders only
 const isProduction = process.env.NODE_ENV === "production"
 
 const spinner = ora(`Initiating`).start()

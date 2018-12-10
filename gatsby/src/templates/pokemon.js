@@ -3,25 +3,42 @@ import { css } from "emotion"
 import { graphql } from "gatsby"
 
 import Layout from "@/components/layout"
+import Divider from "@/components/shared/divider"
 import EvolutionChain from "@/components/evolution-chain"
 import PokemonName from "@/components/pokemon-name"
 import PokemonSummary from "@/components/pokemon-summary"
+import PokemonStats from "@/components/pokemon-stats"
+import PokemonDetails from "@/components/pokemon-details"
+import PokemonSprites from "@/components/pokemon-sprites"
 import PokemonVarieties from "@/components/pokemon-varieties"
+import PokemonTypesEffectiveness from "@/components/pokemon-types/pokemon-types-effectiveness"
+import { getPokemonTypeColor } from "@/components/pokemon-types"
+import ShowMore from "@/components/shared/show-more"
 
 const styles = {
   root: css({
-    maxWidth: 960,
+    padding: 40,
+  }),
+  pokemon: css({
+    maxWidth: 640,
     margin: "0 auto",
+    background: "#f2f2f2",
+    boxShadow: "0px 2px 5px 0px rgba(0,0,0,0.12)",
+    borderRadius: 5,
+    padding: "10px 30px",
   }),
   animatedSprite: css({
     margin: "0 auto",
-    height: 140,
+    height: 120,
   }),
   animatedSpriteImg: css({
     height: "100%",
   }),
   intro: css({
     textAlign: "center",
+  }),
+  genera: css({
+    color: "gray",
   }),
   flavorText: css({
     textAlign: "left",
@@ -37,64 +54,111 @@ export default ({ data }) => {
     evolutionChainSprites,
     varietiesSprites,
     animatedSprite,
+    pokemonTypes,
   } = data
+
+  const genera = pokemonSpecies.genera.find(g => g.language.name === "en").genus
 
   const flavorTextEntry = pokemonSpecies.flavor_text_entries.find(
     flavorText => flavorText.language.name === "en"
   )
 
+  const pokemonColor = pokemonSpecies.color.name
+  const pokemonPrimaryType = pokemon.types.find(({ slot }) => slot === 1).type
+    .name
+  const pokemonTypeColor = getPokemonTypeColor(pokemonPrimaryType)
+
   console.log(pokemon)
   console.log(pokemonSpecies)
   console.log(evolutionChain)
-  console.log(evolutionChainSprites)
-  console.log(varietiesSprites)
+  // console.log(evolutionChainSprites)
+  // console.log(varietiesSprites)
+  // console.log(pokemonTypes)
 
   return (
     <Layout>
-      <div className={styles.root}>
-        <div className={styles.intro}>
-          <div className={styles.animatedSprite}>
-            <img
-              className={styles.animatedSpriteImg}
-              src={animatedSprite ? animatedSprite.src : null}
-              title={`${pokemon.name}`}
-              alt={`${pokemon.name}`}
+      <div
+        className={styles.root}
+        style={{
+          background: `linear-gradient(135deg, ${pokemonColor}, ${pokemonTypeColor} 50%)`,
+        }}
+      >
+        <div className={styles.pokemon}>
+          <div className={styles.intro}>
+            <div className={styles.animatedSprite}>
+              <img
+                className={styles.animatedSpriteImg}
+                src={animatedSprite ? animatedSprite.src : null}
+                title={`${pokemon.name}`}
+                alt={`${pokemon.name}`}
+              />
+            </div>
+            <h1>
+              <PokemonName id={pokemon.id} name={pokemon.name} />
+            </h1>
+            <p className={styles.genera}>{genera}</p>
+
+            <PokemonSummary
+              types={pokemon.types}
+              height={pokemon.height}
+              weight={pokemon.weight}
             />
+
+            <PokemonStats stats={pokemon.stats} />
+
+            <p className={styles.flavorText}>{flavorTextEntry.flavor_text}</p>
+
+            <ShowMore>
+              <PokemonDetails
+                baseHappiness={pokemonSpecies.base_happiness}
+                captureRate={pokemonSpecies.capture_rate}
+                eggGroups={pokemonSpecies.egg_groups}
+                formsSwitchable={pokemonSpecies.forms_switchable}
+                genderRate={pokemonSpecies.gender_rate}
+                generation={pokemonSpecies.generation}
+                growthRate={pokemonSpecies.growth_rate}
+                habitat={pokemonSpecies.habitat}
+                hasGenderDifferences={pokemonSpecies.has_gender_differences}
+                hatchCounter={pokemonSpecies.hatch_counter}
+                isBaby={pokemonSpecies.is_baby}
+                shape={pokemonSpecies.shape}
+                stats={pokemon.stats}
+              />
+
+              <Divider />
+
+              <PokemonSprites name={pokemon.name} sprites={pokemon.sprites} />
+            </ShowMore>
           </div>
-          <h1>
-            <PokemonName id={pokemon.id} name={pokemon.name} />
-          </h1>
 
-          <PokemonSummary
-            types={pokemon.types}
-            height={pokemon.height}
-            weight={pokemon.weight}
-          />
+          <Divider />
 
-          <p className={styles.flavorText}>{flavorTextEntry.flavor_text}</p>
-        </div>
-
-        <h2>Evolution chain</h2>
-
-        {evolutionChain && (
           <div className={styles.evolutionChain}>
             <EvolutionChain
               evolutionChain={evolutionChain}
               evolutionChainSprites={evolutionChainSprites}
             />
           </div>
-        )}
 
-        <h2>Other forms</h2>
-        <PokemonVarieties
-          varieties={pokemonSpecies.varieties.filter(
-            variety => variety.pokemon.name !== pokemon.name
-          )}
-          sprites={varietiesSprites}
-        />
+          <Divider />
 
-        {/*<h2>Moves</h2>
+          <PokemonTypesEffectiveness types={pokemonTypes} />
+
+          <Divider />
+
+          <div>
+            <h2>Other forms</h2>
+            <PokemonVarieties
+              varieties={pokemonSpecies.varieties.filter(
+                variety => variety.pokemon.name !== pokemon.name
+              )}
+              sprites={varietiesSprites}
+            />
+          </div>
+
+          {/*<h2>Moves</h2>
         <PokemonMoves moves={pokemon.moves} />*/}
+        </div>
       </div>
     </Layout>
   )
@@ -106,6 +170,7 @@ export const query = graphql`
     $evolutionChainId: String
     $evolutionChainSpriteIds: [String!]!
     $varietySpriteIds: [String]
+    $pokemonTypeNames: [String]
   ) {
     evolutionChainSprites: allFile(
       filter: { id: { in: $evolutionChainSpriteIds } }
@@ -150,31 +215,8 @@ export const query = graphql`
         slot
       }
       base_experience
-      forms {
-        name
-      }
-      game_indices {
-        game_index
-        version {
-          name
-        }
-      }
       height
-      held_items {
-        item {
-          name
-          url
-        }
-        version_details {
-          rarity
-          version {
-            name
-            url
-          }
-        }
-      }
       is_default
-      location_area_encounters
       moves {
         move {
           name
@@ -189,7 +231,6 @@ export const query = graphql`
           }
         }
       }
-      order
       species {
         name
       }
@@ -215,6 +256,38 @@ export const query = graphql`
       weight
     }
 
+    pokemonTypes: allPokeapiType(filter: { name: { in: $pokemonTypeNames } }) {
+      edges {
+        node {
+          id
+          name
+          damage_relations {
+            double_damage_from {
+              name
+            }
+            double_damage_to {
+              name
+            }
+            half_damage_from {
+              name
+            }
+            half_damage_to {
+              name
+            }
+            no_damage_from {
+              name
+            }
+            no_damage_to {
+              name
+            }
+          }
+          move_damage_class {
+            name
+          }
+        }
+      }
+    }
+
     pokeapiPokemonSpecies(name: { eq: $name }) {
       id
       name
@@ -224,12 +297,6 @@ export const query = graphql`
         name
       }
       egg_groups {
-        name
-      }
-      evolution_chain {
-        url
-      }
-      evolves_from_species {
         name
       }
       flavor_text_entries {
@@ -251,44 +318,23 @@ export const query = graphql`
       }
       generation {
         name
-        url
       }
       growth_rate {
         name
-        url
       }
       habitat {
         name
-        url
       }
       has_gender_differences
       hatch_counter
-      is_baby
       order
-      pal_park_encounters {
-        area {
-          name
-          url
-        }
-        base_score
-        rate
-      }
-      pokedex_numbers {
-        entry_number
-        pokedex {
-          name
-          url
-        }
-      }
       shape {
         name
-        url
       }
       varieties {
         is_default
         pokemon {
           name
-          url
         }
       }
     }
