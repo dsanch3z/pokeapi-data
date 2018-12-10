@@ -118,9 +118,12 @@ exports.createPages = async function createPages({ graphql, actions }) {
   })
 
   allPokemon.forEach(async ({ node }) => {
+    const pokemonName = node.name.includes("deoxys-normal")
+      ? "deoxys"
+      : node.name
     const pokemonSpeciesResult = await graphql(`
       {
-        pokeapiPokemonSpecies(name: { eq: "${node.name}" }) {
+        pokeapiPokemonSpecies(name: { eq: "${pokemonName}" }) {
           evolution_chain {
             url
           }
@@ -133,33 +136,30 @@ exports.createPages = async function createPages({ graphql, actions }) {
       }
     `)
 
-    const {
-      data: { pokeapiPokemonSpecies },
-    } = pokemonSpeciesResult
+    try {
+      const {
+        data: { pokeapiPokemonSpecies },
+      } = pokemonSpeciesResult
 
-    const evolutionChainId = pokeapiPokemonSpecies.evolution_chain
-      ? pokeapiPokemonSpecies.evolution_chain.url
-        ? `${pokeapiPokemonSpecies.evolution_chain.url
-            .slice(0, -1)
-            .split("/")
-            .pop()}-pokeapi-evolution-chain`
+      const evolutionChainId = pokeapiPokemonSpecies.evolution_chain
+        ? pokeapiPokemonSpecies.evolution_chain.url
+          ? `${pokeapiPokemonSpecies.evolution_chain.url
+              .slice(0, -1)
+              .split("/")
+              .pop()}-pokeapi-evolution-chain`
+          : ""
         : ""
-      : ""
 
-    const varietySpriteIds = Array.isArray(pokeapiPokemonSpecies.varieties)
-      ? pokeapiPokemonSpecies.varieties
-          .filter(({ pokemon }) => pokemon.name !== node.name)
-          .map(({ pokemon }) => `${pokemon.name}_front`)
-      : []
+      const varietySpriteIds = Array.isArray(pokeapiPokemonSpecies.varieties)
+        ? pokeapiPokemonSpecies.varieties
+            .filter(({ pokemon }) => pokemon.name !== pokemonName)
+            .map(({ pokemon }) => `${pokemon.name}_front`)
+        : []
 
-    const pokemonEvolutionChainResult = await graphql(`
-      {
-        pokeapiEvolutionChain(id: { eq: "${evolutionChainId}" }) {
-          chain {
-            species {
-              name
-            }
-            evolves_to {
+      const pokemonEvolutionChainResult = await graphql(`
+        {
+          pokeapiEvolutionChain(id: { eq: "${evolutionChainId}" }) {
+            chain {
               species {
                 name
               }
@@ -167,34 +167,46 @@ exports.createPages = async function createPages({ graphql, actions }) {
                 species {
                   name
                 }
+                evolves_to {
+                  species {
+                    name
+                  }
+                }
               }
             }
           }
         }
-      }
-    `)
+      `)
 
-    const {
-      data: { pokeapiEvolutionChain },
-    } = pokemonEvolutionChainResult
+      const {
+        data: { pokeapiEvolutionChain },
+      } = pokemonEvolutionChainResult
 
-    const evolutionChainNames = getEvolutionChainNames(pokeapiEvolutionChain)
-    const evolutionChainSpriteIds = evolutionChainNames.map(
-      name => `${name}_front`
-    )
+      const evolutionChainNames = getEvolutionChainNames(pokeapiEvolutionChain)
+      const evolutionChainSpriteIds = evolutionChainNames.map(
+        name => `${name}_front`
+      )
 
-    createPage({
-      path: `/pokemon/${node.name}`,
-      component: require.resolve(`./src/templates/pokemon.js`),
-      context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        name: node.name,
-        evolutionChainId,
-        evolutionChainSpriteIds,
-        varietySpriteIds,
-      },
-    })
+      const pokemonTypeNames = node.types.map(({ type }) => type.name)
+
+      createPage({
+        path: `/pokemon/${pokemonName}`,
+        component: require.resolve(`./src/templates/pokemon.js`),
+        context: {
+          // Data passed to context is available
+          // in page queries as GraphQL variables.
+          name: pokemonName,
+          evolutionChainId,
+          evolutionChainSpriteIds,
+          varietySpriteIds,
+          pokemonTypeNames,
+        },
+      })
+    } catch (err) {
+      console.error(`Errors in ${pokemonName}`, err)
+
+      throw err
+    }
   })
 }
 
