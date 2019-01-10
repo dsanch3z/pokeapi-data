@@ -22,8 +22,8 @@ const styles = {
   pokemon: css({
     maxWidth: 640,
     margin: "0 auto",
-    background: "#f2f2f2",
-    boxShadow: "0px 2px 5px 0px rgba(0,0,0,0.12)",
+    background: "rgb(250, 250, 250)",
+    boxShadow: "0px 2px 5px 0px rgba(0, 0, 0, 0.12)",
     borderRadius: 5,
     padding: "10px 30px",
   }),
@@ -57,6 +57,21 @@ export default ({ data }) => {
     pokemonTypes,
   } = data
 
+  // if (!pokemon) {
+  //   console.log(`------- Dude I'm ${pokemonSpecies.name}`)
+  // }
+
+  // if (!pokemonSpecies) {
+  //   console.log(`------- Dude I'm ${pokemon.name}, no pokemon species found`)
+  // }
+
+  // console.log(pokemon)
+  // console.log(pokemonSpecies)
+  // console.log(evolutionChain)
+  // console.log(evolutionChainSprites)
+  // console.log(varietiesSprites)
+  // console.log(pokemonTypes)
+
   const genera = pokemonSpecies.genera.find(g => g.language.name === "en").genus
 
   const flavorTextEntry = pokemonSpecies.flavor_text_entries.find(
@@ -67,13 +82,6 @@ export default ({ data }) => {
   const pokemonPrimaryType = pokemon.types.find(({ slot }) => slot === 1).type
     .name
   const pokemonTypeColor = getPokemonTypeColor(pokemonPrimaryType)
-
-  console.log(pokemon)
-  console.log(pokemonSpecies)
-  console.log(evolutionChain)
-  // console.log(evolutionChainSprites)
-  // console.log(varietiesSprites)
-  // console.log(pokemonTypes)
 
   return (
     <Layout>
@@ -167,6 +175,7 @@ export default ({ data }) => {
 export const query = graphql`
   query(
     $name: String!
+    $speciesName: String!
     $evolutionChainId: String
     $evolutionChainSpriteIds: [String!]!
     $varietySpriteIds: [String]
@@ -288,7 +297,7 @@ export const query = graphql`
       }
     }
 
-    pokeapiPokemonSpecies(name: { eq: $name }) {
+    pokeapiPokemonSpecies(name: { eq: $speciesName }) {
       id
       name
       base_happiness

@@ -45,8 +45,8 @@ module.exports = {
         name: "super-pokedex",
         short_name: "pokedex",
         start_url: "/",
-        background_color: "#663399",
-        theme_color: "#663399",
+        background_color: "navy",
+        theme_color: "navy",
         display: "minimal-ui",
         icon: "src/images/gatsby-icon.png", // This path is relative to the root of the site.
       },

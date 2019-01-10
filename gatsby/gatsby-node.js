@@ -118,12 +118,11 @@ exports.createPages = async function createPages({ graphql, actions }) {
   })
 
   allPokemon.forEach(async ({ node }) => {
-    const pokemonName = node.name.includes("deoxys-normal")
-      ? "deoxys"
-      : node.name
+    const pokemonName = node.name
+    const pokemonSpeciesName = patchPokemonSpeciesName(pokemonName)
     const pokemonSpeciesResult = await graphql(`
       {
-        pokeapiPokemonSpecies(name: { eq: "${pokemonName}" }) {
+        pokeapiPokemonSpecies(name: { eq: "${pokemonSpeciesName}" }) {
           evolution_chain {
             url
           }
@@ -193,9 +192,9 @@ exports.createPages = async function createPages({ graphql, actions }) {
         path: `/pokemon/${pokemonName}`,
         component: require.resolve(`./src/templates/pokemon.js`),
         context: {
-          // Data passed to context is available
-          // in page queries as GraphQL variables.
+          // Data passed to context is available in page queries as GraphQL variables.
           name: pokemonName,
+          speciesName: pokemonSpeciesName,
           evolutionChainId,
           evolutionChainSpriteIds,
           varietySpriteIds,
@@ -208,6 +207,124 @@ exports.createPages = async function createPages({ graphql, actions }) {
       throw err
     }
   })
+}
+
+/**
+ *
+ * @param {string} pokemonName
+ * @description
+ *  Some Pokémon have different name and species name,
+ *  so we have to "patch" them to avoid errors
+ * @example replaces "deoxys-attack" with "deoxys"
+ * @returns {string}
+ */
+function patchPokemonSpeciesName(pokemonName = "") {
+  // Generation III
+  if (pokemonName.includes("deoxys")) {
+    return "deoxys"
+  }
+
+  // Generation IV
+  else if (pokemonName.includes("wormadam")) {
+    return "wormadam"
+  } else if (pokemonName.includes("giratina")) {
+    return "giratina"
+  } else if (pokemonName.includes("shaymin")) {
+    return "shaymin"
+  }
+
+  // Generation V
+  else if (pokemonName.includes("basculin")) {
+    return "basculin"
+  } else if (pokemonName.includes("-ordinary")) {
+    return pokemonName.replace("-ordinary", "")
+  } else if (pokemonName.includes("-incarnate")) {
+    return pokemonName.replace("-incarnate", "")
+  } else if (pokemonName.includes("-standard")) {
+    return pokemonName.replace("-standard", "")
+  } else if (pokemonName.includes("meloetta")) {
+    return "meloetta"
+  }
+
+  // Generation VI
+  else if (pokemonName.includes("aegislash")) {
+    return "aegislash"
+  } else if (pokemonName.includes("-male")) {
+    return pokemonName.replace("-male", "")
+  } else if (pokemonName.includes("-average")) {
+    return pokemonName.replace("-average", "")
+  }
+
+  // Generation VII
+  else if (pokemonName.includes("wishiwashi")) {
+    return "wishiwashi"
+  } else if (pokemonName.includes("lycanroc")) {
+    return "lycanroc"
+  } else if (pokemonName.includes("oricorio")) {
+    return "oricorio"
+  } else if (pokemonName.includes("mimikyu")) {
+    return "mimikyu"
+  } else if (pokemonName.includes("minior")) {
+    return "minior"
+  }
+
+  // Alola, mega evolutions and other pokémon varieties
+  else if (pokemonName.includes("pikachu")) {
+    return "pikachu"
+  } else if (pokemonName.includes("-totem-alola")) {
+    return pokemonName.replace("-totem-alola", "")
+  } else if (pokemonName.includes("-alola")) {
+    return pokemonName.replace("-alola", "")
+  } else if (pokemonName.includes("-totem")) {
+    return pokemonName.replace("-totem", "")
+  } else if (pokemonName.includes("-mega")) {
+    if (pokemonName.includes("-mega-y")) {
+      return pokemonName.replace("-mega-y", "")
+    } else if (pokemonName.includes("-mega-x")) {
+      return pokemonName.replace("-mega-x", "")
+    }
+    return pokemonName.replace("-mega", "")
+  } else if (pokemonName.includes("zygarde")) {
+    return "zygarde"
+  } else if (pokemonName.includes("-primal")) {
+    return pokemonName.replace("-primal", "")
+  } else if (pokemonName.includes("-average")) {
+    return pokemonName.replace("-average", "")
+  } else if (pokemonName.includes("-small")) {
+    return pokemonName.replace("-small", "")
+  } else if (pokemonName.includes("-large")) {
+    return pokemonName.replace("-large", "")
+  } else if (pokemonName.includes("-super")) {
+    return pokemonName.replace("-super", "")
+  } else if (pokemonName.includes("-female")) {
+    return pokemonName.replace("-female", "")
+  } else if (pokemonName.includes("-original")) {
+    return pokemonName.replace("-original", "")
+  } else if (pokemonName.includes("-therian")) {
+    return pokemonName.replace("-therian", "")
+  } else if (pokemonName.includes("-ethernal")) {
+    return pokemonName.replace("-ethernal", "")
+  } else if (pokemonName.includes("-white")) {
+    return pokemonName.replace("-white", "")
+  } else if (pokemonName.includes("-black")) {
+    return pokemonName.replace("-black", "")
+  } else if (pokemonName.includes("-resolute")) {
+    return pokemonName.replace("-resolute", "")
+  } else if (pokemonName.includes("-zen")) {
+    return pokemonName.replace("-zen", "")
+  } else if (pokemonName.includes("-eternal")) {
+    return pokemonName.replace("-eternal", "")
+  } else if (pokemonName.includes("greninja")) {
+    return "greninja"
+  } else if (pokemonName.includes("hoopa")) {
+    return "hoopa"
+  } else if (pokemonName.includes("rotom")) {
+    return "rotom"
+  } else if (pokemonName.includes("castform")) {
+    return "castform"
+  }
+
+  return pokemonName
 }
 
 function getEvolutionChainNames(evolutionChain) {

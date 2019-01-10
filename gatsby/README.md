@@ -112,4 +112,6 @@ This project wolud not exist whitout these guys.
 
 [Cloudinary](https://cloudinary.com) - Great free tier and fast CDN for images.
 
-[Netlify](https://www.netlify.com) - Incredible static hosting.
+[Zeit's Now](https://zeit.co/now) - Amazing static hosting.
+
+[Zeit's Design](https://zeit.co/design) - Beautiful components, I'm using a couple of their styles.

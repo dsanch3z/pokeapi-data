@@ -14,7 +14,10 @@ const FlexContainer = styled("div")({
   justifyContent: "space-around",
 })
 
-export default function PokemonSprites({ sprites }: IPokemonSpritesProps) {
+export default function PokemonSprites({
+  name,
+  sprites,
+}: IPokemonSpritesProps) {
   const {
     back_default,
     back_female,

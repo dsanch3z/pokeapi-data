@@ -22,6 +22,7 @@ const HorizontalLine = styled("div")({
   flexGrow: 1,
   height: 1,
   backgroundColor: "rgb(234, 234, 234)",
+  // backgroundColor: "lightgray",
 })
 
 const Button = styled("button")({

@@ -9,7 +9,7 @@ export interface ISearchBarProps {
 const classNames = {
   root: css({
     width: "100%",
-    position: "relative"
+    position: "relative",
   }),
   input: css({
     width: "100%",
@@ -58,7 +58,8 @@ export default function SearchBar({
         type="text"
         name={"pokemon-search"}
         value={searchTerm}
-        placeholder={"Search pokemons..."}
+        placeholder={"Search pokémon"}
+        aria-label="Search pokémon"
         className={classNames.input}
         onChange={onChange}
       />

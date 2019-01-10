@@ -34,7 +34,7 @@ if (isProduction) {
 } else {
   // When using local environment we just want to copy certain files to
   // avoid memory problems.
-  const LIMIT = argv.limit || 151
+  const LIMIT = argv.limit || 1500
   if (!argv.limit) {
     spinner.warn(`No --limit arg provided, using default value: ${LIMIT}`)
   }

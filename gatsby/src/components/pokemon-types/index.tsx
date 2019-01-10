@@ -24,7 +24,6 @@ export const PokemonTypeListItem = styled("li")`
   display: inline-block;
   margin: 0.5rem;
   padding: 0.2rem 0.5rem;
-  fontweight: 400;
   border-radius: 5px;
   background: ${({ type }: IPokemonTypePillProps) =>
     getPokemonTypeBackgroundColor(type)};

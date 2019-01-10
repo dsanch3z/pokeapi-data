@@ -14,7 +14,7 @@ export interface IPokemonDetailsProps {
   genderRate: number
   generation: INamedAPIResource
   growthRate: INamedAPIResource
-  habitat: INamedAPIResource
+  habitat?: INamedAPIResource
   hasGenderDifferences: boolean
   hatchCounter: number
   isBaby: boolean
@@ -43,6 +43,11 @@ export default function PokemonDetails({
   shape,
   stats = [],
 }: IPokemonDetailsProps) {
+  console.log("eggGroups", eggGroups)
+  console.log("stats", stats)
+  console.log("generation", generation)
+  console.log("growthRate", growthRate)
+  console.log("habitat", habitat)
   return (
     <FlexContainer>
       <UnstyledList>
@@ -91,9 +96,11 @@ export default function PokemonDetails({
         <li>
           Growth Rate: <strong>{startCase(growthRate.name)}</strong>
         </li>
-        <li>
-          Habitat: <strong>{startCase(habitat.name)}</strong>
-        </li>
+        {habitat ? (
+          <li>
+            Habitat: <strong>{startCase(habitat.name)}</strong>
+          </li>
+        ) : null}
         <li>
           Has gender differences?{" "}
           <strong>{hasGenderDifferences ? "Yes" : "No"}</strong>

@@ -23,11 +23,18 @@ const Layout = ({ children }) => (
           meta={[
             {
               name: "description",
-              content: "Pokemon static site powered by Pokeapi and Gatsby",
+              content: "Pokémon static site powered by Pokeapi and Gatsby",
             },
             {
               name: "keywords",
-              content: "pokeapi, pokemon, pokedex, gatsby, static-site",
+              content: [
+                "pokeapi",
+                "pokemon",
+                "pokémon",
+                "pokedex",
+                "gatsby",
+                "static-site",
+              ].join(","),
             },
           ]}
         >
