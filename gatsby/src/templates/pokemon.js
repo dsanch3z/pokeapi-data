@@ -1,4 +1,5 @@
-import React from "react"
+import React, { Component } from "react"
+import PropTypes from "prop-types"
 import { css } from "emotion"
 import { graphql } from "gatsby"
 
@@ -26,6 +27,8 @@ const styles = {
     boxShadow: "0px 2px 5px 0px rgba(0, 0, 0, 0.12)",
     borderRadius: 5,
     padding: "10px 30px",
+    // transform: "translateY(100%)",
+    // transition: "transform 0.4s ease",
   }),
   animatedSprite: css({
     margin: "0 auto",
@@ -46,7 +49,7 @@ const styles = {
   evolutionChain: css({}),
 }
 
-export default ({ data }) => {
+export default ({ data, location }) => {
   const {
     pokeapiPokemon: pokemon,
     pokeapiPokemonSpecies: pokemonSpecies,
@@ -72,6 +75,18 @@ export default ({ data }) => {
   // console.log(varietiesSprites)
   // console.log(pokemonTypes)
 
+  let isModal = false
+  // We don't want to show the modal if a user navigates
+  // directly to a post so if this code is running on Gatsby's
+  // initial render then we don't show the modal, otherwise we
+  // do.
+  if (
+    typeof window !== `undefined` &&
+    window.___GATSBYPOKEAPI_INITIAL_RENDER_COMPLETE
+  ) {
+    isModal = true
+  }
+
   const genera = pokemonSpecies.genera.find(g => g.language.name === "en").genus
 
   const flavorTextEntry = pokemonSpecies.flavor_text_entries.find(
@@ -84,7 +99,7 @@ export default ({ data }) => {
   const pokemonTypeColor = getPokemonTypeColor(pokemonPrimaryType)
 
   return (
-    <Layout>
+    <Layout location={location} isModal={isModal}>
       <div
         className={styles.root}
         style={{

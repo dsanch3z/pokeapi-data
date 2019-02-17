@@ -1,10 +1,13 @@
-import React, { Component } from "react"
+import React, { Component, Fragment } from "react"
 import { css } from "emotion"
+import ReactModal from "react-modal"
 import { graphql, StaticQuery, navigate } from "gatsby"
 import Headroom from "react-headroom"
 
 import SearchBar from "@/components/search-bar"
 import PokemonThumbnailItem from "@/components/pokemon-thumbnail"
+
+ReactModal.setAppElement("#___gatsby")
 
 const styles = {
   root: css({
@@ -30,6 +33,8 @@ const styles = {
 export default class AllPokemon extends Component {
   state = {
     searchTerm: "",
+    isModalOpen: false,
+    pokemonName: "",
   }
 
   componentDidMount() {
@@ -41,9 +46,7 @@ export default class AllPokemon extends Component {
 
   handleSearchChange = e => {
     const searchTerm = e.target.value
-    this.setState({
-      searchTerm,
-    })
+    this.setState({ searchTerm })
     if (searchTerm) {
       navigate(`?q=${searchTerm}`)
     } else {
@@ -56,6 +59,20 @@ export default class AllPokemon extends Component {
       sprite => sprite.node.id === `${nodeName}_front`
     )
     return imgFluidEdge ? imgFluidEdge.node.childImageSharp.fluid : null
+  }
+
+  handleModalOpen = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: true })
+  }
+
+  handleModalClose = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: false })
+  }
+
+  handleClick = (e, pokemonName) => {
+    this.setState({ isModalOpen: true, pokemonName })
   }
 
   render() {
@@ -106,7 +123,7 @@ export default class AllPokemon extends Component {
             .filter(({ node }) => node.name.includes(searchTerm))
 
           return (
-            <>
+            <Fragment>
               <Headroom>
                 <SearchBar
                   searchTerm={searchTerm}
@@ -135,7 +152,7 @@ export default class AllPokemon extends Component {
                   )}
                 </ul>
               </div>
-            </>
+            </Fragment>
           )
         }}
       />

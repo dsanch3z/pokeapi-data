@@ -43,11 +43,6 @@ export default function PokemonDetails({
   shape,
   stats = [],
 }: IPokemonDetailsProps) {
-  console.log("eggGroups", eggGroups)
-  console.log("stats", stats)
-  console.log("generation", generation)
-  console.log("growthRate", growthRate)
-  console.log("habitat", habitat)
   return (
     <FlexContainer>
       <UnstyledList>
