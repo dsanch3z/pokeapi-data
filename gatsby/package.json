@@ -1,7 +1,7 @@
 {
   "name": "pokeapi-static-site",
   "description": "Yet another pokedex site powered by Pokeapi and Gatsby",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Daniel Sanchez <jdaniel.saed@gmail.com>",
   "dependencies": {
     "@types/lodash": "^4.14.118",
