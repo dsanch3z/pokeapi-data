@@ -8,17 +8,30 @@
     "is_mega": false,
     "name": "silvally-fairy",
     "names": [],
-    "order": 1014,
+    "order": 1067,
     "pokemon": {
         "name": "silvally",
         "url": "/api/v2/pokemon/773/"
     },
     "sprites": {
         "back_default": null,
+        "back_female": null,
         "back_shiny": null,
+        "back_shiny_female": null,
         "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-fairy.png",
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/773-fairy.png"
+        "front_female": null,
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/773-fairy.png",
+        "front_shiny_female": null
     },
+    "types": [
+        {
+            "slot": 1,
+            "type": {
+                "name": "fairy",
+                "url": "/api/v2/type/18/"
+            }
+        }
+    ],
     "version_group": {
         "name": "sun-moon",
         "url": "/api/v2/version-group/17/"

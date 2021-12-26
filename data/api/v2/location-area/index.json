@@ -1,5 +1,5 @@
 {
-    "count": 651,
+    "count": 702,
     "next": null,
     "previous": null,
     "results": [
@@ -2376,23 +2376,23 @@
             "url": "/api/v2/location-area/702/"
         },
         {
-            "name": "route-19-area",
+            "name": "unova-route-19-area",
             "url": "/api/v2/location-area/703/"
         },
         {
-            "name": "route-20-area",
+            "name": "unova-route-20-area",
             "url": "/api/v2/location-area/704/"
         },
         {
-            "name": "route-22-area",
+            "name": "unova-route-22-area",
             "url": "/api/v2/location-area/705/"
         },
         {
-            "name": "route-23-area",
+            "name": "unova-route-23-area",
             "url": "/api/v2/location-area/706/"
         },
         {
-            "name": "route-21-area",
+            "name": "unova-route-21-area",
             "url": "/api/v2/location-area/707/"
         },
         {
@@ -2556,23 +2556,23 @@
             "url": "/api/v2/location-area/747/"
         },
         {
-            "name": "victory-road-unknown-area-322",
+            "name": "kalos-victory-road-unknown-area-322",
             "url": "/api/v2/location-area/748/"
         },
         {
-            "name": "victory-road-unknown-area-324",
+            "name": "kalos-victory-road-unknown-area-324",
             "url": "/api/v2/location-area/749/"
         },
         {
-            "name": "victory-road-unknown-area-326",
+            "name": "kalos-victory-road-unknown-area-326",
             "url": "/api/v2/location-area/750/"
         },
         {
-            "name": "victory-road-unknown-area-327",
+            "name": "kalos-victory-road-unknown-area-327",
             "url": "/api/v2/location-area/751/"
         },
         {
-            "name": "victory-road-unknown-area-328",
+            "name": "kalos-victory-road-unknown-area-328",
             "url": "/api/v2/location-area/752/"
         },
         {
@@ -2606,6 +2606,210 @@
         {
             "name": "azure-bay-area",
             "url": "/api/v2/location-area/760/"
+        },
+        {
+            "name": "kanto-route-4-pokemon-center",
+            "url": "/api/v2/location-area/761/"
+        },
+        {
+            "name": "saffron-city-fighting-dojo",
+            "url": "/api/v2/location-area/762/"
+        },
+        {
+            "name": "celadon-city-celadon-mansion",
+            "url": "/api/v2/location-area/763/"
+        },
+        {
+            "name": "saffron-city-silph-co-7f",
+            "url": "/api/v2/location-area/764/"
+        },
+        {
+            "name": "goldenrod-city-north-gate",
+            "url": "/api/v2/location-area/765/"
+        },
+        {
+            "name": "goldenrod-city-bills-house",
+            "url": "/api/v2/location-area/766/"
+        },
+        {
+            "name": "cianwood-city-manias-house",
+            "url": "/api/v2/location-area/767/"
+        },
+        {
+            "name": "hoenn-route-119-weather-institute",
+            "url": "/api/v2/location-area/768/"
+        },
+        {
+            "name": "mossdeep-city-stevens-house",
+            "url": "/api/v2/location-area/769/"
+        },
+        {
+            "name": "littleroot-town-area",
+            "url": "/api/v2/location-area/770/"
+        },
+        {
+            "name": "hearthome-city-area",
+            "url": "/api/v2/location-area/771/"
+        },
+        {
+            "name": "veilstone-city-area",
+            "url": "/api/v2/location-area/772/"
+        },
+        {
+            "name": "cianwood-city-kirks-house",
+            "url": "/api/v2/location-area/773/"
+        },
+        {
+            "name": "nuvema-town-area",
+            "url": "/api/v2/location-area/774/"
+        },
+        {
+            "name": "castelia-city-game-freak-hq-1f",
+            "url": "/api/v2/location-area/775/"
+        },
+        {
+            "name": "unova-route-6-weather-institute",
+            "url": "/api/v2/location-area/776/"
+        },
+        {
+            "name": "floccesy-town-area",
+            "url": "/api/v2/location-area/777/"
+        },
+        {
+            "name": "aquacorde-town-area",
+            "url": "/api/v2/location-area/778/"
+        },
+        {
+            "name": "lumiose-city-area",
+            "url": "/api/v2/location-area/779/"
+        },
+        {
+            "name": "tower-of-mastery-area",
+            "url": "/api/v2/location-area/780/"
+        },
+        {
+            "name": "slateport-city-contest-hall",
+            "url": "/api/v2/location-area/781/"
+        },
+        {
+            "name": "verdanturf-town-contest-hall",
+            "url": "/api/v2/location-area/782/"
+        },
+        {
+            "name": "fallarbor-town-contest-hall",
+            "url": "/api/v2/location-area/783/"
+        },
+        {
+            "name": "lilycove-city-contest-hall",
+            "url": "/api/v2/location-area/784/"
+        },
+        {
+            "name": "southern-island-area",
+            "url": "/api/v2/location-area/785/"
+        },
+        {
+            "name": "battle-resort-area",
+            "url": "/api/v2/location-area/786/"
+        },
+        {
+            "name": "lavaridge-town-area",
+            "url": "/api/v2/location-area/787/"
+        },
+        {
+            "name": "eterna-city-west-gate",
+            "url": "/api/v2/location-area/788/"
+        },
+        {
+            "name": "hearthome-city-west-gate",
+            "url": "/api/v2/location-area/789/"
+        },
+        {
+            "name": "violet-city-poke-mart",
+            "url": "/api/v2/location-area/790/"
+        },
+        {
+            "name": "violet-city-pokemon-center",
+            "url": "/api/v2/location-area/791/"
+        },
+        {
+            "name": "nacrene-city-west-gate",
+            "url": "/api/v2/location-area/792/"
+        },
+        {
+            "name": "bell-tower-roof",
+            "url": "/api/v2/location-area/793/"
+        },
+        {
+            "name": "roaming-kanto-area",
+            "url": "/api/v2/location-area/794/"
+        },
+        {
+            "name": "roaming-johto-area",
+            "url": "/api/v2/location-area/795/"
+        },
+        {
+            "name": "roaming-hoenn-area",
+            "url": "/api/v2/location-area/796/"
+        },
+        {
+            "name": "roaming-sinnoh-area",
+            "url": "/api/v2/location-area/797/"
+        },
+        {
+            "name": "azalea-town-area",
+            "url": "/api/v2/location-area/798/"
+        },
+        {
+            "name": "mahogany-town-area",
+            "url": "/api/v2/location-area/800/"
+        },
+        {
+            "name": "cave-of-origin-b4f",
+            "url": "/api/v2/location-area/801/"
+        },
+        {
+            "name": "terra-cave-area",
+            "url": "/api/v2/location-area/802/"
+        },
+        {
+            "name": "marine-cave-area",
+            "url": "/api/v2/location-area/803/"
+        },
+        {
+            "name": "sky-pillar-apex",
+            "url": "/api/v2/location-area/804/"
+        },
+        {
+            "name": "bell-tower-1f",
+            "url": "/api/v2/location-area/805/"
+        },
+        {
+            "name": "birth-island-area",
+            "url": "/api/v2/location-area/806/"
+        },
+        {
+            "name": "navel-rock-area",
+            "url": "/api/v2/location-area/807/"
+        },
+        {
+            "name": "faraway-island-area",
+            "url": "/api/v2/location-area/808/"
+        },
+        {
+            "name": "hoenn-battle-frontier-area",
+            "url": "/api/v2/location-area/809/"
+        },
+        {
+            "name": "desert-ruins-area",
+            "url": "/api/v2/location-area/810/"
+        },
+        {
+            "name": "island-cave-area",
+            "url": "/api/v2/location-area/811/"
+        },
+        {
+            "name": "ancient-tomb-area",
+            "url": "/api/v2/location-area/812/"
         }
     ]
 }

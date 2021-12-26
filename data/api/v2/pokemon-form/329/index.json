@@ -8,17 +8,37 @@
     "is_mega": false,
     "name": "vibrava",
     "names": [],
-    "order": 443,
+    "order": 451,
     "pokemon": {
         "name": "vibrava",
         "url": "/api/v2/pokemon/329/"
     },
     "sprites": {
         "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/329.png",
+        "back_female": null,
         "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/329.png",
+        "back_shiny_female": null,
         "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png",
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/329.png"
+        "front_female": null,
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/329.png",
+        "front_shiny_female": null
     },
+    "types": [
+        {
+            "slot": 1,
+            "type": {
+                "name": "ground",
+                "url": "/api/v2/type/5/"
+            }
+        },
+        {
+            "slot": 2,
+            "type": {
+                "name": "dragon",
+                "url": "/api/v2/type/16/"
+            }
+        }
+    ],
     "version_group": {
         "name": "ruby-sapphire",
         "url": "/api/v2/version-group/5/"

@@ -1,17 +1,17 @@
 {
     "descriptions": [
         {
-            "description": "All opposing Pok\u00e9mon.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            }
-        },
-        {
             "description": "Alle gegnerischen Pok\u00e9mon.",
             "language": {
                 "name": "de",
                 "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "description": "All opposing Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
             }
         }
     ],
@@ -192,6 +192,50 @@
         {
             "name": "shell-trap",
             "url": "/api/v2/move/704/"
+        },
+        {
+            "name": "clangorous-soulblaze",
+            "url": "/api/v2/move/728/"
+        },
+        {
+            "name": "splishy-splash",
+            "url": "/api/v2/move/730/"
+        },
+        {
+            "name": "bouncy-bubble",
+            "url": "/api/v2/move/733/"
+        },
+        {
+            "name": "breaking-swipe",
+            "url": "/api/v2/move/784/"
+        },
+        {
+            "name": "branch-poke",
+            "url": "/api/v2/move/785/"
+        },
+        {
+            "name": "overdrive",
+            "url": "/api/v2/move/786/"
+        },
+        {
+            "name": "burning-jealousy",
+            "url": "/api/v2/move/807/"
+        },
+        {
+            "name": "dragon-energy",
+            "url": "/api/v2/move/820/"
+        },
+        {
+            "name": "fiery-wrath",
+            "url": "/api/v2/move/822/"
+        },
+        {
+            "name": "glacial-lance",
+            "url": "/api/v2/move/824/"
+        },
+        {
+            "name": "astral-barrage",
+            "url": "/api/v2/move/825/"
         }
     ],
     "name": "all-opponents",

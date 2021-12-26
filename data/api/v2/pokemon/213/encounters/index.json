@@ -126,10 +126,132 @@
     },
     {
         "location_area": {
+            "name": "johto-sea-route-40-area",
+            "url": "/api/v2/location-area/225/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "rock-smash",
+                            "url": "/api/v2/encounter-method/6/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "gold",
+                    "url": "/api/v2/version/4/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "rock-smash",
+                            "url": "/api/v2/encounter-method/6/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "silver",
+                    "url": "/api/v2/version/5/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "rock-smash",
+                            "url": "/api/v2/encounter-method/6/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "crystal",
+                    "url": "/api/v2/version/6/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
             "name": "cianwood-city-area",
             "url": "/api/v2/location-area/235/"
         },
         "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "rock-smash",
+                            "url": "/api/v2/encounter-method/6/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "gold",
+                    "url": "/api/v2/version/4/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "rock-smash",
+                            "url": "/api/v2/encounter-method/6/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "silver",
+                    "url": "/api/v2/version/5/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "rock-smash",
+                            "url": "/api/v2/encounter-method/6/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "crystal",
+                    "url": "/api/v2/version/6/"
+                }
+            },
             {
                 "encounter_details": [
                     {
@@ -166,6 +288,71 @@
                 "version": {
                     "name": "soulsilver",
                     "url": "/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "dark-cave-violet-city-entrance",
+            "url": "/api/v2/location-area/253/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "rock-smash",
+                            "url": "/api/v2/encounter-method/6/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "gold",
+                    "url": "/api/v2/version/4/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "rock-smash",
+                            "url": "/api/v2/encounter-method/6/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "silver",
+                    "url": "/api/v2/version/5/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "rock-smash",
+                            "url": "/api/v2/encounter-method/6/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "crystal",
+                    "url": "/api/v2/version/6/"
                 }
             }
         ]
@@ -886,7 +1073,7 @@
     },
     {
         "location_area": {
-            "name": "victory-road-unknown-area-322",
+            "name": "kalos-victory-road-unknown-area-322",
             "url": "/api/v2/location-area/748/"
         },
         "version_details": [
@@ -952,7 +1139,7 @@
     },
     {
         "location_area": {
-            "name": "victory-road-unknown-area-324",
+            "name": "kalos-victory-road-unknown-area-324",
             "url": "/api/v2/location-area/749/"
         },
         "version_details": [
@@ -1210,6 +1397,117 @@
                 "version": {
                     "name": "y",
                     "url": "/api/v2/version/24/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "cianwood-city-manias-house",
+            "url": "/api/v2/location-area/767/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "gold",
+                    "url": "/api/v2/version/4/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "silver",
+                    "url": "/api/v2/version/5/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "crystal",
+                    "url": "/api/v2/version/6/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "cianwood-city-kirks-house",
+            "url": "/api/v2/location-area/773/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "heartgold",
+                    "url": "/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "/api/v2/version/16/"
                 }
             }
         ]

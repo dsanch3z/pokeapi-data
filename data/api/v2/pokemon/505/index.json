@@ -2,11 +2,11 @@
     "abilities": [
         {
             "ability": {
-                "name": "analytic",
-                "url": "/api/v2/ability/148/"
+                "name": "illuminate",
+                "url": "/api/v2/ability/35/"
             },
-            "is_hidden": true,
-            "slot": 3
+            "is_hidden": false,
+            "slot": 1
         },
         {
             "ability": {
@@ -18,11 +18,11 @@
         },
         {
             "ability": {
-                "name": "illuminate",
-                "url": "/api/v2/ability/35/"
+                "name": "analytic",
+                "url": "/api/v2/ability/148/"
             },
-            "is_hidden": false,
-            "slot": 1
+            "is_hidden": true,
+            "slot": 3
         }
     ],
     "base_experience": 147,
@@ -36,15 +36,8 @@
         {
             "game_index": 505,
             "version": {
-                "name": "white-2",
-                "url": "/api/v2/version/22/"
-            }
-        },
-        {
-            "game_index": 505,
-            "version": {
-                "name": "black-2",
-                "url": "/api/v2/version/21/"
+                "name": "black",
+                "url": "/api/v2/version/17/"
             }
         },
         {
@@ -57,8 +50,15 @@
         {
             "game_index": 505,
             "version": {
-                "name": "black",
-                "url": "/api/v2/version/17/"
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "game_index": 505,
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
             }
         }
     ],
@@ -171,19 +171,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -204,6 +193,17 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
                         "name": "omega-ruby-alpha-sapphire",
                         "url": "/api/v2/version-group/16/"
                     }
@@ -215,8 +215,19 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -234,8 +245,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -256,8 +267,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -267,8 +278,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -279,6 +290,50 @@
                 "url": "/api/v2/move/21/"
             },
             "version_group_details": [
+                {
+                    "level_learned_at": 43,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 43,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 43,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 43,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
                 {
                     "level_learned_at": 50,
                     "move_learn_method": {
@@ -291,47 +346,14 @@
                     }
                 },
                 {
-                    "level_learned_at": 43,
+                    "level_learned_at": 50,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 43,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 43,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 43,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -349,19 +371,8 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 13,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -382,6 +393,17 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 13,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
                         "name": "omega-ruby-alpha-sapphire",
                         "url": "/api/v2/version-group/16/"
                     }
@@ -393,8 +415,19 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 13,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -412,19 +445,8 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -445,6 +467,17 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
                         "name": "omega-ruby-alpha-sapphire",
                         "url": "/api/v2/version-group/16/"
                     }
@@ -456,8 +489,19 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -469,91 +513,14 @@
             },
             "version_group_details": [
                 {
-                    "level_learned_at": 3,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
                     "level_learned_at": 1,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 3,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 3,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 3,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -574,8 +541,107 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 3,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 3,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 3,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 3,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
+                },
+                {
+                    "level_learned_at": 3,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -587,91 +653,14 @@
             },
             "version_group_details": [
                 {
-                    "level_learned_at": 6,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
                     "level_learned_at": 1,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 6,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 6,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 6,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -692,8 +681,107 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 6,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 6,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 6,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 6,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
+                },
+                {
+                    "level_learned_at": 6,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -711,19 +799,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -744,6 +821,17 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
                         "name": "omega-ruby-alpha-sapphire",
                         "url": "/api/v2/version-group/16/"
                     }
@@ -755,8 +843,19 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -774,19 +873,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -807,6 +895,17 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
                         "name": "omega-ruby-alpha-sapphire",
                         "url": "/api/v2/version-group/16/"
                     }
@@ -818,8 +917,19 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -837,8 +947,30 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "tutor",
+                        "url": "/api/v2/move-learn-method/3/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -853,25 +985,14 @@
                     }
                 },
                 {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "/api/v2/move-learn-method/3/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
                     "level_learned_at": 1,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 },
                 {
@@ -892,8 +1013,8 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
                     }
                 },
                 {
@@ -903,8 +1024,8 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -922,8 +1043,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -944,8 +1065,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -955,8 +1076,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -974,19 +1095,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1007,6 +1117,17 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
                         "name": "omega-ruby-alpha-sapphire",
                         "url": "/api/v2/version-group/16/"
                     }
@@ -1018,8 +1139,19 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1037,19 +1169,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1070,6 +1191,17 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
                         "name": "omega-ruby-alpha-sapphire",
                         "url": "/api/v2/version-group/16/"
                     }
@@ -1081,8 +1213,19 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1100,19 +1243,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1133,6 +1265,17 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
                         "name": "omega-ruby-alpha-sapphire",
                         "url": "/api/v2/version-group/16/"
                     }
@@ -1144,8 +1287,19 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1163,8 +1317,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1185,8 +1339,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -1196,8 +1350,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -1215,19 +1369,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1259,8 +1402,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1278,19 +1443,8 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 18,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1322,8 +1476,30 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 18,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 18,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1341,19 +1517,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1385,8 +1550,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1397,6 +1584,61 @@
                 "url": "/api/v2/move/109/"
             },
             "version_group_details": [
+                {
+                    "level_learned_at": 20,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 20,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 20,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 20,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
                 {
                     "level_learned_at": 1,
                     "move_learn_method": {
@@ -1415,52 +1657,19 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 },
                 {
-                    "level_learned_at": 20,
+                    "level_learned_at": 1,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 20,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 20,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 20,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1478,19 +1687,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1522,8 +1720,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1544,6 +1764,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 29,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -1560,19 +1791,8 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 8,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1604,8 +1824,30 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 8,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 8,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1623,19 +1865,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1667,8 +1898,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1686,8 +1939,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1719,8 +1972,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -1738,19 +1991,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1782,8 +2024,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1794,6 +2058,50 @@
                 "url": "/api/v2/move/158/"
             },
             "version_group_details": [
+                {
+                    "level_learned_at": 32,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 32,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 32,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 32,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
                 {
                     "level_learned_at": 36,
                     "move_learn_method": {
@@ -1806,47 +2114,14 @@
                     }
                 },
                 {
-                    "level_learned_at": 32,
+                    "level_learned_at": 36,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 32,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 32,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 32,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1864,19 +2139,8 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "/api/v2/move-learn-method/3/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1884,17 +2148,6 @@
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
                         "name": "black-2-white-2",
@@ -1902,10 +2155,10 @@
                     }
                 },
                 {
-                    "level_learned_at": 22,
+                    "level_learned_at": 0,
                     "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
+                        "name": "tutor",
+                        "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
                         "name": "black-2-white-2",
@@ -1930,8 +2183,41 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "tutor",
+                        "url": "/api/v2/move-learn-method/3/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 22,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 22,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1949,19 +2235,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -1993,8 +2268,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2012,8 +2309,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -2023,8 +2320,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -2042,19 +2339,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -2086,8 +2372,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2105,19 +2413,8 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 11,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -2149,8 +2446,30 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 11,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 11,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2168,19 +2487,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -2212,8 +2520,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2224,6 +2554,50 @@
                 "url": "/api/v2/move/212/"
             },
             "version_group_details": [
+                {
+                    "level_learned_at": 36,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 36,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 36,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 36,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
                 {
                     "level_learned_at": 43,
                     "move_learn_method": {
@@ -2236,47 +2610,14 @@
                     }
                 },
                 {
-                    "level_learned_at": 36,
+                    "level_learned_at": 43,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 36,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 36,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 36,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2294,19 +2635,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -2338,18 +2668,10 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "sleep-talk",
-                "url": "/api/v2/move/214/"
-            },
-            "version_group_details": [
+                },
                 {
                     "level_learned_at": 0,
                     "move_learn_method": {
@@ -2368,10 +2690,18 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "sleep-talk",
+                "url": "/api/v2/move/214/"
+            },
+            "version_group_details": [
                 {
                     "level_learned_at": 0,
                     "move_learn_method": {
@@ -2392,6 +2722,39 @@
                     "version_group": {
                         "name": "x-y",
                         "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2409,19 +2772,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -2453,8 +2805,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2472,19 +2846,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -2516,8 +2879,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2528,6 +2913,50 @@
                 "url": "/api/v2/move/226/"
             },
             "version_group_details": [
+                {
+                    "level_learned_at": 39,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 39,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 39,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 39,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
                 {
                     "level_learned_at": 46,
                     "move_learn_method": {
@@ -2540,47 +2969,14 @@
                     }
                 },
                 {
-                    "level_learned_at": 39,
+                    "level_learned_at": 46,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 39,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 39,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 39,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2598,8 +2994,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -2609,8 +3005,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -2628,19 +3024,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -2672,8 +3057,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2691,19 +3098,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -2735,8 +3131,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2754,19 +3172,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -2798,8 +3205,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2817,19 +3246,8 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 16,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -2861,8 +3279,30 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 16,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 16,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2874,14 +3314,91 @@
             },
             "version_group_details": [
                 {
+                    "level_learned_at": 29,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
+                    }
+                },
+                {
                     "level_learned_at": 0,
                     "move_learn_method": {
                         "name": "machine",
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 29,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 29,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 29,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 },
                 {
@@ -2902,19 +3419,19 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
                     }
                 },
                 {
-                    "level_learned_at": 29,
+                    "level_learned_at": 32,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 },
                 {
@@ -2924,63 +3441,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 29,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 29,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 29,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -2998,19 +3460,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -3031,8 +3482,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -3042,8 +3493,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -3061,8 +3534,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -3083,8 +3556,49 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "facade",
+                "url": "/api/v2/move/263/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
                         "name": "black-white",
                         "url": "/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -3097,15 +3611,18 @@
                         "name": "x-y",
                         "url": "/api/v2/version-group/15/"
                     }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "facade",
-                "url": "/api/v2/move/263/"
-            },
-            "version_group_details": [
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
                 {
                     "level_learned_at": 0,
                     "move_learn_method": {
@@ -3124,41 +3641,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -3195,8 +3679,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -3206,8 +3690,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -3225,8 +3709,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -3236,8 +3720,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -3255,8 +3739,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -3266,8 +3750,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -3304,8 +3788,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -3315,8 +3799,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -3334,8 +3818,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -3345,8 +3829,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -3383,19 +3867,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -3416,8 +3889,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -3427,8 +3900,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -3446,8 +3941,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -3457,8 +3952,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -3476,8 +3971,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -3487,8 +3982,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -3506,8 +4001,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -3517,8 +4012,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -3536,19 +4031,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -3569,8 +4053,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -3580,8 +4064,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -3599,19 +4105,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -3632,8 +4127,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -3643,8 +4138,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -3665,6 +4182,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 39,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -3681,8 +4209,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -3692,8 +4220,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -3711,8 +4239,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -3722,8 +4250,8 @@
                         "url": "/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -3741,19 +4269,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -3774,8 +4291,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -3785,8 +4302,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -3804,61 +4343,6 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "/api/v2/move-learn-method/3/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 25,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "/api/v2/move-learn-method/3/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 25,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 25,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
                         "name": "black-white",
                         "url": "/api/v2/version-group/11/"
                     }
@@ -3870,8 +4354,74 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "tutor",
+                        "url": "/api/v2/move-learn-method/3/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 25,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
                         "name": "x-y",
                         "url": "/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 25,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "tutor",
+                        "url": "/api/v2/move-learn-method/3/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 25,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 25,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -3889,19 +4439,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -3922,8 +4461,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -3933,8 +4472,30 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -3952,8 +4513,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -3974,8 +4535,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -3985,8 +4546,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
@@ -4004,8 +4565,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
+                        "name": "black-white",
+                        "url": "/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -4026,8 +4587,19 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "/api/v2/version-group/11/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -4045,8 +4617,8 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -4067,8 +4639,19 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -4086,8 +4669,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -4108,8 +4691,19 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -4127,8 +4721,8 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "/api/v2/version-group/16/"
+                        "name": "x-y",
+                        "url": "/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -4138,15 +4732,16 @@
                         "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "/api/v2/version-group/15/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "/api/v2/version-group/16/"
                     }
                 }
             ]
         }
     ],
     "name": "watchog",
-    "order": 594,
+    "order": 602,
+    "past_types": [],
     "species": {
         "name": "watchog",
         "url": "/api/v2/pokemon-species/505/"
@@ -4159,23 +4754,196 @@
         "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png",
         "front_female": null,
         "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/505.png",
-        "front_shiny_female": null
+        "front_shiny_female": null,
+        "other": {
+            "dream_world": {
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/505.svg",
+                "front_female": null
+            },
+            "home": {
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/505.png",
+                "front_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/505.png",
+                "front_shiny_female": null
+            },
+            "official-artwork": {
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png"
+            }
+        },
+        "versions": {
+            "generation-i": {
+                "red-blue": {
+                    "back_default": null,
+                    "back_gray": null,
+                    "back_transparent": null,
+                    "front_default": null,
+                    "front_gray": null,
+                    "front_transparent": null
+                },
+                "yellow": {
+                    "back_default": null,
+                    "back_gray": null,
+                    "back_transparent": null,
+                    "front_default": null,
+                    "front_gray": null,
+                    "front_transparent": null
+                }
+            },
+            "generation-ii": {
+                "crystal": {
+                    "back_default": null,
+                    "back_shiny": null,
+                    "back_shiny_transparent": null,
+                    "back_transparent": null,
+                    "front_default": null,
+                    "front_shiny": null,
+                    "front_shiny_transparent": null,
+                    "front_transparent": null
+                },
+                "gold": {
+                    "back_default": null,
+                    "back_shiny": null,
+                    "front_default": null,
+                    "front_shiny": null,
+                    "front_transparent": null
+                },
+                "silver": {
+                    "back_default": null,
+                    "back_shiny": null,
+                    "front_default": null,
+                    "front_shiny": null,
+                    "front_transparent": null
+                }
+            },
+            "generation-iii": {
+                "emerald": {
+                    "front_default": null,
+                    "front_shiny": null
+                },
+                "firered-leafgreen": {
+                    "back_default": null,
+                    "back_shiny": null,
+                    "front_default": null,
+                    "front_shiny": null
+                },
+                "ruby-sapphire": {
+                    "back_default": null,
+                    "back_shiny": null,
+                    "front_default": null,
+                    "front_shiny": null
+                }
+            },
+            "generation-iv": {
+                "diamond-pearl": {
+                    "back_default": null,
+                    "back_female": null,
+                    "back_shiny": null,
+                    "back_shiny_female": null,
+                    "front_default": null,
+                    "front_female": null,
+                    "front_shiny": null,
+                    "front_shiny_female": null
+                },
+                "heartgold-soulsilver": {
+                    "back_default": null,
+                    "back_female": null,
+                    "back_shiny": null,
+                    "back_shiny_female": null,
+                    "front_default": null,
+                    "front_female": null,
+                    "front_shiny": null,
+                    "front_shiny_female": null
+                },
+                "platinum": {
+                    "back_default": null,
+                    "back_female": null,
+                    "back_shiny": null,
+                    "back_shiny_female": null,
+                    "front_default": null,
+                    "front_female": null,
+                    "front_shiny": null,
+                    "front_shiny_female": null
+                }
+            },
+            "generation-v": {
+                "black-white": {
+                    "animated": {
+                        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/505.gif",
+                        "back_female": null,
+                        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/505.gif",
+                        "back_shiny_female": null,
+                        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/505.gif",
+                        "front_female": null,
+                        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/505.gif",
+                        "front_shiny_female": null
+                    },
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/505.png",
+                    "back_female": null,
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/505.png",
+                    "back_shiny_female": null,
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/505.png",
+                    "front_female": null,
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/505.png",
+                    "front_shiny_female": null
+                }
+            },
+            "generation-vi": {
+                "omegaruby-alphasapphire": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/505.png",
+                    "front_female": null,
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/505.png",
+                    "front_shiny_female": null
+                },
+                "x-y": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/505.png",
+                    "front_female": null,
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/505.png",
+                    "front_shiny_female": null
+                }
+            },
+            "generation-vii": {
+                "icons": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/505.png",
+                    "front_female": null
+                },
+                "ultra-sun-ultra-moon": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/505.png",
+                    "front_female": null,
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/505.png",
+                    "front_shiny_female": null
+                }
+            },
+            "generation-viii": {
+                "icons": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/505.png",
+                    "front_female": null
+                }
+            }
+        }
     },
     "stats": [
         {
-            "base_stat": 77,
+            "base_stat": 60,
             "effort": 0,
             "stat": {
-                "name": "speed",
-                "url": "/api/v2/stat/6/"
+                "name": "hp",
+                "url": "/api/v2/stat/1/"
+            }
+        },
+        {
+            "base_stat": 85,
+            "effort": 2,
+            "stat": {
+                "name": "attack",
+                "url": "/api/v2/stat/2/"
             }
         },
         {
             "base_stat": 69,
             "effort": 0,
             "stat": {
-                "name": "special-defense",
-                "url": "/api/v2/stat/5/"
+                "name": "defense",
+                "url": "/api/v2/stat/3/"
             }
         },
         {
@@ -4190,24 +4958,16 @@
             "base_stat": 69,
             "effort": 0,
             "stat": {
-                "name": "defense",
-                "url": "/api/v2/stat/3/"
+                "name": "special-defense",
+                "url": "/api/v2/stat/5/"
             }
         },
         {
-            "base_stat": 85,
-            "effort": 2,
-            "stat": {
-                "name": "attack",
-                "url": "/api/v2/stat/2/"
-            }
-        },
-        {
-            "base_stat": 60,
+            "base_stat": 77,
             "effort": 0,
             "stat": {
-                "name": "hp",
-                "url": "/api/v2/stat/1/"
+                "name": "speed",
+                "url": "/api/v2/stat/6/"
             }
         }
     ],

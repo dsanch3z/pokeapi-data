@@ -312,6 +312,42 @@
         {
             "name": "trop-kick",
             "url": "/api/v2/move/688/"
+        },
+        {
+            "name": "sappy-seed",
+            "url": "/api/v2/move/738/"
+        },
+        {
+            "name": "max-overgrowth",
+            "url": "/api/v2/move/773/"
+        },
+        {
+            "name": "drum-beating",
+            "url": "/api/v2/move/778/"
+        },
+        {
+            "name": "snap-trap",
+            "url": "/api/v2/move/779/"
+        },
+        {
+            "name": "branch-poke",
+            "url": "/api/v2/move/785/"
+        },
+        {
+            "name": "apple-acid",
+            "url": "/api/v2/move/787/"
+        },
+        {
+            "name": "grav-apple",
+            "url": "/api/v2/move/788/"
+        },
+        {
+            "name": "grassy-glide",
+            "url": "/api/v2/move/803/"
+        },
+        {
+            "name": "jungle-healing",
+            "url": "/api/v2/move/816/"
         }
     ],
     "name": "grass",
@@ -366,6 +402,7 @@
             "name": "Grass"
         }
     ],
+    "past_damage_relations": [],
     "pokemon": [
         {
             "pokemon": {
@@ -1048,6 +1085,76 @@
         },
         {
             "pokemon": {
+                "name": "grookey",
+                "url": "/api/v2/pokemon/810/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "thwackey",
+                "url": "/api/v2/pokemon/811/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "rillaboom",
+                "url": "/api/v2/pokemon/812/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "gossifleur",
+                "url": "/api/v2/pokemon/829/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "eldegoss",
+                "url": "/api/v2/pokemon/830/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "applin",
+                "url": "/api/v2/pokemon/840/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "flapple",
+                "url": "/api/v2/pokemon/841/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "appletun",
+                "url": "/api/v2/pokemon/842/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "zarude",
+                "url": "/api/v2/pokemon/893/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "calyrex",
+                "url": "/api/v2/pokemon/898/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
                 "name": "shaymin-sky",
                 "url": "/api/v2/pokemon/10006/"
             },
@@ -1134,6 +1241,34 @@
             "pokemon": {
                 "name": "lurantis-totem",
                 "url": "/api/v2/pokemon/10128/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "venusaur-gmax",
+                "url": "/api/v2/pokemon/10186/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "rillaboom-gmax",
+                "url": "/api/v2/pokemon/10200/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "flapple-gmax",
+                "url": "/api/v2/pokemon/10207/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "appletun-gmax",
+                "url": "/api/v2/pokemon/10208/"
             },
             "slot": 1
         }

@@ -11,6 +11,13 @@
         },
         {
             "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc54c\ubbf8\ubc1c\uacac"
+        },
+        {
+            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
@@ -417,6 +424,26 @@
         {
             "name": "marshadow",
             "url": "/api/v2/pokemon-species/802/"
+        },
+        {
+            "name": "poipole",
+            "url": "/api/v2/pokemon-species/803/"
+        },
+        {
+            "name": "naganadel",
+            "url": "/api/v2/pokemon-species/804/"
+        },
+        {
+            "name": "stakataka",
+            "url": "/api/v2/pokemon-species/805/"
+        },
+        {
+            "name": "blacephalon",
+            "url": "/api/v2/pokemon-species/806/"
+        },
+        {
+            "name": "zeraora",
+            "url": "/api/v2/pokemon-species/807/"
         }
     ]
 }

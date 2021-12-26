@@ -7,19 +7,7 @@
                     "type": "null"
                 },
                 {
-                    "properties": {
-                        "name": {
-                            "type": "string"
-                        },
-                        "url": {
-                            "type": "string"
-                        }
-                    },
-                    "required": [
-                        "name",
-                        "url"
-                    ],
-                    "type": "object"
+                    "$ref": "/schema/v2/named_api_resource.json"
                 }
             ]
         },
@@ -46,19 +34,7 @@
                                                     "type": "null"
                                                 },
                                                 {
-                                                    "properties": {
-                                                        "name": {
-                                                            "type": "string"
-                                                        },
-                                                        "url": {
-                                                            "type": "string"
-                                                        }
-                                                    },
-                                                    "required": [
-                                                        "name",
-                                                        "url"
-                                                    ],
-                                                    "type": "object"
+                                                    "$ref": "/schema/v2/named_api_resource.json"
                                                 }
                                             ]
                                         },
@@ -68,19 +44,7 @@
                                                     "type": "null"
                                                 },
                                                 {
-                                                    "properties": {
-                                                        "name": {
-                                                            "type": "string"
-                                                        },
-                                                        "url": {
-                                                            "type": "string"
-                                                        }
-                                                    },
-                                                    "required": [
-                                                        "name",
-                                                        "url"
-                                                    ],
-                                                    "type": "object"
+                                                    "$ref": "/schema/v2/named_api_resource.json"
                                                 }
                                             ]
                                         },
@@ -90,19 +54,7 @@
                                                     "type": "null"
                                                 },
                                                 {
-                                                    "properties": {
-                                                        "name": {
-                                                            "type": "string"
-                                                        },
-                                                        "url": {
-                                                            "type": "string"
-                                                        }
-                                                    },
-                                                    "required": [
-                                                        "name",
-                                                        "url"
-                                                    ],
-                                                    "type": "object"
+                                                    "$ref": "/schema/v2/named_api_resource.json"
                                                 }
                                             ]
                                         },
@@ -112,19 +64,7 @@
                                                     "type": "null"
                                                 },
                                                 {
-                                                    "properties": {
-                                                        "name": {
-                                                            "type": "string"
-                                                        },
-                                                        "url": {
-                                                            "type": "string"
-                                                        }
-                                                    },
-                                                    "required": [
-                                                        "name",
-                                                        "url"
-                                                    ],
-                                                    "type": "object"
+                                                    "$ref": "/schema/v2/named_api_resource.json"
                                                 }
                                             ]
                                         },
@@ -134,19 +74,7 @@
                                                     "type": "null"
                                                 },
                                                 {
-                                                    "properties": {
-                                                        "name": {
-                                                            "type": "string"
-                                                        },
-                                                        "url": {
-                                                            "type": "string"
-                                                        }
-                                                    },
-                                                    "required": [
-                                                        "name",
-                                                        "url"
-                                                    ],
-                                                    "type": "object"
+                                                    "$ref": "/schema/v2/named_api_resource.json"
                                                 }
                                             ]
                                         },
@@ -183,19 +111,7 @@
                                                     "type": "null"
                                                 },
                                                 {
-                                                    "properties": {
-                                                        "name": {
-                                                            "type": "string"
-                                                        },
-                                                        "url": {
-                                                            "type": "string"
-                                                        }
-                                                    },
-                                                    "required": [
-                                                        "name",
-                                                        "url"
-                                                    ],
-                                                    "type": "object"
+                                                    "$ref": "/schema/v2/named_api_resource.json"
                                                 }
                                             ]
                                         },
@@ -205,19 +121,7 @@
                                                     "type": "null"
                                                 },
                                                 {
-                                                    "properties": {
-                                                        "name": {
-                                                            "type": "string"
-                                                        },
-                                                        "url": {
-                                                            "type": "string"
-                                                        }
-                                                    },
-                                                    "required": [
-                                                        "name",
-                                                        "url"
-                                                    ],
-                                                    "type": "object"
+                                                    "$ref": "/schema/v2/named_api_resource.json"
                                                 }
                                             ]
                                         },
@@ -236,36 +140,12 @@
                                                     "type": "null"
                                                 },
                                                 {
-                                                    "properties": {
-                                                        "name": {
-                                                            "type": "string"
-                                                        },
-                                                        "url": {
-                                                            "type": "string"
-                                                        }
-                                                    },
-                                                    "required": [
-                                                        "name",
-                                                        "url"
-                                                    ],
-                                                    "type": "object"
+                                                    "$ref": "/schema/v2/named_api_resource.json"
                                                 }
                                             ]
                                         },
                                         "trigger": {
-                                            "properties": {
-                                                "name": {
-                                                    "type": "string"
-                                                },
-                                                "url": {
-                                                    "type": "string"
-                                                }
-                                            },
-                                            "required": [
-                                                "name",
-                                                "url"
-                                            ],
-                                            "type": "object"
+                                            "$ref": "/schema/v2/named_api_resource.json"
                                         },
                                         "turn_upside_down": {
                                             "type": "boolean"
@@ -313,19 +193,7 @@
                                                                 "type": "null"
                                                             },
                                                             {
-                                                                "properties": {
-                                                                    "name": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "url": {
-                                                                        "type": "string"
-                                                                    }
-                                                                },
-                                                                "required": [
-                                                                    "name",
-                                                                    "url"
-                                                                ],
-                                                                "type": "object"
+                                                                "$ref": "/schema/v2/named_api_resource.json"
                                                             }
                                                         ]
                                                     },
@@ -335,19 +203,7 @@
                                                                 "type": "null"
                                                             },
                                                             {
-                                                                "properties": {
-                                                                    "name": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "url": {
-                                                                        "type": "string"
-                                                                    }
-                                                                },
-                                                                "required": [
-                                                                    "name",
-                                                                    "url"
-                                                                ],
-                                                                "type": "object"
+                                                                "$ref": "/schema/v2/named_api_resource.json"
                                                             }
                                                         ]
                                                     },
@@ -357,19 +213,7 @@
                                                                 "type": "null"
                                                             },
                                                             {
-                                                                "properties": {
-                                                                    "name": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "url": {
-                                                                        "type": "string"
-                                                                    }
-                                                                },
-                                                                "required": [
-                                                                    "name",
-                                                                    "url"
-                                                                ],
-                                                                "type": "object"
+                                                                "$ref": "/schema/v2/named_api_resource.json"
                                                             }
                                                         ]
                                                     },
@@ -382,19 +226,7 @@
                                                                 "type": "null"
                                                             },
                                                             {
-                                                                "properties": {
-                                                                    "name": {
-                                                                        "type": "string"
-                                                                    },
-                                                                    "url": {
-                                                                        "type": "string"
-                                                                    }
-                                                                },
-                                                                "required": [
-                                                                    "name",
-                                                                    "url"
-                                                                ],
-                                                                "type": "object"
+                                                                "$ref": "/schema/v2/named_api_resource.json"
                                                             }
                                                         ]
                                                     },
@@ -435,19 +267,7 @@
                                                         "type": "null"
                                                     },
                                                     "trigger": {
-                                                        "properties": {
-                                                            "name": {
-                                                                "type": "string"
-                                                            },
-                                                            "url": {
-                                                                "type": "string"
-                                                            }
-                                                        },
-                                                        "required": [
-                                                            "name",
-                                                            "url"
-                                                        ],
-                                                        "type": "object"
+                                                        "$ref": "/schema/v2/named_api_resource.json"
                                                     },
                                                     "turn_upside_down": {
                                                         "type": "boolean"
@@ -478,151 +298,13 @@
                                             "type": "array"
                                         },
                                         "evolves_to": {
-                                            "items": {
-                                                "properties": {
-                                                    "evolution_details": {
-                                                        "items": {
-                                                            "properties": {
-                                                                "gender": {
-                                                                    "type": "null"
-                                                                },
-                                                                "held_item": {
-                                                                    "type": "null"
-                                                                },
-                                                                "item": {
-                                                                    "type": "null"
-                                                                },
-                                                                "known_move": {
-                                                                    "type": "null"
-                                                                },
-                                                                "known_move_type": {
-                                                                    "type": "null"
-                                                                },
-                                                                "location": {
-                                                                    "type": "null"
-                                                                },
-                                                                "min_affection": {
-                                                                    "type": "null"
-                                                                },
-                                                                "min_beauty": {
-                                                                    "type": "null"
-                                                                },
-                                                                "min_happiness": {
-                                                                    "type": "null"
-                                                                },
-                                                                "min_level": {
-                                                                    "type": "integer"
-                                                                },
-                                                                "needs_overworld_rain": {
-                                                                    "type": "boolean"
-                                                                },
-                                                                "party_species": {
-                                                                    "type": "null"
-                                                                },
-                                                                "party_type": {
-                                                                    "type": "null"
-                                                                },
-                                                                "relative_physical_stats": {
-                                                                    "type": "null"
-                                                                },
-                                                                "time_of_day": {
-                                                                    "type": "string"
-                                                                },
-                                                                "trade_species": {
-                                                                    "type": "null"
-                                                                },
-                                                                "trigger": {
-                                                                    "properties": {
-                                                                        "name": {
-                                                                            "type": "string"
-                                                                        },
-                                                                        "url": {
-                                                                            "type": "string"
-                                                                        }
-                                                                    },
-                                                                    "required": [
-                                                                        "name",
-                                                                        "url"
-                                                                    ],
-                                                                    "type": "object"
-                                                                },
-                                                                "turn_upside_down": {
-                                                                    "type": "boolean"
-                                                                }
-                                                            },
-                                                            "required": [
-                                                                "gender",
-                                                                "held_item",
-                                                                "item",
-                                                                "known_move",
-                                                                "known_move_type",
-                                                                "location",
-                                                                "min_affection",
-                                                                "min_beauty",
-                                                                "min_happiness",
-                                                                "min_level",
-                                                                "needs_overworld_rain",
-                                                                "party_species",
-                                                                "party_type",
-                                                                "relative_physical_stats",
-                                                                "time_of_day",
-                                                                "trade_species",
-                                                                "trigger",
-                                                                "turn_upside_down"
-                                                            ],
-                                                            "type": "object"
-                                                        },
-                                                        "type": "array"
-                                                    },
-                                                    "evolves_to": {
-                                                        "type": "array"
-                                                    },
-                                                    "is_baby": {
-                                                        "type": "boolean"
-                                                    },
-                                                    "species": {
-                                                        "properties": {
-                                                            "name": {
-                                                                "type": "string"
-                                                            },
-                                                            "url": {
-                                                                "type": "string"
-                                                            }
-                                                        },
-                                                        "required": [
-                                                            "name",
-                                                            "url"
-                                                        ],
-                                                        "type": "object"
-                                                    }
-                                                },
-                                                "required": [
-                                                    "evolution_details",
-                                                    "evolves_to",
-                                                    "is_baby",
-                                                    "species"
-                                                ],
-                                                "type": "object"
-                                            },
                                             "type": "array"
                                         },
                                         "is_baby": {
                                             "type": "boolean"
                                         },
                                         "species": {
-                                            "properties": {
-                                                "name": {
-                                                    "type": "string"
-                                                },
-                                                "url": {
-                                                    "type": "string"
-                                                }
-                                            },
-                                            "required": [
-                                                "name",
-                                                "url"
-                                            ],
-                                            "type": "object"
+                                            "$ref": "/schema/v2/named_api_resource.json"
                                         }
                                     },
                                     "required": [
@@ -639,19 +321,7 @@
                                 "type": "boolean"
                             },
                             "species": {
-                                "properties": {
-                                    "name": {
-                                        "type": "string"
-                                    },
-                                    "url": {
-                                        "type": "string"
-                                    }
-                                },
-                                "required": [
-                                    "name",
-                                    "url"
-                                ],
-                                "type": "object"
+                                "$ref": "/schema/v2/named_api_resource.json"
                             }
                         },
                         "required": [
@@ -668,19 +338,7 @@
                     "type": "boolean"
                 },
                 "species": {
-                    "properties": {
-                        "name": {
-                            "type": "string"
-                        },
-                        "url": {
-                            "type": "string"
-                        }
-                    },
-                    "required": [
-                        "name",
-                        "url"
-                    ],
-                    "type": "object"
+                    "$ref": "/schema/v2/named_api_resource.json"
                 }
             },
             "required": [

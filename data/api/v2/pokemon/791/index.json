@@ -9,7 +9,7 @@
             "slot": 1
         }
     ],
-    "base_experience": 136,
+    "base_experience": 306,
     "forms": [
         {
             "name": "solgaleo",
@@ -39,6 +39,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -57,6 +68,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -77,6 +99,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -86,6 +119,17 @@
                 "url": "/api/v2/move/76/"
             },
             "version_group_details": [
+                {
+                    "level_learned_at": 47,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
                 {
                     "level_learned_at": 0,
                     "move_learn_method": {
@@ -104,8 +148,19 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -126,6 +181,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -144,6 +210,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -164,6 +241,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -182,6 +270,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -202,6 +301,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -220,6 +330,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -240,6 +361,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -258,6 +390,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -278,6 +421,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -296,6 +450,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -316,6 +481,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -334,6 +510,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -354,6 +541,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -372,6 +570,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -392,6 +601,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -410,6 +630,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -430,6 +661,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -448,6 +690,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -468,6 +721,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -486,6 +750,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -506,6 +781,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -524,6 +810,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 31,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -544,6 +841,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -562,6 +870,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -582,6 +901,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 37,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -600,6 +930,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -620,6 +961,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -638,6 +990,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -658,6 +1021,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 13,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -676,6 +1050,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -696,6 +1081,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -714,6 +1110,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -734,6 +1141,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -752,6 +1170,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 43,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -772,6 +1201,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 61,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -791,6 +1231,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -800,6 +1251,17 @@
                 "url": "/api/v2/move/416/"
             },
             "version_group_details": [
+                {
+                    "level_learned_at": 73,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
                 {
                     "level_learned_at": 0,
                     "move_learn_method": {
@@ -818,8 +1280,19 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -840,6 +1313,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 19,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -849,6 +1333,17 @@
                 "url": "/api/v2/move/430/"
             },
             "version_group_details": [
+                {
+                    "level_learned_at": 23,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
                 {
                     "level_learned_at": 0,
                     "move_learn_method": {
@@ -867,8 +1362,19 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -889,6 +1395,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -907,6 +1424,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 7,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -927,6 +1455,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -945,6 +1484,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 67,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -965,6 +1515,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -983,6 +1544,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1003,6 +1575,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -1021,6 +1604,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1041,6 +1635,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -1059,6 +1664,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1079,6 +1695,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -1097,6 +1724,17 @@
                     "version_group": {
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
+                    }
+                },
+                {
+                    "level_learned_at": 59,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
@@ -1117,6 +1755,17 @@
                         "name": "sun-moon",
                         "url": "/api/v2/version-group/17/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
                 }
             ]
         },
@@ -1126,6 +1775,17 @@
                 "url": "/api/v2/move/713/"
             },
             "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "/api/v2/version-group/17/"
+                    }
+                },
                 {
                     "level_learned_at": 1,
                     "move_learn_method": {
@@ -1144,60 +1804,213 @@
                         "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "sun-moon",
-                        "url": "/api/v2/version-group/17/"
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ultra-sun-ultra-moon",
+                        "url": "/api/v2/version-group/18/"
                     }
                 }
             ]
         }
     ],
     "name": "solgaleo",
-    "order": 931,
+    "order": 944,
+    "past_types": [],
     "species": {
         "name": "solgaleo",
         "url": "/api/v2/pokemon-species/791/"
     },
     "sprites": {
-        "back_default": null,
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/791.png",
         "back_female": null,
-        "back_shiny": null,
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/791.png",
         "back_shiny_female": null,
         "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png",
         "front_female": null,
         "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/791.png",
-        "front_shiny_female": null
+        "front_shiny_female": null,
+        "other": {
+            "dream_world": {
+                "front_default": null,
+                "front_female": null
+            },
+            "home": {
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/791.png",
+                "front_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/791.png",
+                "front_shiny_female": null
+            },
+            "official-artwork": {
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png"
+            }
+        },
+        "versions": {
+            "generation-i": {
+                "red-blue": {
+                    "back_default": null,
+                    "back_gray": null,
+                    "back_transparent": null,
+                    "front_default": null,
+                    "front_gray": null,
+                    "front_transparent": null
+                },
+                "yellow": {
+                    "back_default": null,
+                    "back_gray": null,
+                    "back_transparent": null,
+                    "front_default": null,
+                    "front_gray": null,
+                    "front_transparent": null
+                }
+            },
+            "generation-ii": {
+                "crystal": {
+                    "back_default": null,
+                    "back_shiny": null,
+                    "back_shiny_transparent": null,
+                    "back_transparent": null,
+                    "front_default": null,
+                    "front_shiny": null,
+                    "front_shiny_transparent": null,
+                    "front_transparent": null
+                },
+                "gold": {
+                    "back_default": null,
+                    "back_shiny": null,
+                    "front_default": null,
+                    "front_shiny": null,
+                    "front_transparent": null
+                },
+                "silver": {
+                    "back_default": null,
+                    "back_shiny": null,
+                    "front_default": null,
+                    "front_shiny": null,
+                    "front_transparent": null
+                }
+            },
+            "generation-iii": {
+                "emerald": {
+                    "front_default": null,
+                    "front_shiny": null
+                },
+                "firered-leafgreen": {
+                    "back_default": null,
+                    "back_shiny": null,
+                    "front_default": null,
+                    "front_shiny": null
+                },
+                "ruby-sapphire": {
+                    "back_default": null,
+                    "back_shiny": null,
+                    "front_default": null,
+                    "front_shiny": null
+                }
+            },
+            "generation-iv": {
+                "diamond-pearl": {
+                    "back_default": null,
+                    "back_female": null,
+                    "back_shiny": null,
+                    "back_shiny_female": null,
+                    "front_default": null,
+                    "front_female": null,
+                    "front_shiny": null,
+                    "front_shiny_female": null
+                },
+                "heartgold-soulsilver": {
+                    "back_default": null,
+                    "back_female": null,
+                    "back_shiny": null,
+                    "back_shiny_female": null,
+                    "front_default": null,
+                    "front_female": null,
+                    "front_shiny": null,
+                    "front_shiny_female": null
+                },
+                "platinum": {
+                    "back_default": null,
+                    "back_female": null,
+                    "back_shiny": null,
+                    "back_shiny_female": null,
+                    "front_default": null,
+                    "front_female": null,
+                    "front_shiny": null,
+                    "front_shiny_female": null
+                }
+            },
+            "generation-v": {
+                "black-white": {
+                    "animated": {
+                        "back_default": null,
+                        "back_female": null,
+                        "back_shiny": null,
+                        "back_shiny_female": null,
+                        "front_default": null,
+                        "front_female": null,
+                        "front_shiny": null,
+                        "front_shiny_female": null
+                    },
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/791.png",
+                    "back_female": null,
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/791.png",
+                    "back_shiny_female": null,
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/791.png",
+                    "front_female": null,
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/791.png",
+                    "front_shiny_female": null
+                }
+            },
+            "generation-vi": {
+                "omegaruby-alphasapphire": {
+                    "front_default": null,
+                    "front_female": null,
+                    "front_shiny": null,
+                    "front_shiny_female": null
+                },
+                "x-y": {
+                    "front_default": null,
+                    "front_female": null,
+                    "front_shiny": null,
+                    "front_shiny_female": null
+                }
+            },
+            "generation-vii": {
+                "icons": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/791.png",
+                    "front_female": null
+                },
+                "ultra-sun-ultra-moon": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/791.png",
+                    "front_female": null,
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/791.png",
+                    "front_shiny_female": null
+                }
+            },
+            "generation-viii": {
+                "icons": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/791.png",
+                    "front_female": null
+                }
+            }
+        }
     },
     "stats": [
         {
-            "base_stat": 97,
+            "base_stat": 137,
             "effort": 0,
             "stat": {
-                "name": "speed",
-                "url": "/api/v2/stat/6/"
-            }
-        },
-        {
-            "base_stat": 89,
-            "effort": 0,
-            "stat": {
-                "name": "special-defense",
-                "url": "/api/v2/stat/5/"
-            }
-        },
-        {
-            "base_stat": 113,
-            "effort": 0,
-            "stat": {
-                "name": "special-attack",
-                "url": "/api/v2/stat/4/"
-            }
-        },
-        {
-            "base_stat": 107,
-            "effort": 0,
-            "stat": {
-                "name": "defense",
-                "url": "/api/v2/stat/3/"
+                "name": "hp",
+                "url": "/api/v2/stat/1/"
             }
         },
         {
@@ -1209,27 +2022,51 @@
             }
         },
         {
-            "base_stat": 137,
+            "base_stat": 107,
             "effort": 0,
             "stat": {
-                "name": "hp",
-                "url": "/api/v2/stat/1/"
+                "name": "defense",
+                "url": "/api/v2/stat/3/"
+            }
+        },
+        {
+            "base_stat": 113,
+            "effort": 0,
+            "stat": {
+                "name": "special-attack",
+                "url": "/api/v2/stat/4/"
+            }
+        },
+        {
+            "base_stat": 89,
+            "effort": 0,
+            "stat": {
+                "name": "special-defense",
+                "url": "/api/v2/stat/5/"
+            }
+        },
+        {
+            "base_stat": 97,
+            "effort": 0,
+            "stat": {
+                "name": "speed",
+                "url": "/api/v2/stat/6/"
             }
         }
     ],
     "types": [
         {
-            "slot": 2,
-            "type": {
-                "name": "steel",
-                "url": "/api/v2/type/9/"
-            }
-        },
-        {
             "slot": 1,
             "type": {
                 "name": "psychic",
                 "url": "/api/v2/type/14/"
+            }
+        },
+        {
+            "slot": 2,
+            "type": {
+                "name": "steel",
+                "url": "/api/v2/type/9/"
             }
         }
     ],

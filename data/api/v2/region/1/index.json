@@ -340,6 +340,38 @@
         {
             "name": "kanto-altering-cave",
             "url": "/api/v2/location/529/"
+        },
+        {
+            "name": "roaming-kanto",
+            "url": "/api/v2/location/799/"
+        },
+        {
+            "name": "two-island",
+            "url": "/api/v2/location/805/"
+        },
+        {
+            "name": "three-island",
+            "url": "/api/v2/location/806/"
+        },
+        {
+            "name": "three-isle-path",
+            "url": "/api/v2/location/807/"
+        },
+        {
+            "name": "six-island",
+            "url": "/api/v2/location/808/"
+        },
+        {
+            "name": "seven-island",
+            "url": "/api/v2/location/809/"
+        },
+        {
+            "name": "birth-island",
+            "url": "/api/v2/location/810/"
+        },
+        {
+            "name": "navel-rock",
+            "url": "/api/v2/location/811/"
         }
     ],
     "main_generation": {
@@ -354,6 +386,13 @@
                 "url": "/api/v2/language/1/"
             },
             "name": "\u30ab\u30f3\u30c8\u30fc\u5730\u65b9"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uad00\ub3d9\uc9c0\ubc29"
         },
         {
             "language": {
@@ -388,6 +427,10 @@
         {
             "name": "kanto",
             "url": "/api/v2/pokedex/2/"
+        },
+        {
+            "name": "updated-kanto",
+            "url": "/api/v2/pokedex/26/"
         }
     ],
     "version_groups": [
@@ -414,6 +457,10 @@
         {
             "name": "heartgold-soulsilver",
             "url": "/api/v2/version-group/10/"
+        },
+        {
+            "name": "lets-go-pikachu-lets-go-eevee",
+            "url": "/api/v2/version-group/19/"
         }
     ]
 }

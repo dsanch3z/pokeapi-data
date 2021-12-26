@@ -3,15 +3,15 @@
         {
             "awesome_name": "Crural",
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+                "name": "fr",
+                "url": "/api/v2/language/5/"
             }
         },
         {
             "awesome_name": "Crural",
             "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
+                "name": "en",
+                "url": "/api/v2/language/9/"
             }
         }
     ],
@@ -20,17 +20,17 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Legs"
-        },
-        {
-            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "name": "Jambes"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Legs"
         }
     ],
     "pokemon_species": [
@@ -67,10 +67,6 @@
             "url": "/api/v2/pokemon-species/194/"
         },
         {
-            "name": "porygon2",
-            "url": "/api/v2/pokemon-species/233/"
-        },
-        {
             "name": "torchic",
             "url": "/api/v2/pokemon-species/255/"
         },
@@ -85,6 +81,10 @@
         {
             "name": "azurill",
             "url": "/api/v2/pokemon-species/298/"
+        },
+        {
+            "name": "porygon2",
+            "url": "/api/v2/pokemon-species/233/"
         },
         {
             "name": "bonsly",
@@ -109,6 +109,22 @@
         {
             "name": "bounsweet",
             "url": "/api/v2/pokemon-species/761/"
+        },
+        {
+            "name": "carkol",
+            "url": "/api/v2/pokemon-species/838/"
+        },
+        {
+            "name": "hatenna",
+            "url": "/api/v2/pokemon-species/856/"
+        },
+        {
+            "name": "stonjourner",
+            "url": "/api/v2/pokemon-species/874/"
+        },
+        {
+            "name": "dracovish",
+            "url": "/api/v2/pokemon-species/882/"
         }
     ]
 }

@@ -16,17 +16,30 @@
             "name": "Totem Lurantis"
         }
     ],
-    "order": 977,
+    "order": 1030,
     "pokemon": {
         "name": "lurantis-totem",
         "url": "/api/v2/pokemon/10128/"
     },
     "sprites": {
         "back_default": null,
+        "back_female": null,
         "back_shiny": null,
+        "back_shiny_female": null,
         "front_default": null,
-        "front_shiny": null
+        "front_female": null,
+        "front_shiny": null,
+        "front_shiny_female": null
     },
+    "types": [
+        {
+            "slot": 1,
+            "type": {
+                "name": "grass",
+                "url": "/api/v2/type/12/"
+            }
+        }
+    ],
     "version_group": {
         "name": "sun-moon",
         "url": "/api/v2/version-group/17/"

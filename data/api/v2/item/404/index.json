@@ -22,10 +22,10 @@
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "text": "A charging attack that may also leave\nthe foe confused. It can also be used\nto scale rocky walls.",
+            "text": "Dives underwater\nthe 1st turn, then\nattacks next turn.",
             "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
             }
         },
         {
@@ -33,21 +33,10 @@
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "text": "A charging attack that may also leave\nthe foe confused. It can also be used\nto scale rocky walls.",
+            "text": "Dives underwater\nthe 1st turn, then\nattacks next turn.",
             "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "text": "A charging attack that may also leave\nthe foe confused. It can also be used\nto scale rocky walls.",
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
             }
         },
         {
@@ -66,10 +55,10 @@
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "text": "Dives underwater\nthe 1st turn, then\nattacks next turn.",
+            "text": "A charging attack that may also leave\nthe foe confused. It can also be used\nto scale rocky walls.",
             "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
             }
         },
         {
@@ -77,10 +66,21 @@
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "text": "Dives underwater\nthe 1st turn, then\nattacks next turn.",
+            "text": "A charging attack that may also leave\nthe foe confused. It can also be used\nto scale rocky walls.",
             "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A charging attack that may also leave\nthe foe confused. It can also be used\nto scale rocky walls.",
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
             }
         }
     ],
@@ -88,17 +88,17 @@
     "fling_power": null,
     "game_indices": [
         {
-            "game_index": 427,
-            "generation": {
-                "name": "generation-iv",
-                "url": "/api/v2/generation/4/"
-            }
-        },
-        {
             "game_index": 346,
             "generation": {
                 "name": "generation-iii",
                 "url": "/api/v2/generation/3/"
+            }
+        },
+        {
+            "game_index": 427,
+            "generation": {
+                "name": "generation-iv",
+                "url": "/api/v2/generation/4/"
             }
         }
     ],
@@ -107,70 +107,7 @@
     "machines": [
         {
             "machine": {
-                "url": "/api/v2/machine/1328/"
-            },
-            "version_group": {
-                "name": "xd",
-                "url": "/api/v2/version-group/13/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1327/"
-            },
-            "version_group": {
-                "name": "colosseum",
-                "url": "/api/v2/version-group/12/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1326/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1325/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1324/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1323/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1322/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1321/"
+                "url": "/api/v2/machine/1435/"
             },
             "version_group": {
                 "name": "ruby-sapphire",
@@ -179,11 +116,65 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/1215/"
+                "url": "/api/v2/machine/1436/"
             },
             "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1437/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1438/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1439/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1440/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1441/"
+            },
+            "version_group": {
+                "name": "colosseum",
+                "url": "/api/v2/version-group/12/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1442/"
+            },
+            "version_group": {
+                "name": "xd",
+                "url": "/api/v2/version-group/13/"
             }
         }
     ],
@@ -191,31 +182,10 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
             },
-            "name": "HM08"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "MN08"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "MO08"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "VM08"
+            "name": "\u3072\u3067\u3093\u30de\u30b7\u30f3\uff10\uff18"
         },
         {
             "language": {
@@ -226,10 +196,31 @@
         },
         {
             "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
+                "name": "de",
+                "url": "/api/v2/language/6/"
             },
-            "name": "\u3072\u3067\u3093\u30de\u30b7\u30f3\uff10\uff18"
+            "name": "VM08"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "MO08"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "MN08"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "HM08"
         }
     ],
     "sprites": {

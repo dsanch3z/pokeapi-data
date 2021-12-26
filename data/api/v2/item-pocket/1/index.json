@@ -71,6 +71,18 @@
         {
             "name": "memories",
             "url": "/api/v2/item-category/45/"
+        },
+        {
+            "name": "species-candies",
+            "url": "/api/v2/item-category/47/"
+        },
+        {
+            "name": "dynamax-crystals",
+            "url": "/api/v2/item-category/49/"
+        },
+        {
+            "name": "curry-ingredients",
+            "url": "/api/v2/item-category/51/"
         }
     ],
     "id": 1,
@@ -82,6 +94,13 @@
                 "url": "/api/v2/language/5/"
             },
             "name": "Objets"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Objetos"
         },
         {
             "language": {

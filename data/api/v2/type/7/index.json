@@ -248,6 +248,14 @@
         {
             "name": "lunge",
             "url": "/api/v2/move/679/"
+        },
+        {
+            "name": "max-flutterby",
+            "url": "/api/v2/move/758/"
+        },
+        {
+            "name": "skitter-smack",
+            "url": "/api/v2/move/806/"
         }
     ],
     "name": "bug",
@@ -300,6 +308,82 @@
                 "url": "/api/v2/language/9/"
             },
             "name": "Bug"
+        }
+    ],
+    "past_damage_relations": [
+        {
+            "damage_relations": {
+                "double_damage_from": [
+                    {
+                        "name": "flying",
+                        "url": "/api/v2/type/3/"
+                    },
+                    {
+                        "name": "rock",
+                        "url": "/api/v2/type/6/"
+                    },
+                    {
+                        "name": "fire",
+                        "url": "/api/v2/type/10/"
+                    },
+                    {
+                        "name": "poison",
+                        "url": "/api/v2/type/4/"
+                    }
+                ],
+                "double_damage_to": [
+                    {
+                        "name": "grass",
+                        "url": "/api/v2/type/12/"
+                    },
+                    {
+                        "name": "psychic",
+                        "url": "/api/v2/type/14/"
+                    },
+                    {
+                        "name": "poison",
+                        "url": "/api/v2/type/4/"
+                    }
+                ],
+                "half_damage_from": [
+                    {
+                        "name": "fighting",
+                        "url": "/api/v2/type/2/"
+                    },
+                    {
+                        "name": "ground",
+                        "url": "/api/v2/type/5/"
+                    },
+                    {
+                        "name": "grass",
+                        "url": "/api/v2/type/12/"
+                    }
+                ],
+                "half_damage_to": [
+                    {
+                        "name": "fighting",
+                        "url": "/api/v2/type/2/"
+                    },
+                    {
+                        "name": "flying",
+                        "url": "/api/v2/type/3/"
+                    },
+                    {
+                        "name": "ghost",
+                        "url": "/api/v2/type/8/"
+                    },
+                    {
+                        "name": "fire",
+                        "url": "/api/v2/type/10/"
+                    }
+                ],
+                "no_damage_from": [],
+                "no_damage_to": []
+            },
+            "generation": {
+                "name": "generation-i",
+                "url": "/api/v2/generation/1/"
+            }
         }
     ],
     "pokemon": [
@@ -844,6 +928,55 @@
         },
         {
             "pokemon": {
+                "name": "blipbug",
+                "url": "/api/v2/pokemon/824/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "dottler",
+                "url": "/api/v2/pokemon/825/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "orbeetle",
+                "url": "/api/v2/pokemon/826/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "sizzlipede",
+                "url": "/api/v2/pokemon/850/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "centiskorch",
+                "url": "/api/v2/pokemon/851/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "snom",
+                "url": "/api/v2/pokemon/872/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "frosmoth",
+                "url": "/api/v2/pokemon/873/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
                 "name": "wormadam-sandy",
                 "url": "/api/v2/pokemon/10004/"
             },
@@ -890,6 +1023,41 @@
                 "url": "/api/v2/pokemon/10122/"
             },
             "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "ribombee-totem",
+                "url": "/api/v2/pokemon/10150/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "araquanid-totem",
+                "url": "/api/v2/pokemon/10153/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "butterfree-gmax",
+                "url": "/api/v2/pokemon/10189/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "orbeetle-gmax",
+                "url": "/api/v2/pokemon/10204/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "centiskorch-gmax",
+                "url": "/api/v2/pokemon/10211/"
+            },
+            "slot": 2
         }
     ]
 }

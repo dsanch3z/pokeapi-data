@@ -8,17 +8,37 @@
     "is_mega": false,
     "name": "ferrothorn",
     "names": [],
-    "order": 746,
+    "order": 757,
     "pokemon": {
         "name": "ferrothorn",
         "url": "/api/v2/pokemon/598/"
     },
     "sprites": {
         "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/598.png",
+        "back_female": null,
         "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/598.png",
+        "back_shiny_female": null,
         "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png",
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/598.png"
+        "front_female": null,
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/598.png",
+        "front_shiny_female": null
     },
+    "types": [
+        {
+            "slot": 1,
+            "type": {
+                "name": "grass",
+                "url": "/api/v2/type/12/"
+            }
+        },
+        {
+            "slot": 2,
+            "type": {
+                "name": "steel",
+                "url": "/api/v2/type/9/"
+            }
+        }
+    ],
     "version_group": {
         "name": "black-white",
         "url": "/api/v2/version-group/11/"

@@ -1,17 +1,17 @@
 {
     "descriptions": [
         {
-            "description": "Every Pok\u00e9mon on the field.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            }
-        },
-        {
             "description": "Jedes Pok\u00e9mon auf dem Feld.",
             "language": {
                 "name": "de",
                 "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "description": "Every Pok\u00e9mon on the field.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
             }
         }
     ],
@@ -28,6 +28,14 @@
         {
             "name": "flower-shield",
             "url": "/api/v2/move/579/"
+        },
+        {
+            "name": "teatime",
+            "url": "/api/v2/move/752/"
+        },
+        {
+            "name": "court-change",
+            "url": "/api/v2/move/756/"
         }
     ],
     "name": "all-pokemon",

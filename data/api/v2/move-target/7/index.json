@@ -1,17 +1,17 @@
 {
     "descriptions": [
         {
-            "description": "The user.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            }
-        },
-        {
             "description": "Der Anwender.",
             "language": {
                 "name": "de",
                 "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "description": "The user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
             }
         }
     ],
@@ -356,6 +356,26 @@
         {
             "name": "extreme-evoboost",
             "url": "/api/v2/move/702/"
+        },
+        {
+            "name": "max-guard",
+            "url": "/api/v2/move/743/"
+        },
+        {
+            "name": "stuff-cheeks",
+            "url": "/api/v2/move/747/"
+        },
+        {
+            "name": "no-retreat",
+            "url": "/api/v2/move/748/"
+        },
+        {
+            "name": "clangorous-soul",
+            "url": "/api/v2/move/775/"
+        },
+        {
+            "name": "obstruct",
+            "url": "/api/v2/move/792/"
         }
     ],
     "name": "user",

@@ -11,6 +11,13 @@
         },
         {
             "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub9ac\ud504\uadf8\ub9b0"
+        },
+        {
+            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
@@ -22,6 +29,13 @@
                 "url": "/api/v2/language/6/"
             },
             "name": "Blattgr\u00fcn"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Verde Hoja"
         },
         {
             "language": {

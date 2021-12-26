@@ -1,17 +1,17 @@
 {
     "awesome_names": [
         {
-            "awesome_name": "Cilial",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            }
-        },
-        {
             "awesome_name": "Ciliaire",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "awesome_name": "Cilial",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
             }
         }
     ],
@@ -20,17 +20,17 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Tentacles"
-        },
-        {
-            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "name": "Tentacules"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Tentacles"
         }
     ],
     "pokemon_species": [
@@ -75,6 +75,10 @@
             "url": "/api/v2/pokemon-species/592/"
         },
         {
+            "name": "jellicent",
+            "url": "/api/v2/pokemon-species/593/"
+        },
+        {
             "name": "ferrothorn",
             "url": "/api/v2/pokemon-species/598/"
         },
@@ -85,6 +89,10 @@
         {
             "name": "trevenant",
             "url": "/api/v2/pokemon-species/709/"
+        },
+        {
+            "name": "toxapex",
+            "url": "/api/v2/pokemon-species/748/"
         },
         {
             "name": "wimpod",
@@ -99,12 +107,24 @@
             "url": "/api/v2/pokemon-species/794/"
         },
         {
-            "name": "toxapex",
-            "url": "/api/v2/pokemon-species/748/"
+            "name": "sizzlipede",
+            "url": "/api/v2/pokemon-species/850/"
         },
         {
-            "name": "jellicent",
-            "url": "/api/v2/pokemon-species/593/"
+            "name": "clobbopus",
+            "url": "/api/v2/pokemon-species/852/"
+        },
+        {
+            "name": "pincurchin",
+            "url": "/api/v2/pokemon-species/871/"
+        },
+        {
+            "name": "centiskorch",
+            "url": "/api/v2/pokemon-species/851/"
+        },
+        {
+            "name": "grapploct",
+            "url": "/api/v2/pokemon-species/853/"
         }
     ]
 }

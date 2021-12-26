@@ -9,15 +9,15 @@
                 {
                     "rate": 7,
                     "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
                     }
                 },
                 {
                     "rate": 7,
                     "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
                     }
                 }
             ]
@@ -610,14 +610,14 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 15,
+                            "chance": 20,
                             "condition_values": [],
-                            "max_level": 41,
+                            "max_level": 31,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 41
+                            "min_level": 31
                         },
                         {
                             "chance": 20,
@@ -630,14 +630,14 @@
                             "min_level": 36
                         },
                         {
-                            "chance": 20,
+                            "chance": 15,
                             "condition_values": [],
-                            "max_level": 31,
+                            "max_level": 41,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 31
+                            "min_level": 41
                         }
                     ],
                     "max_chance": 55,
@@ -1021,6 +1021,109 @@
                         }
                     ],
                     "max_chance": 5,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "moltres",
+                "url": "/api/v2/pokemon/146/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 100,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "only-one",
+                                "url": "/api/v2/encounter-method/20/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "red",
+                        "url": "/api/v2/version/1/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 100,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "only-one",
+                                "url": "/api/v2/encounter-method/20/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "blue",
+                        "url": "/api/v2/version/2/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 100,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "only-one",
+                                "url": "/api/v2/encounter-method/20/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "yellow",
+                        "url": "/api/v2/version/3/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 100,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "only-one",
+                                "url": "/api/v2/encounter-method/20/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 100,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "only-one",
+                                "url": "/api/v2/encounter-method/20/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 100,
                     "version": {
                         "name": "leafgreen",
                         "url": "/api/v2/version/11/"

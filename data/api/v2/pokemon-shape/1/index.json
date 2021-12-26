@@ -1,17 +1,17 @@
 {
     "awesome_names": [
         {
-            "awesome_name": "Pomaceous",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            }
-        },
-        {
             "awesome_name": "Pomac\u00e9",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "awesome_name": "Pomaceous",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
             }
         }
     ],
@@ -20,17 +20,17 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Ball"
-        },
-        {
-            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "name": "Balle"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Ball"
         }
     ],
     "pokemon_species": [
@@ -119,6 +119,10 @@
             "url": "/api/v2/pokemon-species/436/"
         },
         {
+            "name": "mismagius",
+            "url": "/api/v2/pokemon-species/429/"
+        },
+        {
             "name": "rotom",
             "url": "/api/v2/pokemon-species/479/"
         },
@@ -135,16 +139,20 @@
             "url": "/api/v2/pokemon-species/597/"
         },
         {
+            "name": "whirlipede",
+            "url": "/api/v2/pokemon-species/544/"
+        },
+        {
+            "name": "duosion",
+            "url": "/api/v2/pokemon-species/578/"
+        },
+        {
             "name": "cryogonal",
             "url": "/api/v2/pokemon-species/615/"
         },
         {
             "name": "shelmet",
             "url": "/api/v2/pokemon-species/616/"
-        },
-        {
-            "name": "duosion",
-            "url": "/api/v2/pokemon-species/578/"
         },
         {
             "name": "carbink",
@@ -171,16 +179,28 @@
             "url": "/api/v2/pokemon-species/789/"
         },
         {
-            "name": "mismagius",
-            "url": "/api/v2/pokemon-species/429/"
+            "name": "meltan",
+            "url": "/api/v2/pokemon-species/808/"
         },
         {
-            "name": "whirlipede",
-            "url": "/api/v2/pokemon-species/544/"
+            "name": "rolycoly",
+            "url": "/api/v2/pokemon-species/837/"
         },
         {
             "name": "cosmoem",
             "url": "/api/v2/pokemon-species/790/"
+        },
+        {
+            "name": "sinistea",
+            "url": "/api/v2/pokemon-species/854/"
+        },
+        {
+            "name": "milcery",
+            "url": "/api/v2/pokemon-species/868/"
+        },
+        {
+            "name": "polteageist",
+            "url": "/api/v2/pokemon-species/855/"
         }
     ]
 }

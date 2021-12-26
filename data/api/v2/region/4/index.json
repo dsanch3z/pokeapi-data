@@ -504,6 +504,10 @@
         {
             "name": "rock-peak-ruins",
             "url": "/api/v2/location/227/"
+        },
+        {
+            "name": "roaming-sinnoh",
+            "url": "/api/v2/location/802/"
         }
     ],
     "main_generation": {
@@ -518,6 +522,13 @@
                 "url": "/api/v2/language/1/"
             },
             "name": "\u30b7\u30f3\u30aa\u30a6\u5730\u65b9"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc2e0\uc624\uc9c0\ubc29"
         },
         {
             "language": {

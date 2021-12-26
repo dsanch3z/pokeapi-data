@@ -1,10 +1,10 @@
 {
     "descriptions": [
         {
-            "description": "medium",
+            "description": "moyenne",
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+                "name": "fr",
+                "url": "/api/v2/language/5/"
             }
         },
         {
@@ -15,10 +15,10 @@
             }
         },
         {
-            "description": "moyenne",
+            "description": "medium",
             "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
+                "name": "en",
+                "url": "/api/v2/language/9/"
             }
         }
     ],
@@ -26,404 +26,404 @@
     "id": 2,
     "levels": [
         {
-            "experience": 1000000,
-            "level": 100
-        },
-        {
-            "experience": 970299,
-            "level": 99
-        },
-        {
-            "experience": 941192,
-            "level": 98
-        },
-        {
-            "experience": 912673,
-            "level": 97
-        },
-        {
-            "experience": 884736,
-            "level": 96
-        },
-        {
-            "experience": 857375,
-            "level": 95
-        },
-        {
-            "experience": 830584,
-            "level": 94
-        },
-        {
-            "experience": 804357,
-            "level": 93
-        },
-        {
-            "experience": 778688,
-            "level": 92
-        },
-        {
-            "experience": 753571,
-            "level": 91
-        },
-        {
-            "experience": 729000,
-            "level": 90
-        },
-        {
-            "experience": 704969,
-            "level": 89
-        },
-        {
-            "experience": 681472,
-            "level": 88
-        },
-        {
-            "experience": 658503,
-            "level": 87
-        },
-        {
-            "experience": 636056,
-            "level": 86
-        },
-        {
-            "experience": 614125,
-            "level": 85
-        },
-        {
-            "experience": 592704,
-            "level": 84
-        },
-        {
-            "experience": 571787,
-            "level": 83
-        },
-        {
-            "experience": 551368,
-            "level": 82
-        },
-        {
-            "experience": 531441,
-            "level": 81
-        },
-        {
-            "experience": 512000,
-            "level": 80
-        },
-        {
-            "experience": 493039,
-            "level": 79
-        },
-        {
-            "experience": 474552,
-            "level": 78
-        },
-        {
-            "experience": 456533,
-            "level": 77
-        },
-        {
-            "experience": 438976,
-            "level": 76
-        },
-        {
-            "experience": 421875,
-            "level": 75
-        },
-        {
-            "experience": 405224,
-            "level": 74
-        },
-        {
-            "experience": 389017,
-            "level": 73
-        },
-        {
-            "experience": 373248,
-            "level": 72
-        },
-        {
-            "experience": 357911,
-            "level": 71
-        },
-        {
-            "experience": 343000,
-            "level": 70
-        },
-        {
-            "experience": 328509,
-            "level": 69
-        },
-        {
-            "experience": 314432,
-            "level": 68
-        },
-        {
-            "experience": 300763,
-            "level": 67
-        },
-        {
-            "experience": 287496,
-            "level": 66
-        },
-        {
-            "experience": 274625,
-            "level": 65
-        },
-        {
-            "experience": 262144,
-            "level": 64
-        },
-        {
-            "experience": 250047,
-            "level": 63
-        },
-        {
-            "experience": 238328,
-            "level": 62
-        },
-        {
-            "experience": 226981,
-            "level": 61
-        },
-        {
-            "experience": 216000,
-            "level": 60
-        },
-        {
-            "experience": 205379,
-            "level": 59
-        },
-        {
-            "experience": 195112,
-            "level": 58
-        },
-        {
-            "experience": 185193,
-            "level": 57
-        },
-        {
-            "experience": 175616,
-            "level": 56
-        },
-        {
-            "experience": 166375,
-            "level": 55
-        },
-        {
-            "experience": 157464,
-            "level": 54
-        },
-        {
-            "experience": 148877,
-            "level": 53
-        },
-        {
-            "experience": 140608,
-            "level": 52
-        },
-        {
-            "experience": 132651,
-            "level": 51
-        },
-        {
-            "experience": 125000,
-            "level": 50
-        },
-        {
-            "experience": 117649,
-            "level": 49
-        },
-        {
-            "experience": 110592,
-            "level": 48
-        },
-        {
-            "experience": 103823,
-            "level": 47
-        },
-        {
-            "experience": 97336,
-            "level": 46
-        },
-        {
-            "experience": 91125,
-            "level": 45
-        },
-        {
-            "experience": 85184,
-            "level": 44
-        },
-        {
-            "experience": 79507,
-            "level": 43
-        },
-        {
-            "experience": 74088,
-            "level": 42
-        },
-        {
-            "experience": 68921,
-            "level": 41
-        },
-        {
-            "experience": 64000,
-            "level": 40
-        },
-        {
-            "experience": 59319,
-            "level": 39
-        },
-        {
-            "experience": 54872,
-            "level": 38
-        },
-        {
-            "experience": 50653,
-            "level": 37
-        },
-        {
-            "experience": 46656,
-            "level": 36
-        },
-        {
-            "experience": 42875,
-            "level": 35
-        },
-        {
-            "experience": 39304,
-            "level": 34
-        },
-        {
-            "experience": 35937,
-            "level": 33
-        },
-        {
-            "experience": 32768,
-            "level": 32
-        },
-        {
-            "experience": 29791,
-            "level": 31
-        },
-        {
-            "experience": 27000,
-            "level": 30
-        },
-        {
-            "experience": 24389,
-            "level": 29
-        },
-        {
-            "experience": 21952,
-            "level": 28
-        },
-        {
-            "experience": 19683,
-            "level": 27
-        },
-        {
-            "experience": 17576,
-            "level": 26
-        },
-        {
-            "experience": 15625,
-            "level": 25
-        },
-        {
-            "experience": 13824,
-            "level": 24
-        },
-        {
-            "experience": 12167,
-            "level": 23
-        },
-        {
-            "experience": 10648,
-            "level": 22
-        },
-        {
-            "experience": 9261,
-            "level": 21
-        },
-        {
-            "experience": 8000,
-            "level": 20
-        },
-        {
-            "experience": 6859,
-            "level": 19
-        },
-        {
-            "experience": 5832,
-            "level": 18
-        },
-        {
-            "experience": 4913,
-            "level": 17
-        },
-        {
-            "experience": 4096,
-            "level": 16
-        },
-        {
-            "experience": 3375,
-            "level": 15
-        },
-        {
-            "experience": 2744,
-            "level": 14
-        },
-        {
-            "experience": 2197,
-            "level": 13
-        },
-        {
-            "experience": 1728,
-            "level": 12
-        },
-        {
-            "experience": 1331,
-            "level": 11
-        },
-        {
-            "experience": 1000,
-            "level": 10
-        },
-        {
-            "experience": 729,
-            "level": 9
-        },
-        {
-            "experience": 512,
-            "level": 8
-        },
-        {
-            "experience": 343,
-            "level": 7
-        },
-        {
-            "experience": 216,
-            "level": 6
-        },
-        {
-            "experience": 125,
-            "level": 5
-        },
-        {
-            "experience": 64,
-            "level": 4
-        },
-        {
-            "experience": 27,
-            "level": 3
+            "experience": 0,
+            "level": 1
         },
         {
             "experience": 8,
             "level": 2
         },
         {
-            "experience": 0,
-            "level": 1
+            "experience": 27,
+            "level": 3
+        },
+        {
+            "experience": 64,
+            "level": 4
+        },
+        {
+            "experience": 125,
+            "level": 5
+        },
+        {
+            "experience": 216,
+            "level": 6
+        },
+        {
+            "experience": 343,
+            "level": 7
+        },
+        {
+            "experience": 512,
+            "level": 8
+        },
+        {
+            "experience": 729,
+            "level": 9
+        },
+        {
+            "experience": 1000,
+            "level": 10
+        },
+        {
+            "experience": 1331,
+            "level": 11
+        },
+        {
+            "experience": 1728,
+            "level": 12
+        },
+        {
+            "experience": 2197,
+            "level": 13
+        },
+        {
+            "experience": 2744,
+            "level": 14
+        },
+        {
+            "experience": 3375,
+            "level": 15
+        },
+        {
+            "experience": 4096,
+            "level": 16
+        },
+        {
+            "experience": 4913,
+            "level": 17
+        },
+        {
+            "experience": 5832,
+            "level": 18
+        },
+        {
+            "experience": 6859,
+            "level": 19
+        },
+        {
+            "experience": 8000,
+            "level": 20
+        },
+        {
+            "experience": 9261,
+            "level": 21
+        },
+        {
+            "experience": 10648,
+            "level": 22
+        },
+        {
+            "experience": 12167,
+            "level": 23
+        },
+        {
+            "experience": 13824,
+            "level": 24
+        },
+        {
+            "experience": 15625,
+            "level": 25
+        },
+        {
+            "experience": 17576,
+            "level": 26
+        },
+        {
+            "experience": 19683,
+            "level": 27
+        },
+        {
+            "experience": 21952,
+            "level": 28
+        },
+        {
+            "experience": 24389,
+            "level": 29
+        },
+        {
+            "experience": 27000,
+            "level": 30
+        },
+        {
+            "experience": 29791,
+            "level": 31
+        },
+        {
+            "experience": 32768,
+            "level": 32
+        },
+        {
+            "experience": 35937,
+            "level": 33
+        },
+        {
+            "experience": 39304,
+            "level": 34
+        },
+        {
+            "experience": 42875,
+            "level": 35
+        },
+        {
+            "experience": 46656,
+            "level": 36
+        },
+        {
+            "experience": 50653,
+            "level": 37
+        },
+        {
+            "experience": 54872,
+            "level": 38
+        },
+        {
+            "experience": 59319,
+            "level": 39
+        },
+        {
+            "experience": 64000,
+            "level": 40
+        },
+        {
+            "experience": 68921,
+            "level": 41
+        },
+        {
+            "experience": 74088,
+            "level": 42
+        },
+        {
+            "experience": 79507,
+            "level": 43
+        },
+        {
+            "experience": 85184,
+            "level": 44
+        },
+        {
+            "experience": 91125,
+            "level": 45
+        },
+        {
+            "experience": 97336,
+            "level": 46
+        },
+        {
+            "experience": 103823,
+            "level": 47
+        },
+        {
+            "experience": 110592,
+            "level": 48
+        },
+        {
+            "experience": 117649,
+            "level": 49
+        },
+        {
+            "experience": 125000,
+            "level": 50
+        },
+        {
+            "experience": 132651,
+            "level": 51
+        },
+        {
+            "experience": 140608,
+            "level": 52
+        },
+        {
+            "experience": 148877,
+            "level": 53
+        },
+        {
+            "experience": 157464,
+            "level": 54
+        },
+        {
+            "experience": 166375,
+            "level": 55
+        },
+        {
+            "experience": 175616,
+            "level": 56
+        },
+        {
+            "experience": 185193,
+            "level": 57
+        },
+        {
+            "experience": 195112,
+            "level": 58
+        },
+        {
+            "experience": 205379,
+            "level": 59
+        },
+        {
+            "experience": 216000,
+            "level": 60
+        },
+        {
+            "experience": 226981,
+            "level": 61
+        },
+        {
+            "experience": 238328,
+            "level": 62
+        },
+        {
+            "experience": 250047,
+            "level": 63
+        },
+        {
+            "experience": 262144,
+            "level": 64
+        },
+        {
+            "experience": 274625,
+            "level": 65
+        },
+        {
+            "experience": 287496,
+            "level": 66
+        },
+        {
+            "experience": 300763,
+            "level": 67
+        },
+        {
+            "experience": 314432,
+            "level": 68
+        },
+        {
+            "experience": 328509,
+            "level": 69
+        },
+        {
+            "experience": 343000,
+            "level": 70
+        },
+        {
+            "experience": 357911,
+            "level": 71
+        },
+        {
+            "experience": 373248,
+            "level": 72
+        },
+        {
+            "experience": 389017,
+            "level": 73
+        },
+        {
+            "experience": 405224,
+            "level": 74
+        },
+        {
+            "experience": 421875,
+            "level": 75
+        },
+        {
+            "experience": 438976,
+            "level": 76
+        },
+        {
+            "experience": 456533,
+            "level": 77
+        },
+        {
+            "experience": 474552,
+            "level": 78
+        },
+        {
+            "experience": 493039,
+            "level": 79
+        },
+        {
+            "experience": 512000,
+            "level": 80
+        },
+        {
+            "experience": 531441,
+            "level": 81
+        },
+        {
+            "experience": 551368,
+            "level": 82
+        },
+        {
+            "experience": 571787,
+            "level": 83
+        },
+        {
+            "experience": 592704,
+            "level": 84
+        },
+        {
+            "experience": 614125,
+            "level": 85
+        },
+        {
+            "experience": 636056,
+            "level": 86
+        },
+        {
+            "experience": 658503,
+            "level": 87
+        },
+        {
+            "experience": 681472,
+            "level": 88
+        },
+        {
+            "experience": 704969,
+            "level": 89
+        },
+        {
+            "experience": 729000,
+            "level": 90
+        },
+        {
+            "experience": 753571,
+            "level": 91
+        },
+        {
+            "experience": 778688,
+            "level": 92
+        },
+        {
+            "experience": 804357,
+            "level": 93
+        },
+        {
+            "experience": 830584,
+            "level": 94
+        },
+        {
+            "experience": 857375,
+            "level": 95
+        },
+        {
+            "experience": 884736,
+            "level": 96
+        },
+        {
+            "experience": 912673,
+            "level": 97
+        },
+        {
+            "experience": 941192,
+            "level": 98
+        },
+        {
+            "experience": 970299,
+            "level": 99
+        },
+        {
+            "experience": 1000000,
+            "level": 100
         }
     ],
     "name": "medium",
@@ -483,10 +483,6 @@
         {
             "name": "mankey",
             "url": "/api/v2/pokemon-species/56/"
-        },
-        {
-            "name": "ponyta",
-            "url": "/api/v2/pokemon-species/77/"
         },
         {
             "name": "metapod",
@@ -561,8 +557,8 @@
             "url": "/api/v2/pokemon-species/57/"
         },
         {
-            "name": "rapidash",
-            "url": "/api/v2/pokemon-species/78/"
+            "name": "ponyta",
+            "url": "/api/v2/pokemon-species/77/"
         },
         {
             "name": "slowpoke",
@@ -655,6 +651,14 @@
         {
             "name": "kabuto",
             "url": "/api/v2/pokemon-species/140/"
+        },
+        {
+            "name": "rapidash",
+            "url": "/api/v2/pokemon-species/78/"
+        },
+        {
+            "name": "slowbro",
+            "url": "/api/v2/pokemon-species/80/"
         },
         {
             "name": "magneton",
@@ -801,10 +805,6 @@
             "url": "/api/v2/pokemon-species/223/"
         },
         {
-            "name": "phanpy",
-            "url": "/api/v2/pokemon-species/231/"
-        },
-        {
             "name": "furret",
             "url": "/api/v2/pokemon-species/162/"
         },
@@ -869,16 +869,8 @@
             "url": "/api/v2/pokemon-species/224/"
         },
         {
-            "name": "kingdra",
-            "url": "/api/v2/pokemon-species/230/"
-        },
-        {
-            "name": "donphan",
-            "url": "/api/v2/pokemon-species/232/"
-        },
-        {
-            "name": "porygon2",
-            "url": "/api/v2/pokemon-species/233/"
+            "name": "phanpy",
+            "url": "/api/v2/pokemon-species/231/"
         },
         {
             "name": "tyrogue",
@@ -921,16 +913,20 @@
             "url": "/api/v2/pokemon-species/299/"
         },
         {
-            "name": "meditite",
-            "url": "/api/v2/pokemon-species/307/"
+            "name": "kingdra",
+            "url": "/api/v2/pokemon-species/230/"
         },
         {
-            "name": "plusle",
-            "url": "/api/v2/pokemon-species/311/"
+            "name": "donphan",
+            "url": "/api/v2/pokemon-species/232/"
         },
         {
-            "name": "minun",
-            "url": "/api/v2/pokemon-species/312/"
+            "name": "porygon2",
+            "url": "/api/v2/pokemon-species/233/"
+        },
+        {
+            "name": "hitmontop",
+            "url": "/api/v2/pokemon-species/237/"
         },
         {
             "name": "mightyena",
@@ -965,8 +961,16 @@
             "url": "/api/v2/pokemon-species/284/"
         },
         {
-            "name": "medicham",
-            "url": "/api/v2/pokemon-species/308/"
+            "name": "meditite",
+            "url": "/api/v2/pokemon-species/307/"
+        },
+        {
+            "name": "plusle",
+            "url": "/api/v2/pokemon-species/311/"
+        },
+        {
+            "name": "minun",
+            "url": "/api/v2/pokemon-species/312/"
         },
         {
             "name": "numel",
@@ -995,6 +999,10 @@
         {
             "name": "snorunt",
             "url": "/api/v2/pokemon-species/361/"
+        },
+        {
+            "name": "medicham",
+            "url": "/api/v2/pokemon-species/308/"
         },
         {
             "name": "camerupt",
@@ -1085,10 +1093,6 @@
             "url": "/api/v2/pokemon-species/421/"
         },
         {
-            "name": "gastrodon",
-            "url": "/api/v2/pokemon-species/423/"
-        },
-        {
             "name": "lopunny",
             "url": "/api/v2/pokemon-species/428/"
         },
@@ -1099,42 +1103,6 @@
         {
             "name": "bronzong",
             "url": "/api/v2/pokemon-species/437/"
-        },
-        {
-            "name": "toxicroak",
-            "url": "/api/v2/pokemon-species/454/"
-        },
-        {
-            "name": "magnezone",
-            "url": "/api/v2/pokemon-species/462/"
-        },
-        {
-            "name": "lickilicky",
-            "url": "/api/v2/pokemon-species/463/"
-        },
-        {
-            "name": "tangrowth",
-            "url": "/api/v2/pokemon-species/465/"
-        },
-        {
-            "name": "electivire",
-            "url": "/api/v2/pokemon-species/466/"
-        },
-        {
-            "name": "magmortar",
-            "url": "/api/v2/pokemon-species/467/"
-        },
-        {
-            "name": "yanmega",
-            "url": "/api/v2/pokemon-species/469/"
-        },
-        {
-            "name": "leafeon",
-            "url": "/api/v2/pokemon-species/470/"
-        },
-        {
-            "name": "porygon-z",
-            "url": "/api/v2/pokemon-species/474/"
         },
         {
             "name": "rotom",
@@ -1173,24 +1141,40 @@
             "url": "/api/v2/pokemon-species/529/"
         },
         {
-            "name": "throh",
-            "url": "/api/v2/pokemon-species/538/"
+            "name": "magnezone",
+            "url": "/api/v2/pokemon-species/462/"
         },
         {
-            "name": "sawk",
-            "url": "/api/v2/pokemon-species/539/"
+            "name": "lickilicky",
+            "url": "/api/v2/pokemon-species/463/"
         },
         {
-            "name": "cottonee",
-            "url": "/api/v2/pokemon-species/546/"
+            "name": "tangrowth",
+            "url": "/api/v2/pokemon-species/465/"
         },
         {
-            "name": "petilil",
-            "url": "/api/v2/pokemon-species/548/"
+            "name": "electivire",
+            "url": "/api/v2/pokemon-species/466/"
         },
         {
-            "name": "basculin",
-            "url": "/api/v2/pokemon-species/550/"
+            "name": "magmortar",
+            "url": "/api/v2/pokemon-species/467/"
+        },
+        {
+            "name": "yanmega",
+            "url": "/api/v2/pokemon-species/469/"
+        },
+        {
+            "name": "leafeon",
+            "url": "/api/v2/pokemon-species/470/"
+        },
+        {
+            "name": "glaceon",
+            "url": "/api/v2/pokemon-species/471/"
+        },
+        {
+            "name": "porygon-z",
+            "url": "/api/v2/pokemon-species/474/"
         },
         {
             "name": "probopass",
@@ -1221,6 +1205,10 @@
             "url": "/api/v2/pokemon-species/516/"
         },
         {
+            "name": "zebstrika",
+            "url": "/api/v2/pokemon-species/523/"
+        },
+        {
             "name": "swoobat",
             "url": "/api/v2/pokemon-species/528/"
         },
@@ -1229,12 +1217,24 @@
             "url": "/api/v2/pokemon-species/530/"
         },
         {
-            "name": "whimsicott",
-            "url": "/api/v2/pokemon-species/547/"
+            "name": "throh",
+            "url": "/api/v2/pokemon-species/538/"
         },
         {
-            "name": "lilligant",
-            "url": "/api/v2/pokemon-species/549/"
+            "name": "sawk",
+            "url": "/api/v2/pokemon-species/539/"
+        },
+        {
+            "name": "cottonee",
+            "url": "/api/v2/pokemon-species/546/"
+        },
+        {
+            "name": "petilil",
+            "url": "/api/v2/pokemon-species/548/"
+        },
+        {
+            "name": "basculin",
+            "url": "/api/v2/pokemon-species/550/"
         },
         {
             "name": "maractus",
@@ -1305,6 +1305,66 @@
             "url": "/api/v2/pokemon-species/605/"
         },
         {
+            "name": "whimsicott",
+            "url": "/api/v2/pokemon-species/547/"
+        },
+        {
+            "name": "lilligant",
+            "url": "/api/v2/pokemon-species/549/"
+        },
+        {
+            "name": "crustle",
+            "url": "/api/v2/pokemon-species/558/"
+        },
+        {
+            "name": "scrafty",
+            "url": "/api/v2/pokemon-species/560/"
+        },
+        {
+            "name": "carracosta",
+            "url": "/api/v2/pokemon-species/565/"
+        },
+        {
+            "name": "archeops",
+            "url": "/api/v2/pokemon-species/567/"
+        },
+        {
+            "name": "garbodor",
+            "url": "/api/v2/pokemon-species/569/"
+        },
+        {
+            "name": "swanna",
+            "url": "/api/v2/pokemon-species/581/"
+        },
+        {
+            "name": "sawsbuck",
+            "url": "/api/v2/pokemon-species/586/"
+        },
+        {
+            "name": "escavalier",
+            "url": "/api/v2/pokemon-species/589/"
+        },
+        {
+            "name": "amoonguss",
+            "url": "/api/v2/pokemon-species/591/"
+        },
+        {
+            "name": "jellicent",
+            "url": "/api/v2/pokemon-species/593/"
+        },
+        {
+            "name": "galvantula",
+            "url": "/api/v2/pokemon-species/596/"
+        },
+        {
+            "name": "ferrothorn",
+            "url": "/api/v2/pokemon-species/598/"
+        },
+        {
+            "name": "beheeyem",
+            "url": "/api/v2/pokemon-species/606/"
+        },
+        {
             "name": "cubchoo",
             "url": "/api/v2/pokemon-species/613/"
         },
@@ -1343,66 +1403,6 @@
         {
             "name": "durant",
             "url": "/api/v2/pokemon-species/632/"
-        },
-        {
-            "name": "scrafty",
-            "url": "/api/v2/pokemon-species/560/"
-        },
-        {
-            "name": "cofagrigus",
-            "url": "/api/v2/pokemon-species/563/"
-        },
-        {
-            "name": "carracosta",
-            "url": "/api/v2/pokemon-species/565/"
-        },
-        {
-            "name": "archeops",
-            "url": "/api/v2/pokemon-species/567/"
-        },
-        {
-            "name": "garbodor",
-            "url": "/api/v2/pokemon-species/569/"
-        },
-        {
-            "name": "swanna",
-            "url": "/api/v2/pokemon-species/581/"
-        },
-        {
-            "name": "sawsbuck",
-            "url": "/api/v2/pokemon-species/586/"
-        },
-        {
-            "name": "escavalier",
-            "url": "/api/v2/pokemon-species/589/"
-        },
-        {
-            "name": "amoonguss",
-            "url": "/api/v2/pokemon-species/591/"
-        },
-        {
-            "name": "galvantula",
-            "url": "/api/v2/pokemon-species/596/"
-        },
-        {
-            "name": "ferrothorn",
-            "url": "/api/v2/pokemon-species/598/"
-        },
-        {
-            "name": "beheeyem",
-            "url": "/api/v2/pokemon-species/606/"
-        },
-        {
-            "name": "accelgor",
-            "url": "/api/v2/pokemon-species/617/"
-        },
-        {
-            "name": "golurk",
-            "url": "/api/v2/pokemon-species/623/"
-        },
-        {
-            "name": "bisharp",
-            "url": "/api/v2/pokemon-species/625/"
         },
         {
             "name": "bunnelby",
@@ -1449,6 +1449,66 @@
             "url": "/api/v2/pokemon-species/686/"
         },
         {
+            "name": "beartic",
+            "url": "/api/v2/pokemon-species/614/"
+        },
+        {
+            "name": "accelgor",
+            "url": "/api/v2/pokemon-species/617/"
+        },
+        {
+            "name": "golurk",
+            "url": "/api/v2/pokemon-species/623/"
+        },
+        {
+            "name": "bisharp",
+            "url": "/api/v2/pokemon-species/625/"
+        },
+        {
+            "name": "diggersby",
+            "url": "/api/v2/pokemon-species/660/"
+        },
+        {
+            "name": "spewpa",
+            "url": "/api/v2/pokemon-species/665/"
+        },
+        {
+            "name": "floette",
+            "url": "/api/v2/pokemon-species/670/"
+        },
+        {
+            "name": "florges",
+            "url": "/api/v2/pokemon-species/671/"
+        },
+        {
+            "name": "gogoat",
+            "url": "/api/v2/pokemon-species/673/"
+        },
+        {
+            "name": "pangoro",
+            "url": "/api/v2/pokemon-species/675/"
+        },
+        {
+            "name": "meowstic",
+            "url": "/api/v2/pokemon-species/678/"
+        },
+        {
+            "name": "doublade",
+            "url": "/api/v2/pokemon-species/680/"
+        },
+        {
+            "name": "aegislash",
+            "url": "/api/v2/pokemon-species/681/"
+        },
+        {
+            "name": "aromatisse",
+            "url": "/api/v2/pokemon-species/683/"
+        },
+        {
+            "name": "slurpuff",
+            "url": "/api/v2/pokemon-species/685/"
+        },
+        {
             "name": "binacle",
             "url": "/api/v2/pokemon-species/688/"
         },
@@ -1491,90 +1551,6 @@
         {
             "name": "noibat",
             "url": "/api/v2/pokemon-species/714/"
-        },
-        {
-            "name": "diggersby",
-            "url": "/api/v2/pokemon-species/660/"
-        },
-        {
-            "name": "spewpa",
-            "url": "/api/v2/pokemon-species/665/"
-        },
-        {
-            "name": "vivillon",
-            "url": "/api/v2/pokemon-species/666/"
-        },
-        {
-            "name": "floette",
-            "url": "/api/v2/pokemon-species/670/"
-        },
-        {
-            "name": "florges",
-            "url": "/api/v2/pokemon-species/671/"
-        },
-        {
-            "name": "gogoat",
-            "url": "/api/v2/pokemon-species/673/"
-        },
-        {
-            "name": "pangoro",
-            "url": "/api/v2/pokemon-species/675/"
-        },
-        {
-            "name": "meowstic",
-            "url": "/api/v2/pokemon-species/678/"
-        },
-        {
-            "name": "doublade",
-            "url": "/api/v2/pokemon-species/680/"
-        },
-        {
-            "name": "aegislash",
-            "url": "/api/v2/pokemon-species/681/"
-        },
-        {
-            "name": "aromatisse",
-            "url": "/api/v2/pokemon-species/683/"
-        },
-        {
-            "name": "malamar",
-            "url": "/api/v2/pokemon-species/687/"
-        },
-        {
-            "name": "barbaracle",
-            "url": "/api/v2/pokemon-species/689/"
-        },
-        {
-            "name": "dragalge",
-            "url": "/api/v2/pokemon-species/691/"
-        },
-        {
-            "name": "heliolisk",
-            "url": "/api/v2/pokemon-species/695/"
-        },
-        {
-            "name": "tyrantrum",
-            "url": "/api/v2/pokemon-species/697/"
-        },
-        {
-            "name": "aurorus",
-            "url": "/api/v2/pokemon-species/699/"
-        },
-        {
-            "name": "sylveon",
-            "url": "/api/v2/pokemon-species/700/"
-        },
-        {
-            "name": "trevenant",
-            "url": "/api/v2/pokemon-species/709/"
-        },
-        {
-            "name": "avalugg",
-            "url": "/api/v2/pokemon-species/713/"
-        },
-        {
-            "name": "noivern",
-            "url": "/api/v2/pokemon-species/715/"
         },
         {
             "name": "pikipek",
@@ -1633,36 +1609,44 @@
             "url": "/api/v2/pokemon-species/759/"
         },
         {
-            "name": "wimpod",
-            "url": "/api/v2/pokemon-species/767/"
+            "name": "barbaracle",
+            "url": "/api/v2/pokemon-species/689/"
         },
         {
-            "name": "sandygast",
-            "url": "/api/v2/pokemon-species/769/"
+            "name": "dragalge",
+            "url": "/api/v2/pokemon-species/691/"
         },
         {
-            "name": "turtonator",
-            "url": "/api/v2/pokemon-species/776/"
+            "name": "heliolisk",
+            "url": "/api/v2/pokemon-species/695/"
         },
         {
-            "name": "togedemaru",
-            "url": "/api/v2/pokemon-species/777/"
+            "name": "aurorus",
+            "url": "/api/v2/pokemon-species/699/"
         },
         {
-            "name": "mimikyu",
-            "url": "/api/v2/pokemon-species/778/"
+            "name": "sylveon",
+            "url": "/api/v2/pokemon-species/700/"
         },
         {
-            "name": "bruxish",
-            "url": "/api/v2/pokemon-species/779/"
+            "name": "trevenant",
+            "url": "/api/v2/pokemon-species/709/"
         },
         {
-            "name": "drampa",
-            "url": "/api/v2/pokemon-species/780/"
+            "name": "gourgeist",
+            "url": "/api/v2/pokemon-species/711/"
         },
         {
-            "name": "dhelmise",
-            "url": "/api/v2/pokemon-species/781/"
+            "name": "avalugg",
+            "url": "/api/v2/pokemon-species/713/"
+        },
+        {
+            "name": "noivern",
+            "url": "/api/v2/pokemon-species/715/"
+        },
+        {
+            "name": "trumbeak",
+            "url": "/api/v2/pokemon-species/732/"
         },
         {
             "name": "toucannon",
@@ -1705,6 +1689,10 @@
             "url": "/api/v2/pokemon-species/752/"
         },
         {
+            "name": "lurantis",
+            "url": "/api/v2/pokemon-species/754/"
+        },
+        {
             "name": "shiinotic",
             "url": "/api/v2/pokemon-species/756/"
         },
@@ -1717,56 +1705,212 @@
             "url": "/api/v2/pokemon-species/760/"
         },
         {
-            "name": "golisopod",
-            "url": "/api/v2/pokemon-species/768/"
+            "name": "wimpod",
+            "url": "/api/v2/pokemon-species/767/"
+        },
+        {
+            "name": "sandygast",
+            "url": "/api/v2/pokemon-species/769/"
+        },
+        {
+            "name": "turtonator",
+            "url": "/api/v2/pokemon-species/776/"
+        },
+        {
+            "name": "togedemaru",
+            "url": "/api/v2/pokemon-species/777/"
+        },
+        {
+            "name": "mimikyu",
+            "url": "/api/v2/pokemon-species/778/"
+        },
+        {
+            "name": "bruxish",
+            "url": "/api/v2/pokemon-species/779/"
+        },
+        {
+            "name": "drampa",
+            "url": "/api/v2/pokemon-species/780/"
+        },
+        {
+            "name": "dhelmise",
+            "url": "/api/v2/pokemon-species/781/"
+        },
+        {
+            "name": "skwovet",
+            "url": "/api/v2/pokemon-species/819/"
+        },
+        {
+            "name": "blipbug",
+            "url": "/api/v2/pokemon-species/824/"
+        },
+        {
+            "name": "gossifleur",
+            "url": "/api/v2/pokemon-species/829/"
+        },
+        {
+            "name": "wooloo",
+            "url": "/api/v2/pokemon-species/831/"
+        },
+        {
+            "name": "chewtle",
+            "url": "/api/v2/pokemon-species/833/"
         },
         {
             "name": "palossand",
             "url": "/api/v2/pokemon-species/770/"
         },
         {
-            "name": "slowbro",
-            "url": "/api/v2/pokemon-species/80/"
+            "name": "greedent",
+            "url": "/api/v2/pokemon-species/820/"
         },
         {
-            "name": "hitmontop",
-            "url": "/api/v2/pokemon-species/237/"
+            "name": "dottler",
+            "url": "/api/v2/pokemon-species/825/"
         },
         {
-            "name": "glaceon",
-            "url": "/api/v2/pokemon-species/471/"
+            "name": "orbeetle",
+            "url": "/api/v2/pokemon-species/826/"
         },
         {
-            "name": "zebstrika",
-            "url": "/api/v2/pokemon-species/523/"
+            "name": "eldegoss",
+            "url": "/api/v2/pokemon-species/830/"
         },
         {
-            "name": "crustle",
-            "url": "/api/v2/pokemon-species/558/"
+            "name": "dubwool",
+            "url": "/api/v2/pokemon-species/832/"
         },
         {
-            "name": "jellicent",
-            "url": "/api/v2/pokemon-species/593/"
+            "name": "drednaw",
+            "url": "/api/v2/pokemon-species/834/"
         },
         {
-            "name": "beartic",
-            "url": "/api/v2/pokemon-species/614/"
+            "name": "silicobra",
+            "url": "/api/v2/pokemon-species/843/"
         },
         {
-            "name": "slurpuff",
-            "url": "/api/v2/pokemon-species/685/"
+            "name": "cramorant",
+            "url": "/api/v2/pokemon-species/845/"
         },
         {
-            "name": "gourgeist",
-            "url": "/api/v2/pokemon-species/711/"
+            "name": "sizzlipede",
+            "url": "/api/v2/pokemon-species/850/"
         },
         {
-            "name": "trumbeak",
-            "url": "/api/v2/pokemon-species/732/"
+            "name": "sinistea",
+            "url": "/api/v2/pokemon-species/854/"
         },
         {
-            "name": "lurantis",
-            "url": "/api/v2/pokemon-species/754/"
+            "name": "impidimp",
+            "url": "/api/v2/pokemon-species/859/"
+        },
+        {
+            "name": "milcery",
+            "url": "/api/v2/pokemon-species/868/"
+        },
+        {
+            "name": "falinks",
+            "url": "/api/v2/pokemon-species/870/"
+        },
+        {
+            "name": "pincurchin",
+            "url": "/api/v2/pokemon-species/871/"
+        },
+        {
+            "name": "snom",
+            "url": "/api/v2/pokemon-species/872/"
+        },
+        {
+            "name": "morpeko",
+            "url": "/api/v2/pokemon-species/877/"
+        },
+        {
+            "name": "cufant",
+            "url": "/api/v2/pokemon-species/878/"
+        },
+        {
+            "name": "duraludon",
+            "url": "/api/v2/pokemon-species/884/"
+        },
+        {
+            "name": "gastrodon",
+            "url": "/api/v2/pokemon-species/423/"
+        },
+        {
+            "name": "toxicroak",
+            "url": "/api/v2/pokemon-species/454/"
+        },
+        {
+            "name": "cofagrigus",
+            "url": "/api/v2/pokemon-species/563/"
+        },
+        {
+            "name": "vivillon",
+            "url": "/api/v2/pokemon-species/666/"
+        },
+        {
+            "name": "malamar",
+            "url": "/api/v2/pokemon-species/687/"
+        },
+        {
+            "name": "tyrantrum",
+            "url": "/api/v2/pokemon-species/697/"
+        },
+        {
+            "name": "sandaconda",
+            "url": "/api/v2/pokemon-species/844/"
+        },
+        {
+            "name": "centiskorch",
+            "url": "/api/v2/pokemon-species/851/"
+        },
+        {
+            "name": "polteageist",
+            "url": "/api/v2/pokemon-species/855/"
+        },
+        {
+            "name": "morgrem",
+            "url": "/api/v2/pokemon-species/860/"
+        },
+        {
+            "name": "grimmsnarl",
+            "url": "/api/v2/pokemon-species/861/"
+        },
+        {
+            "name": "obstagoon",
+            "url": "/api/v2/pokemon-species/862/"
+        },
+        {
+            "name": "perrserker",
+            "url": "/api/v2/pokemon-species/863/"
+        },
+        {
+            "name": "sirfetchd",
+            "url": "/api/v2/pokemon-species/865/"
+        },
+        {
+            "name": "mr-rime",
+            "url": "/api/v2/pokemon-species/866/"
+        },
+        {
+            "name": "runerigus",
+            "url": "/api/v2/pokemon-species/867/"
+        },
+        {
+            "name": "alcremie",
+            "url": "/api/v2/pokemon-species/869/"
+        },
+        {
+            "name": "frosmoth",
+            "url": "/api/v2/pokemon-species/873/"
+        },
+        {
+            "name": "copperajah",
+            "url": "/api/v2/pokemon-species/879/"
+        },
+        {
+            "name": "golisopod",
+            "url": "/api/v2/pokemon-species/768/"
         }
     ]
 }
