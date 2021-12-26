@@ -28,24 +28,13 @@
     "flavor_text_entries": [
         {
             "language": {
-                "name": "zh-Hans",
-                "url": "/api/v2/language/12/"
+                "name": "en",
+                "url": "/api/v2/language/9/"
             },
-            "text": "\u6709\u6bd2\u7684\u5c0f\u9488\u3002\n\u643a\u5e26\u540e\uff0c\u6bd2\u5c5e\u6027\u7684\n\u62db\u5f0f\u5a01\u529b\u5c31\u4f1a\u63d0\u9ad8\u3002",
+            "text": "A hold item that\nraises the power of\nPOISON-type moves.",
             "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
             }
         },
         {
@@ -53,98 +42,10 @@
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "text": "An item to be held by a Pok\u00e9mon. This small,\npoisonous barb boosts the power of\nPoison-type moves.",
+            "text": "A hold item that\nraises the power of\nPOISON-type moves.",
             "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "text": "Strumento da dare a un Pok\u00e9mon.\nAculeo piccolo e tossico che potenzia le mosse\ndi tipo Veleno.",
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "text": "Flecha venenosa que refuerza los movimientos de\ntipo Veneno. Debe llevarla un Pok\u00e9mon.",
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "text": "Ein Item zum Tragen. Ein schmaler und giftiger\nWiderhaken, der Attacken vom Typ Gift verst\u00e4rkt.",
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "text": "Objet \u00e0 tenir. Un petit pic empoisonn\u00e9 qui\naugmente la puissance des capacit\u00e9s de\ntype Poison.",
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "language": {
-                "name": "zh-Hant",
-                "url": "/api/v2/language/4/"
-            },
-            "text": "\u6709\u6bd2\u7684\u5c0f\u91dd\u3002\n\u651c\u5e36\u5f8c\uff0c\u6bd2\u5c6c\u6027\u7684\n\u62db\u5f0f\u5a01\u529b\u5c31\u6703\u63d0\u9ad8\u3002",
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "text": "\ub3c5\uc774 \uc788\ub294 \uc791\uc740 \uce68.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \ub3c5\ud0c0\uc785\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
             }
         },
         {
@@ -152,76 +53,10 @@
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "text": "An item to be held by a Pok\u00e9mon.\nThis small, poisonous barb boosts\nthe power of Poison-type moves.",
+            "text": "An item to be held by a POK\u00e9MON.\nA small, poisonous barb that boosts\nthe power of POISON-type moves.",
             "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "text": "Strumento da dare a un Pok\u00e9mon.\nAculeo piccolo e tossico che potenzia le mosse\ndi tipo Veleno.",
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "text": "Debe llevarlo un Pok\u00e9mon. Aumenta la dulzura en\nlos concursos.",
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "text": "Ein Item zum Tragen. Ein schmaler und giftiger\nWiderhaken, der Attacken vom Typ Gift verst\u00e4rkt.",
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "text": "Objet \u00e0 tenir. Un petit pic empoisonn\u00e9 qui\naugmente la puissance des capacit\u00e9s de\ntype Poison.",
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "text": "\ub3c5\uc774 \uc788\ub294 \uc791\uc740 \uce68.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \ub3c5\ud0c0\uc785\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
             }
         },
         {
@@ -231,41 +66,8 @@
             },
             "text": "An item to be held by a Pok\u00e9mon.\nIt is a small, poisonous barb that ups\nthe power of Poison-type moves.",
             "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "text": "An item to be held by a Pok\u00e9mon.\nIt is a small, poisonous barb that ups\nthe power of Poison-type moves.",
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "text": "Objet \u00e0 tenir. Petit pic empoisonn\u00e9\nmontant la puissance des capacit\u00e9s\nde type Poison.",
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "text": "An item to be held by a Pok\u00e9mon.\nIt is a small, poisonous barb that ups\nthe power of Poison-type moves.",
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
             }
         },
         {
@@ -286,8 +88,19 @@
             },
             "text": "An item to be held by a Pok\u00e9mon.\nIt is a small, poisonous barb that ups\nthe power of Poison-type moves.",
             "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Petit pic empoisonn\u00e9\nmontant la puissance des capacit\u00e9s\nde type Poison.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
             }
         },
         {
@@ -295,10 +108,10 @@
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "text": "An item to be held by a POK\u00e9MON.\nA small, poisonous barb that boosts\nthe power of POISON-type moves.",
+            "text": "An item to be held by a Pok\u00e9mon.\nIt is a small, poisonous barb that ups\nthe power of Poison-type moves.",
             "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
             }
         },
         {
@@ -306,10 +119,76 @@
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "text": "A hold item that\nraises the power of\nPOISON-type moves.",
+            "text": "An item to be held by a Pok\u00e9mon.\nIt is a small, poisonous barb that ups\nthe power of Poison-type moves.",
             "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ub3c5\uc774 \uc788\ub294 \uc791\uc740 \uce68.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \ub3c5\ud0c0\uc785\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Un petit pic empoisonn\u00e9 qui\naugmente la puissance des capacit\u00e9s de\ntype Poison.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item zum Tragen. Ein schmaler und giftiger\nWiderhaken, der Attacken vom Typ Gift verst\u00e4rkt.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Debe llevarlo un Pok\u00e9mon. Aumenta la dulzura en\nlos concursos.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nAculeo piccolo e tossico che potenzia le mosse\ndi tipo Veleno.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
             }
         },
         {
@@ -317,10 +196,461 @@
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "text": "A hold item that\nraises the power of\nPOISON-type moves.",
+            "text": "An item to be held by a Pok\u00e9mon.\nThis small, poisonous barb boosts\nthe power of Poison-type moves.",
             "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ub3c5\uc774 \uc788\ub294 \uc791\uc740 \uce68.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \ub3c5\ud0c0\uc785\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u6709\u6bd2\u7684\u5c0f\u91dd\u3002\n\u651c\u5e36\u5f8c\uff0c\u6bd2\u5c6c\u6027\u7684\n\u62db\u5f0f\u5a01\u529b\u5c31\u6703\u63d0\u9ad8\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Un petit pic empoisonn\u00e9 qui\naugmente la puissance des capacit\u00e9s de\ntype Poison.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item zum Tragen. Ein schmaler und giftiger\nWiderhaken, der Attacken vom Typ Gift verst\u00e4rkt.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Flecha venenosa que refuerza los movimientos de\ntipo Veneno. Debe llevarla un Pok\u00e9mon.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nAculeo piccolo e tossico che potenzia le mosse\ndi tipo Veleno.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. This small,\npoisonous barb boosts the power of\nPoison-type moves.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u6709\u6bd2\u7684\u5c0f\u9488\u3002\n\u643a\u5e26\u540e\uff0c\u6bd2\u5c5e\u6027\u7684\n\u62db\u5f0f\u5a01\u529b\u5c31\u4f1a\u63d0\u9ad8\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ub3c5\uc774 \uc788\ub294 \uc791\uc740 \uce68.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \ub3c5\ud0c0\uc785\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u6709\u6bd2\u7684\u5c0f\u91dd\u3002\n\u651c\u5e36\u5f8c\uff0c\u6bd2\u5c6c\u6027\u7684\n\u62db\u5f0f\u5a01\u529b\u5c31\u6703\u63d0\u9ad8\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Un petit pic empoisonn\u00e9 qui\naugmente la puissance des capacit\u00e9s de\ntype Poison.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item zum Tragen. Ein schmaler und giftiger\nWiderhaken, der Attacken vom Typ Gift verst\u00e4rkt.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Flecha venenosa que refuerza los movimientos de\ntipo Veneno. Debe llevarla un Pok\u00e9mon.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nAculeo piccolo e tossico che potenzia le mosse\ndi tipo Veleno.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. This small,\npoisonous barb boosts the power of\nPoison-type moves.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u6709\u6bd2\u7684\u5c0f\u9488\u3002\n\u643a\u5e26\u540e\uff0c\u6bd2\u5c5e\u6027\u7684\n\u62db\u5f0f\u5a01\u529b\u5c31\u4f1a\u63d0\u9ad8\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "/api/v2/version-group/19/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ub3c5\uc774 \uc788\ub294 \uc791\uc740 \uce68.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \ub3c5\ud0c0\uc785\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "/api/v2/version-group/19/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u6709\u6bd2\u7684\u5c0f\u91dd\u3002\n\u651c\u5e36\u5f8c\uff0c\u6bd2\u5c6c\u6027\u7684\n\u62db\u5f0f\u5a01\u529b\u5c31\u6703\u63d0\u9ad8\u3002",
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "/api/v2/version-group/19/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Un petit pic empoisonn\u00e9 qui augmente\nla puissance des capacit\u00e9s de type Poison.",
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "/api/v2/version-group/19/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item zum Tragen. Ein schmaler und giftiger\nWiderhaken, der Attacken vom Typ Gift verst\u00e4rkt.",
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "/api/v2/version-group/19/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Flecha venenosa que refuerza los movimientos de\ntipo Veneno. Debe llevarla un Pok\u00e9mon.",
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "/api/v2/version-group/19/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nAculeo piccolo e tossico che potenzia le mosse\ndi tipo Veleno.",
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "/api/v2/version-group/19/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. This small,\npoisonous barb boosts the power of\nPoison-type moves.",
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "/api/v2/version-group/19/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "/api/v2/version-group/19/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u6709\u6bd2\u7684\u5c0f\u9488\u3002\n\u643a\u5e26\u540e\uff0c\u6bd2\u5c5e\u6027\u7684\n\u62db\u5f0f\u5a01\u529b\u5c31\u4f1a\u63d0\u9ad8\u3002",
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "/api/v2/version-group/19/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ub3c5\uc774 \uc788\ub294 \uc791\uc740 \uce68.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \ub3c5\ud0c0\uc785\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u6709\u6bd2\u7684\u5c0f\u91dd\u3002\n\u651c\u5e36\u5f8c\uff0c\u6bd2\u5c6c\u6027\u7684\n\u62db\u5f0f\u5a01\u529b\u5c31\u6703\u63d0\u9ad8\u3002",
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Un petit pic empoisonn\u00e9 qui augmente\nla puissance des capacit\u00e9s de type Poison.",
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item zum Tragen. Ein schmaler und giftiger\nWiderhaken, der Attacken vom Typ Gift verst\u00e4rkt.",
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Flecha venenosa que refuerza los movimientos de tipo\nVeneno. Debe llevarla un Pok\u00e9mon.",
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nAculeo piccolo e tossico che potenzia le mosse\ndi tipo Veleno.",
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. This small,\npoisonous barb boosts the power of\nPoison-type moves.",
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u3069\u304f\u306e\u3042\u308b\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u3069\u304f\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u6709\u6bd2\u7684\u5c0f\u9488\u3002\n\u643a\u5e26\u540e\uff0c\u6bd2\u5c5e\u6027\u7684\n\u62db\u5f0f\u5a01\u529b\u5c31\u4f1a\u63d0\u9ad8\u3002",
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
             }
         }
     ],
@@ -331,17 +661,17 @@
     "fling_power": 70,
     "game_indices": [
         {
-            "game_index": 245,
+            "game_index": 211,
             "generation": {
-                "name": "sun-moon",
-                "url": "/api/v2/generation/7/"
+                "name": "generation-iii",
+                "url": "/api/v2/generation/3/"
             }
         },
         {
             "game_index": 245,
             "generation": {
-                "name": "generation-vi",
-                "url": "/api/v2/generation/6/"
+                "name": "generation-iv",
+                "url": "/api/v2/generation/4/"
             }
         },
         {
@@ -354,15 +684,22 @@
         {
             "game_index": 245,
             "generation": {
-                "name": "generation-iv",
-                "url": "/api/v2/generation/4/"
+                "name": "generation-vi",
+                "url": "/api/v2/generation/6/"
             }
         },
         {
-            "game_index": 211,
+            "game_index": 245,
             "generation": {
-                "name": "generation-iii",
-                "url": "/api/v2/generation/3/"
+                "name": "generation-vii",
+                "url": "/api/v2/generation/7/"
+            }
+        },
+        {
+            "game_index": 245,
+            "generation": {
+                "name": "generation-viii",
+                "url": "/api/v2/generation/8/"
             }
         }
     ],
@@ -376,106 +713,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "pearl",
-                        "url": "/api/v2/version/13/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "emerald",
-                        "url": "/api/v2/version/9/"
+                        "name": "ruby",
+                        "url": "/api/v2/version/7/"
                     }
                 },
                 {
@@ -488,8 +727,141 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "ruby",
-                        "url": "/api/v2/version/7/"
+                        "name": "emerald",
+                        "url": "/api/v2/version/9/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "pearl",
+                        "url": "/api/v2/version/13/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -503,15 +875,15 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
                     }
                 },
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
                     }
                 }
             ]
@@ -525,71 +897,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
                     }
                 },
                 {
@@ -602,8 +911,106 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -617,71 +1024,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
                     }
                 },
                 {
@@ -694,8 +1038,106 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -709,71 +1151,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
                     }
                 },
                 {
@@ -786,8 +1165,106 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -801,106 +1278,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "pearl",
-                        "url": "/api/v2/version/13/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "emerald",
-                        "url": "/api/v2/version/9/"
+                        "name": "ruby",
+                        "url": "/api/v2/version/7/"
                     }
                 },
                 {
@@ -913,8 +1292,141 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "ruby",
-                        "url": "/api/v2/version/7/"
+                        "name": "emerald",
+                        "url": "/api/v2/version/9/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "pearl",
+                        "url": "/api/v2/version/13/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -928,22 +1440,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "emerald",
-                        "url": "/api/v2/version/9/"
+                        "name": "ruby",
+                        "url": "/api/v2/version/7/"
                     }
                 },
                 {
@@ -956,8 +1454,22 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "ruby",
-                        "url": "/api/v2/version/7/"
+                        "name": "emerald",
+                        "url": "/api/v2/version/9/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
                     }
                 }
             ]
@@ -971,22 +1483,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "emerald",
-                        "url": "/api/v2/version/9/"
+                        "name": "ruby",
+                        "url": "/api/v2/version/7/"
                     }
                 },
                 {
@@ -999,8 +1497,22 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "ruby",
-                        "url": "/api/v2/version/7/"
+                        "name": "emerald",
+                        "url": "/api/v2/version/9/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
                     }
                 }
             ]
@@ -1014,71 +1526,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
                     }
                 },
                 {
@@ -1091,8 +1540,106 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -1106,71 +1653,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
                     }
                 },
                 {
@@ -1183,8 +1667,106 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -1198,71 +1780,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
                     }
                 },
                 {
@@ -1275,8 +1794,106 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -1290,71 +1907,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
                     }
                 },
                 {
@@ -1367,8 +1921,106 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -1382,71 +2034,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
                     }
                 },
                 {
@@ -1459,8 +2048,106 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -1474,36 +2161,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
                     }
                 },
                 {
@@ -1516,8 +2175,71 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -1531,36 +2253,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
                     }
                 },
                 {
@@ -1573,8 +2267,71 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -1588,36 +2345,8 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "moon",
-                        "url": "/api/v2/version/28/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rarity": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
                     }
                 },
                 {
@@ -1630,8 +2359,71 @@
                 {
                     "rarity": 5,
                     "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "x",
+                        "url": "/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "y",
+                        "url": "/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -1645,8 +2437,29 @@
                 {
                     "rarity": 5,
                     "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
                         "name": "moon",
                         "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -1660,8 +2473,29 @@
                 {
                     "rarity": 5,
                     "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
                         "name": "moon",
                         "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -1675,8 +2509,43 @@
                 {
                     "rarity": 5,
                     "version": {
+                        "name": "omega-ruby",
+                        "url": "/api/v2/version/25/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "alpha-sapphire",
+                        "url": "/api/v2/version/26/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "sun",
+                        "url": "/api/v2/version/27/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
                         "name": "moon",
                         "url": "/api/v2/version/28/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "ultra-moon",
+                        "url": "/api/v2/version/30/"
                     }
                 }
             ]
@@ -1688,59 +2557,10 @@
     "names": [
         {
             "language": {
-                "name": "zh-Hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u6bd2\u9488"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
             },
             "name": "\u3069\u304f\u30d0\u30ea"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Poison Barb"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Velenaculeo"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Flecha Venenosa"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Giftstich"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Pic Venin"
-        },
-        {
-            "language": {
-                "name": "zh-Hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u6bd2\u91dd"
         },
         {
             "language": {
@@ -1751,10 +2571,59 @@
         },
         {
             "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6bd2\u91dd"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Pic Venin"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Giftstich"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Flecha Venenosa"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Velenaculeo"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Poison Barb"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
             },
             "name": "\u3069\u304f\u30d0\u30ea"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6bd2\u9488"
         }
     ],
     "sprites": {

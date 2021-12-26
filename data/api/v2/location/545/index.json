@@ -1,12 +1,12 @@
 {
     "areas": [
         {
-            "name": "virbank-complex-inner",
-            "url": "/api/v2/location-area/676/"
-        },
-        {
             "name": "virbank-complex-outer",
             "url": "/api/v2/location-area/675/"
+        },
+        {
+            "name": "virbank-complex-inner",
+            "url": "/api/v2/location-area/676/"
         }
     ],
     "game_indices": [
@@ -23,10 +23,10 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
             },
-            "name": "Virbank Complex"
+            "name": "\u30bf\u30c1\u30ef\u30ad\u30b3\u30f3\u30d3\u30ca\u30fc\u30c8"
         },
         {
             "language": {
@@ -37,10 +37,10 @@
         },
         {
             "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
+                "name": "en",
+                "url": "/api/v2/language/9/"
             },
-            "name": "\u30bf\u30c1\u30ef\u30ad\u30b3\u30f3\u30d3\u30ca\u30fc\u30c8"
+            "name": "Virbank Complex"
         }
     ],
     "region": {

@@ -3,10 +3,10 @@
     "game_index": 0,
     "id": 750,
     "location": {
-        "name": "victory-road",
+        "name": "kalos-victory-road",
         "url": "/api/v2/location/657/"
     },
-    "name": "victory-road-unknown-area-326",
+    "name": "kalos-victory-road-unknown-area-326",
     "names": [
         {
             "language": {
@@ -28,22 +28,22 @@
                         {
                             "chance": 10,
                             "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
                             "max_level": 57,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 57
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 58
                         }
                     ],
                     "max_chance": 20,
@@ -57,22 +57,22 @@
                         {
                             "chance": 10,
                             "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
                             "max_level": 57,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 57
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 58
                         }
                     ],
                     "max_chance": 20,

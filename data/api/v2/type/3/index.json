@@ -225,6 +225,18 @@
         {
             "name": "beak-blast",
             "url": "/api/v2/move/690/"
+        },
+        {
+            "name": "floaty-fall",
+            "url": "/api/v2/move/731/"
+        },
+        {
+            "name": "max-airstream",
+            "url": "/api/v2/move/766/"
+        },
+        {
+            "name": "dual-wingbeat",
+            "url": "/api/v2/move/814/"
         }
     ],
     "name": "flying",
@@ -279,6 +291,7 @@
             "name": "Flying"
         }
     ],
+    "past_damage_relations": [],
     "pokemon": [
         {
             "pokemon": {
@@ -968,6 +981,34 @@
         },
         {
             "pokemon": {
+                "name": "rookidee",
+                "url": "/api/v2/pokemon/821/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "corvisquire",
+                "url": "/api/v2/pokemon/822/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "corviknight",
+                "url": "/api/v2/pokemon/823/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "cramorant",
+                "url": "/api/v2/pokemon/845/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
                 "name": "shaymin-sky",
                 "url": "/api/v2/pokemon/10006/"
             },
@@ -1154,6 +1195,48 @@
                 "url": "/api/v2/pokemon/10142/"
             },
             "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "articuno-galar",
+                "url": "/api/v2/pokemon/10166/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "zapdos-galar",
+                "url": "/api/v2/pokemon/10167/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "moltres-galar",
+                "url": "/api/v2/pokemon/10168/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "charizard-gmax",
+                "url": "/api/v2/pokemon/10187/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "butterfree-gmax",
+                "url": "/api/v2/pokemon/10189/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "corviknight-gmax",
+                "url": "/api/v2/pokemon/10203/"
+            },
+            "slot": 1
         }
     ]
 }

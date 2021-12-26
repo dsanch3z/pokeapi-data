@@ -14,6 +14,13 @@
                 "name": "generation-vi",
                 "url": "/api/v2/generation/6/"
             }
+        },
+        {
+            "game_index": 4,
+            "generation": {
+                "name": "generation-vii",
+                "url": "/api/v2/generation/7/"
+            }
         }
     ],
     "id": 267,
@@ -21,17 +28,17 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Faraway place"
-        },
-        {
-            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "name": "Endroit lointain"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Faraway place"
         }
     ],
     "region": null

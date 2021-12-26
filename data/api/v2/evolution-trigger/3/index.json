@@ -180,6 +180,26 @@
         {
             "name": "heliolisk",
             "url": "/api/v2/pokemon-species/695/"
+        },
+        {
+            "name": "leafeon",
+            "url": "/api/v2/pokemon-species/470/"
+        },
+        {
+            "name": "glaceon",
+            "url": "/api/v2/pokemon-species/471/"
+        },
+        {
+            "name": "flapple",
+            "url": "/api/v2/pokemon-species/841/"
+        },
+        {
+            "name": "appletun",
+            "url": "/api/v2/pokemon-species/842/"
+        },
+        {
+            "name": "polteageist",
+            "url": "/api/v2/pokemon-species/855/"
         }
     ]
 }

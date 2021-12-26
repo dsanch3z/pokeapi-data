@@ -35,6 +35,14 @@
         {
             "name": "bell-tower-10f",
             "url": "/api/v2/location-area/268/"
+        },
+        {
+            "name": "bell-tower-roof",
+            "url": "/api/v2/location-area/793/"
+        },
+        {
+            "name": "bell-tower-1f",
+            "url": "/api/v2/location-area/805/"
         }
     ],
     "game_indices": [
@@ -51,17 +59,17 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Bell Tower"
-        },
-        {
-            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "name": "Tour Carillon"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Bell Tower"
         }
     ],
     "region": {

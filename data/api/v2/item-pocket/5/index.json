@@ -27,6 +27,10 @@
         {
             "name": "baking-only",
             "url": "/api/v2/item-category/8/"
+        },
+        {
+            "name": "catching-bonus",
+            "url": "/api/v2/item-category/48/"
         }
     ],
     "id": 5,
@@ -38,6 +42,13 @@
                 "url": "/api/v2/language/5/"
             },
             "name": "Baies"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Bayas"
         },
         {
             "language": {

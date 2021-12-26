@@ -8,17 +8,30 @@
     "is_mega": false,
     "name": "marowak",
     "names": [],
-    "order": 149,
+    "order": 156,
     "pokemon": {
         "name": "marowak",
         "url": "/api/v2/pokemon/105/"
     },
     "sprites": {
         "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/105.png",
+        "back_female": null,
         "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/105.png",
+        "back_shiny_female": null,
         "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/105.png"
+        "front_female": null,
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/105.png",
+        "front_shiny_female": null
     },
+    "types": [
+        {
+            "slot": 1,
+            "type": {
+                "name": "ground",
+                "url": "/api/v2/type/5/"
+            }
+        }
+    ],
     "version_group": {
         "name": "red-blue",
         "url": "/api/v2/version-group/1/"

@@ -328,6 +328,102 @@
         {
             "name": "hoenn-battle-tower",
             "url": "/api/v2/location/586/"
+        },
+        {
+            "name": "hoenn-pokemon-league",
+            "url": "/api/v2/location/691/"
+        },
+        {
+            "name": "team-aqua-hideout",
+            "url": "/api/v2/location/692/"
+        },
+        {
+            "name": "sea-mauville",
+            "url": "/api/v2/location/693/"
+        },
+        {
+            "name": "team-magma-hideout",
+            "url": "/api/v2/location/694/"
+        },
+        {
+            "name": "battle-resort",
+            "url": "/api/v2/location/695/"
+        },
+        {
+            "name": "ss-tidal",
+            "url": "/api/v2/location/696/"
+        },
+        {
+            "name": "mirage-forest",
+            "url": "/api/v2/location/697/"
+        },
+        {
+            "name": "mirage-cave",
+            "url": "/api/v2/location/698/"
+        },
+        {
+            "name": "mirage-mountain",
+            "url": "/api/v2/location/699/"
+        },
+        {
+            "name": "trackless-forest",
+            "url": "/api/v2/location/700/"
+        },
+        {
+            "name": "pathless-plain",
+            "url": "/api/v2/location/701/"
+        },
+        {
+            "name": "nameless-cavern",
+            "url": "/api/v2/location/702/"
+        },
+        {
+            "name": "fabled-cave",
+            "url": "/api/v2/location/703/"
+        },
+        {
+            "name": "gnarled-den",
+            "url": "/api/v2/location/704/"
+        },
+        {
+            "name": "crescent-isle",
+            "url": "/api/v2/location/705/"
+        },
+        {
+            "name": "secret-islet",
+            "url": "/api/v2/location/706/"
+        },
+        {
+            "name": "soaring-in-the-sky",
+            "url": "/api/v2/location/707/"
+        },
+        {
+            "name": "secret-shore",
+            "url": "/api/v2/location/708/"
+        },
+        {
+            "name": "secret-meadow",
+            "url": "/api/v2/location/709/"
+        },
+        {
+            "name": "roaming-hoenn",
+            "url": "/api/v2/location/801/"
+        },
+        {
+            "name": "terra-cave",
+            "url": "/api/v2/location/803/"
+        },
+        {
+            "name": "marine-cave",
+            "url": "/api/v2/location/804/"
+        },
+        {
+            "name": "faraway-island",
+            "url": "/api/v2/location/812/"
+        },
+        {
+            "name": "hoenn-battle-frontier",
+            "url": "/api/v2/location/813/"
         }
     ],
     "main_generation": {
@@ -342,6 +438,13 @@
                 "url": "/api/v2/language/1/"
             },
             "name": "\u30db\u30a6\u30a8\u30f3\u5730\u65b9"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud638\uc5f0\uc9c0\ubc29"
         },
         {
             "language": {

@@ -353,6 +353,38 @@
         {
             "name": "prismatic-laser",
             "url": "/api/v2/move/711/"
+        },
+        {
+            "name": "photon-geyser",
+            "url": "/api/v2/move/722/"
+        },
+        {
+            "name": "light-that-burns-the-sky",
+            "url": "/api/v2/move/723/"
+        },
+        {
+            "name": "glitzy-glow",
+            "url": "/api/v2/move/736/"
+        },
+        {
+            "name": "magic-powder",
+            "url": "/api/v2/move/750/"
+        },
+        {
+            "name": "max-mindstorm",
+            "url": "/api/v2/move/769/"
+        },
+        {
+            "name": "expanding-force",
+            "url": "/api/v2/move/797/"
+        },
+        {
+            "name": "freezing-glare",
+            "url": "/api/v2/move/821/"
+        },
+        {
+            "name": "eerie-spell",
+            "url": "/api/v2/move/826/"
         }
     ],
     "name": "psychic",
@@ -405,6 +437,55 @@
                 "url": "/api/v2/language/9/"
             },
             "name": "Psychic"
+        }
+    ],
+    "past_damage_relations": [
+        {
+            "damage_relations": {
+                "double_damage_from": [
+                    {
+                        "name": "bug",
+                        "url": "/api/v2/type/7/"
+                    }
+                ],
+                "double_damage_to": [
+                    {
+                        "name": "fighting",
+                        "url": "/api/v2/type/2/"
+                    },
+                    {
+                        "name": "poison",
+                        "url": "/api/v2/type/4/"
+                    }
+                ],
+                "half_damage_from": [
+                    {
+                        "name": "fighting",
+                        "url": "/api/v2/type/2/"
+                    },
+                    {
+                        "name": "psychic",
+                        "url": "/api/v2/type/14/"
+                    }
+                ],
+                "half_damage_to": [
+                    {
+                        "name": "psychic",
+                        "url": "/api/v2/type/14/"
+                    }
+                ],
+                "no_damage_from": [
+                    {
+                        "name": "ghost",
+                        "url": "/api/v2/type/8/"
+                    }
+                ],
+                "no_damage_to": []
+            },
+            "generation": {
+                "name": "generation-i",
+                "url": "/api/v2/generation/1/"
+            }
         }
     ],
     "pokemon": [
@@ -984,6 +1065,62 @@
         },
         {
             "pokemon": {
+                "name": "dottler",
+                "url": "/api/v2/pokemon/825/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "orbeetle",
+                "url": "/api/v2/pokemon/826/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "hatenna",
+                "url": "/api/v2/pokemon/856/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "hattrem",
+                "url": "/api/v2/pokemon/857/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "hatterene",
+                "url": "/api/v2/pokemon/858/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "mr-rime",
+                "url": "/api/v2/pokemon/866/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "indeedee-male",
+                "url": "/api/v2/pokemon/876/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "calyrex",
+                "url": "/api/v2/pokemon/898/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
                 "name": "deoxys-attack",
                 "url": "/api/v2/pokemon/10001/"
             },
@@ -1105,6 +1242,111 @@
             "pokemon": {
                 "name": "oricorio-pau",
                 "url": "/api/v2/pokemon/10124/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "necrozma-dusk",
+                "url": "/api/v2/pokemon/10155/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "necrozma-dawn",
+                "url": "/api/v2/pokemon/10156/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "necrozma-ultra",
+                "url": "/api/v2/pokemon/10157/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "ponyta-galar",
+                "url": "/api/v2/pokemon/10159/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "rapidash-galar",
+                "url": "/api/v2/pokemon/10160/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "slowpoke-galar",
+                "url": "/api/v2/pokemon/10161/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "slowbro-galar",
+                "url": "/api/v2/pokemon/10162/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "mr-mime-galar",
+                "url": "/api/v2/pokemon/10165/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "articuno-galar",
+                "url": "/api/v2/pokemon/10166/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "slowking-galar",
+                "url": "/api/v2/pokemon/10169/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "indeedee-female",
+                "url": "/api/v2/pokemon/10180/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "calyrex-ice-rider",
+                "url": "/api/v2/pokemon/10184/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "calyrex-shadow-rider",
+                "url": "/api/v2/pokemon/10185/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "orbeetle-gmax",
+                "url": "/api/v2/pokemon/10204/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "hatterene-gmax",
+                "url": "/api/v2/pokemon/10212/"
             },
             "slot": 1
         }

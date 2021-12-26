@@ -11,6 +11,13 @@
         },
         {
             "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc5d0\uba54\ub784\ub4dc"
+        },
+        {
+            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
@@ -22,6 +29,13 @@
                 "url": "/api/v2/language/6/"
             },
             "name": "Smaragd"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Esmeralda"
         },
         {
             "language": {

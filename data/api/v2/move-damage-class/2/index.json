@@ -1,24 +1,10 @@
 {
     "descriptions": [
         {
-            "description": "Physical damage, controlled by Attack and Defense",
+            "description": "\u3076\u3064\u308a\u306e\u30c0\u30e1\u30fc\u30b8\u3002\u3053\u3046\u3052\u304d\u3068\u307c\u3046\u304e\u3087\u3092\u884c\u4f7f\u3059\u308b",
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            }
-        },
-        {
-            "description": "Da\u00f1o F\u00edsico, controlado por el Ataque y Defensa",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            }
-        },
-        {
-            "description": "Physischer Schaden, beeinflusst von Angriff und Verteidigung",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
             }
         },
         {
@@ -29,10 +15,24 @@
             }
         },
         {
-            "description": "\u3076\u3064\u308a\u306e\u30c0\u30e1\u30fc\u30b8\u3002\u3053\u3046\u3052\u304d\u3068\u307c\u3046\u304e\u3087\u3092\u884c\u4f7f\u3059\u308b",
+            "description": "Physischer Schaden, beeinflusst von Angriff und Verteidigung",
             "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "description": "Da\u00f1o F\u00edsico, controlado por el Ataque y Defensa",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "description": "Physical damage, controlled by Attack and Defense",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
             }
         }
     ],
@@ -79,7 +79,7 @@
             "url": "/api/v2/move/10/"
         },
         {
-            "name": "vice-grip",
+            "name": "vise-grip",
             "url": "/api/v2/move/11/"
         },
         {
@@ -1179,6 +1179,166 @@
             "url": "/api/v2/move/718/"
         },
         {
+            "name": "plasma-fists",
+            "url": "/api/v2/move/721/"
+        },
+        {
+            "name": "searing-sunraze-smash",
+            "url": "/api/v2/move/724/"
+        },
+        {
+            "name": "lets-snuggle-forever",
+            "url": "/api/v2/move/726/"
+        },
+        {
+            "name": "splintered-stormshards",
+            "url": "/api/v2/move/727/"
+        },
+        {
+            "name": "zippy-zap",
+            "url": "/api/v2/move/729/"
+        },
+        {
+            "name": "floaty-fall",
+            "url": "/api/v2/move/731/"
+        },
+        {
+            "name": "sizzly-slide",
+            "url": "/api/v2/move/735/"
+        },
+        {
+            "name": "sappy-seed",
+            "url": "/api/v2/move/738/"
+        },
+        {
+            "name": "veevee-volley",
+            "url": "/api/v2/move/741/"
+        },
+        {
+            "name": "double-iron-bash",
+            "url": "/api/v2/move/742/"
+        },
+        {
+            "name": "jaw-lock",
+            "url": "/api/v2/move/746/"
+        },
+        {
+            "name": "dragon-darts",
+            "url": "/api/v2/move/751/"
+        },
+        {
+            "name": "bolt-beak",
+            "url": "/api/v2/move/754/"
+        },
+        {
+            "name": "fishious-rend",
+            "url": "/api/v2/move/755/"
+        },
+        {
+            "name": "body-press",
+            "url": "/api/v2/move/776/"
+        },
+        {
+            "name": "drum-beating",
+            "url": "/api/v2/move/778/"
+        },
+        {
+            "name": "snap-trap",
+            "url": "/api/v2/move/779/"
+        },
+        {
+            "name": "pyro-ball",
+            "url": "/api/v2/move/780/"
+        },
+        {
+            "name": "behemoth-blade",
+            "url": "/api/v2/move/781/"
+        },
+        {
+            "name": "behemoth-bash",
+            "url": "/api/v2/move/782/"
+        },
+        {
+            "name": "aura-wheel",
+            "url": "/api/v2/move/783/"
+        },
+        {
+            "name": "breaking-swipe",
+            "url": "/api/v2/move/784/"
+        },
+        {
+            "name": "branch-poke",
+            "url": "/api/v2/move/785/"
+        },
+        {
+            "name": "grav-apple",
+            "url": "/api/v2/move/788/"
+        },
+        {
+            "name": "spirit-break",
+            "url": "/api/v2/move/789/"
+        },
+        {
+            "name": "false-surrender",
+            "url": "/api/v2/move/793/"
+        },
+        {
+            "name": "meteor-assault",
+            "url": "/api/v2/move/794/"
+        },
+        {
+            "name": "steel-roller",
+            "url": "/api/v2/move/798/"
+        },
+        {
+            "name": "scale-shot",
+            "url": "/api/v2/move/799/"
+        },
+        {
+            "name": "grassy-glide",
+            "url": "/api/v2/move/803/"
+        },
+        {
+            "name": "skitter-smack",
+            "url": "/api/v2/move/806/"
+        },
+        {
+            "name": "lash-out",
+            "url": "/api/v2/move/808/"
+        },
+        {
+            "name": "poltergeist",
+            "url": "/api/v2/move/809/"
+        },
+        {
+            "name": "flip-turn",
+            "url": "/api/v2/move/812/"
+        },
+        {
+            "name": "triple-axel",
+            "url": "/api/v2/move/813/"
+        },
+        {
+            "name": "dual-wingbeat",
+            "url": "/api/v2/move/814/"
+        },
+        {
+            "name": "wicked-blow",
+            "url": "/api/v2/move/817/"
+        },
+        {
+            "name": "surging-strikes",
+            "url": "/api/v2/move/818/"
+        },
+        {
+            "name": "thunderous-kick",
+            "url": "/api/v2/move/823/"
+        },
+        {
+            "name": "glacial-lance",
+            "url": "/api/v2/move/824/"
+        },
+        {
             "name": "shadow-rush",
             "url": "/api/v2/move/10001/"
         },
@@ -1220,7 +1380,7 @@
                 "name": "de",
                 "url": "/api/v2/language/6/"
             },
-            "name": "physich"
+            "name": "physisch"
         },
         {
             "language": {

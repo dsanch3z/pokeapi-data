@@ -230,6 +230,14 @@
         {
             "name": "stomping-tantrum",
             "url": "/api/v2/move/707/"
+        },
+        {
+            "name": "max-quake",
+            "url": "/api/v2/move/771/"
+        },
+        {
+            "name": "scorching-sands",
+            "url": "/api/v2/move/815/"
         }
     ],
     "name": "ground",
@@ -284,6 +292,7 @@
             "name": "Ground"
         }
     ],
+    "past_damage_relations": [],
     "pokemon": [
         {
             "pokemon": {
@@ -735,6 +744,27 @@
         },
         {
             "pokemon": {
+                "name": "silicobra",
+                "url": "/api/v2/pokemon/843/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "sandaconda",
+                "url": "/api/v2/pokemon/844/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "runerigus",
+                "url": "/api/v2/pokemon/867/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
                 "name": "wormadam-sandy",
                 "url": "/api/v2/pokemon/10004/"
             },
@@ -816,6 +846,27 @@
                 "url": "/api/v2/pokemon/10120/"
             },
             "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "yamask-galar",
+                "url": "/api/v2/pokemon/10176/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "stunfisk-galar",
+                "url": "/api/v2/pokemon/10177/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "sandaconda-gmax",
+                "url": "/api/v2/pokemon/10209/"
+            },
+            "slot": 1
         }
     ]
 }

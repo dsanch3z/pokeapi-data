@@ -258,6 +258,38 @@
         {
             "name": "malicious-moonsault",
             "url": "/api/v2/move/696/"
+        },
+        {
+            "name": "baddy-bad",
+            "url": "/api/v2/move/737/"
+        },
+        {
+            "name": "jaw-lock",
+            "url": "/api/v2/move/746/"
+        },
+        {
+            "name": "max-darkness",
+            "url": "/api/v2/move/772/"
+        },
+        {
+            "name": "obstruct",
+            "url": "/api/v2/move/792/"
+        },
+        {
+            "name": "false-surrender",
+            "url": "/api/v2/move/793/"
+        },
+        {
+            "name": "lash-out",
+            "url": "/api/v2/move/808/"
+        },
+        {
+            "name": "wicked-blow",
+            "url": "/api/v2/move/817/"
+        },
+        {
+            "name": "fiery-wrath",
+            "url": "/api/v2/move/822/"
         }
     ],
     "name": "dark",
@@ -310,6 +342,67 @@
                 "url": "/api/v2/language/9/"
             },
             "name": "Dark"
+        }
+    ],
+    "past_damage_relations": [
+        {
+            "damage_relations": {
+                "double_damage_from": [
+                    {
+                        "name": "fighting",
+                        "url": "/api/v2/type/2/"
+                    },
+                    {
+                        "name": "bug",
+                        "url": "/api/v2/type/7/"
+                    }
+                ],
+                "double_damage_to": [
+                    {
+                        "name": "ghost",
+                        "url": "/api/v2/type/8/"
+                    },
+                    {
+                        "name": "psychic",
+                        "url": "/api/v2/type/14/"
+                    }
+                ],
+                "half_damage_from": [
+                    {
+                        "name": "ghost",
+                        "url": "/api/v2/type/8/"
+                    },
+                    {
+                        "name": "dark",
+                        "url": "/api/v2/type/17/"
+                    }
+                ],
+                "half_damage_to": [
+                    {
+                        "name": "fighting",
+                        "url": "/api/v2/type/2/"
+                    },
+                    {
+                        "name": "dark",
+                        "url": "/api/v2/type/17/"
+                    },
+                    {
+                        "name": "steel",
+                        "url": "/api/v2/type/9/"
+                    }
+                ],
+                "no_damage_from": [
+                    {
+                        "name": "psychic",
+                        "url": "/api/v2/type/14/"
+                    }
+                ],
+                "no_damage_to": []
+            },
+            "generation": {
+                "name": "generation-v",
+                "url": "/api/v2/generation/5/"
+            }
         }
     ],
     "pokemon": [
@@ -637,6 +730,69 @@
         },
         {
             "pokemon": {
+                "name": "nickit",
+                "url": "/api/v2/pokemon/827/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "thievul",
+                "url": "/api/v2/pokemon/828/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "impidimp",
+                "url": "/api/v2/pokemon/859/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "morgrem",
+                "url": "/api/v2/pokemon/860/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "grimmsnarl",
+                "url": "/api/v2/pokemon/861/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "obstagoon",
+                "url": "/api/v2/pokemon/862/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "morpeko",
+                "url": "/api/v2/pokemon/877/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "urshifu-single-strike",
+                "url": "/api/v2/pokemon/892/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "zarude",
+                "url": "/api/v2/pokemon/893/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
                 "name": "gyarados-mega",
                 "url": "/api/v2/pokemon/10041/"
             },
@@ -744,6 +900,41 @@
             "pokemon": {
                 "name": "greninja-ash",
                 "url": "/api/v2/pokemon/10117/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "moltres-galar",
+                "url": "/api/v2/pokemon/10168/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "zigzagoon-galar",
+                "url": "/api/v2/pokemon/10171/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "linoone-galar",
+                "url": "/api/v2/pokemon/10172/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "grimmsnarl-gmax",
+                "url": "/api/v2/pokemon/10213/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "urshifu-single-strike-gmax",
+                "url": "/api/v2/pokemon/10218/"
             },
             "slot": 2
         }

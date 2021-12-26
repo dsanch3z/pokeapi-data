@@ -110,7 +110,7 @@
             "url": "/api/v2/move/10/"
         },
         {
-            "name": "vice-grip",
+            "name": "vise-grip",
             "url": "/api/v2/move/11/"
         },
         {
@@ -808,6 +808,34 @@
         {
             "name": "multi-attack",
             "url": "/api/v2/move/718/"
+        },
+        {
+            "name": "veevee-volley",
+            "url": "/api/v2/move/741/"
+        },
+        {
+            "name": "max-guard",
+            "url": "/api/v2/move/743/"
+        },
+        {
+            "name": "stuff-cheeks",
+            "url": "/api/v2/move/747/"
+        },
+        {
+            "name": "teatime",
+            "url": "/api/v2/move/752/"
+        },
+        {
+            "name": "court-change",
+            "url": "/api/v2/move/756/"
+        },
+        {
+            "name": "max-strike",
+            "url": "/api/v2/move/760/"
+        },
+        {
+            "name": "terrain-pulse",
+            "url": "/api/v2/move/805/"
         }
     ],
     "name": "normal",
@@ -862,6 +890,7 @@
             "name": "Normal"
         }
     ],
+    "past_damage_relations": [],
     "pokemon": [
         {
             "pokemon": {
@@ -1628,6 +1657,48 @@
         },
         {
             "pokemon": {
+                "name": "skwovet",
+                "url": "/api/v2/pokemon/819/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "greedent",
+                "url": "/api/v2/pokemon/820/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "wooloo",
+                "url": "/api/v2/pokemon/831/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "dubwool",
+                "url": "/api/v2/pokemon/832/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "obstagoon",
+                "url": "/api/v2/pokemon/862/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "indeedee-male",
+                "url": "/api/v2/pokemon/876/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
                 "name": "meloetta-pirouette",
                 "url": "/api/v2/pokemon/10018/"
             },
@@ -1686,6 +1757,48 @@
             "pokemon": {
                 "name": "gumshoos-totem",
                 "url": "/api/v2/pokemon/10121/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "zigzagoon-galar",
+                "url": "/api/v2/pokemon/10171/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "linoone-galar",
+                "url": "/api/v2/pokemon/10172/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "indeedee-female",
+                "url": "/api/v2/pokemon/10180/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "meowth-gmax",
+                "url": "/api/v2/pokemon/10191/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "eevee-gmax",
+                "url": "/api/v2/pokemon/10196/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "snorlax-gmax",
+                "url": "/api/v2/pokemon/10197/"
             },
             "slot": 1
         }

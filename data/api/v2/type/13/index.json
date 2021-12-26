@@ -237,6 +237,46 @@
         {
             "name": "10-000-000-volt-thunderbolt",
             "url": "/api/v2/move/719/"
+        },
+        {
+            "name": "plasma-fists",
+            "url": "/api/v2/move/721/"
+        },
+        {
+            "name": "zippy-zap",
+            "url": "/api/v2/move/729/"
+        },
+        {
+            "name": "pika-papow",
+            "url": "/api/v2/move/732/"
+        },
+        {
+            "name": "buzzy-buzz",
+            "url": "/api/v2/move/734/"
+        },
+        {
+            "name": "bolt-beak",
+            "url": "/api/v2/move/754/"
+        },
+        {
+            "name": "max-lightning",
+            "url": "/api/v2/move/759/"
+        },
+        {
+            "name": "aura-wheel",
+            "url": "/api/v2/move/783/"
+        },
+        {
+            "name": "overdrive",
+            "url": "/api/v2/move/786/"
+        },
+        {
+            "name": "rising-voltage",
+            "url": "/api/v2/move/804/"
+        },
+        {
+            "name": "thunder-cage",
+            "url": "/api/v2/move/819/"
         }
     ],
     "name": "electric",
@@ -291,6 +331,7 @@
             "name": "Electric"
         }
     ],
+    "past_damage_relations": [],
     "pokemon": [
         {
             "pokemon": {
@@ -623,6 +664,76 @@
         },
         {
             "pokemon": {
+                "name": "zeraora",
+                "url": "/api/v2/pokemon/807/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "yamper",
+                "url": "/api/v2/pokemon/835/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "boltund",
+                "url": "/api/v2/pokemon/836/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "toxel",
+                "url": "/api/v2/pokemon/848/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "toxtricity-amped",
+                "url": "/api/v2/pokemon/849/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pincurchin",
+                "url": "/api/v2/pokemon/871/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "morpeko",
+                "url": "/api/v2/pokemon/877/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "dracozolt",
+                "url": "/api/v2/pokemon/880/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "arctozolt",
+                "url": "/api/v2/pokemon/881/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "regieleki",
+                "url": "/api/v2/pokemon/894/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
                 "name": "rotom-heat",
                 "url": "/api/v2/pokemon/10008/"
             },
@@ -800,6 +911,48 @@
             "pokemon": {
                 "name": "oricorio-pom-pom",
                 "url": "/api/v2/pokemon/10123/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-partner-cap",
+                "url": "/api/v2/pokemon/10148/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "togedemaru-totem",
+                "url": "/api/v2/pokemon/10154/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "toxtricity-low-key",
+                "url": "/api/v2/pokemon/10178/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-gmax",
+                "url": "/api/v2/pokemon/10190/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "toxtricity-amped-gmax",
+                "url": "/api/v2/pokemon/10210/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "toxtricity-low-key-gmax",
+                "url": "/api/v2/pokemon/10220/"
             },
             "slot": 1
         }

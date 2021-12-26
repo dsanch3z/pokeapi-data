@@ -1,17 +1,17 @@
 {
     "awesome_names": [
         {
-            "awesome_name": "Polycephalic",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            }
-        },
-        {
             "awesome_name": "Polyc\u00e9phale",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "awesome_name": "Polycephalic",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
             }
         }
     ],
@@ -20,17 +20,17 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Heads"
-        },
-        {
-            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "name": "T\u00eates"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Heads"
         }
     ],
     "pokemon_species": [
@@ -49,10 +49,6 @@
         {
             "name": "weezing",
             "url": "/api/v2/pokemon-species/110/"
-        },
-        {
-            "name": "metagross",
-            "url": "/api/v2/pokemon-species/376/"
         },
         {
             "name": "combee",
@@ -79,20 +75,28 @@
             "url": "/api/v2/pokemon-species/600/"
         },
         {
-            "name": "klinklang",
-            "url": "/api/v2/pokemon-species/601/"
+            "name": "doublade",
+            "url": "/api/v2/pokemon-species/680/"
         },
         {
             "name": "binacle",
             "url": "/api/v2/pokemon-species/688/"
         },
         {
-            "name": "doublade",
-            "url": "/api/v2/pokemon-species/680/"
-        },
-        {
             "name": "barbaracle",
             "url": "/api/v2/pokemon-species/689/"
+        },
+        {
+            "name": "falinks",
+            "url": "/api/v2/pokemon-species/870/"
+        },
+        {
+            "name": "metagross",
+            "url": "/api/v2/pokemon-species/376/"
+        },
+        {
+            "name": "klinklang",
+            "url": "/api/v2/pokemon-species/601/"
         }
     ]
 }

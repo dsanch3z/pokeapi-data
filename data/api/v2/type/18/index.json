@@ -167,6 +167,34 @@
         {
             "name": "natures-madness",
             "url": "/api/v2/move/717/"
+        },
+        {
+            "name": "lets-snuggle-forever",
+            "url": "/api/v2/move/726/"
+        },
+        {
+            "name": "sparkly-swirl",
+            "url": "/api/v2/move/740/"
+        },
+        {
+            "name": "max-starfall",
+            "url": "/api/v2/move/767/"
+        },
+        {
+            "name": "decorate",
+            "url": "/api/v2/move/777/"
+        },
+        {
+            "name": "spirit-break",
+            "url": "/api/v2/move/789/"
+        },
+        {
+            "name": "strange-steam",
+            "url": "/api/v2/move/790/"
+        },
+        {
+            "name": "misty-explosion",
+            "url": "/api/v2/move/802/"
         }
     ],
     "name": "fairy",
@@ -221,6 +249,7 @@
             "name": "Fairy"
         }
     ],
+    "past_damage_relations": [],
     "pokemon": [
         {
             "pokemon": {
@@ -553,6 +582,55 @@
         },
         {
             "pokemon": {
+                "name": "hatterene",
+                "url": "/api/v2/pokemon/858/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "impidimp",
+                "url": "/api/v2/pokemon/859/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "morgrem",
+                "url": "/api/v2/pokemon/860/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "grimmsnarl",
+                "url": "/api/v2/pokemon/861/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "milcery",
+                "url": "/api/v2/pokemon/868/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "alcremie",
+                "url": "/api/v2/pokemon/869/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "zacian-hero",
+                "url": "/api/v2/pokemon/888/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
                 "name": "gardevoir-mega",
                 "url": "/api/v2/pokemon/10051/"
             },
@@ -627,6 +705,55 @@
                 "url": "/api/v2/pokemon/10147/"
             },
             "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "ribombee-totem",
+                "url": "/api/v2/pokemon/10150/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "rapidash-galar",
+                "url": "/api/v2/pokemon/10160/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "weezing-galar",
+                "url": "/api/v2/pokemon/10164/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "zacian-crowned",
+                "url": "/api/v2/pokemon/10181/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "hatterene-gmax",
+                "url": "/api/v2/pokemon/10212/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "grimmsnarl-gmax",
+                "url": "/api/v2/pokemon/10213/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "alcremie-gmax",
+                "url": "/api/v2/pokemon/10214/"
+            },
+            "slot": 1
         }
     ]
 }

@@ -1,5 +1,10 @@
 {
-    "areas": [],
+    "areas": [
+        {
+            "name": "mahogany-town-area",
+            "url": "/api/v2/location-area/800/"
+        }
+    ],
     "game_indices": [
         {
             "game_index": 134,
@@ -14,17 +19,17 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Mahogany Town"
-        },
-        {
-            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "name": "Acajou"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Mahogany Town"
         }
     ],
     "region": {

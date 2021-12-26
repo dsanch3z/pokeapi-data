@@ -1,5 +1,5 @@
 {
-    "count": 17,
+    "count": 27,
     "next": null,
     "previous": null,
     "results": [
@@ -70,6 +70,46 @@
         {
             "name": "rough-terrain",
             "url": "/api/v2/encounter-method/17/"
+        },
+        {
+            "name": "gift",
+            "url": "/api/v2/encounter-method/18/"
+        },
+        {
+            "name": "gift-egg",
+            "url": "/api/v2/encounter-method/19/"
+        },
+        {
+            "name": "only-one",
+            "url": "/api/v2/encounter-method/20/"
+        },
+        {
+            "name": "pokeflute",
+            "url": "/api/v2/encounter-method/21/"
+        },
+        {
+            "name": "headbutt-low",
+            "url": "/api/v2/encounter-method/22/"
+        },
+        {
+            "name": "headbutt-normal",
+            "url": "/api/v2/encounter-method/23/"
+        },
+        {
+            "name": "headbutt-high",
+            "url": "/api/v2/encounter-method/24/"
+        },
+        {
+            "name": "squirt-bottle",
+            "url": "/api/v2/encounter-method/25/"
+        },
+        {
+            "name": "wailmer-pail",
+            "url": "/api/v2/encounter-method/26/"
+        },
+        {
+            "name": "seaweed",
+            "url": "/api/v2/encounter-method/27/"
         }
     ]
 }

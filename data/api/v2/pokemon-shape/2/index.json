@@ -3,15 +3,15 @@
         {
             "awesome_name": "Caudal",
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+                "name": "fr",
+                "url": "/api/v2/language/5/"
             }
         },
         {
             "awesome_name": "Caudal",
             "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
+                "name": "en",
+                "url": "/api/v2/language/9/"
             }
         }
     ],
@@ -20,17 +20,17 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Squiggle"
-        },
-        {
-            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "name": "Sinueux"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Squiggle"
         }
     ],
     "pokemon_species": [
@@ -91,10 +91,6 @@
             "url": "/api/v2/pokemon-species/336/"
         },
         {
-            "name": "rayquaza",
-            "url": "/api/v2/pokemon-species/384/"
-        },
-        {
             "name": "milotic",
             "url": "/api/v2/pokemon-species/350/"
         },
@@ -107,12 +103,12 @@
             "url": "/api/v2/pokemon-species/368/"
         },
         {
-            "name": "shellos",
-            "url": "/api/v2/pokemon-species/422/"
+            "name": "rayquaza",
+            "url": "/api/v2/pokemon-species/384/"
         },
         {
-            "name": "gastrodon",
-            "url": "/api/v2/pokemon-species/423/"
+            "name": "shellos",
+            "url": "/api/v2/pokemon-species/422/"
         },
         {
             "name": "cresselia",
@@ -127,6 +123,10 @@
             "url": "/api/v2/pokemon-species/704/"
         },
         {
+            "name": "zygarde",
+            "url": "/api/v2/pokemon-species/718/"
+        },
+        {
             "name": "clawitzer",
             "url": "/api/v2/pokemon-species/693/"
         },
@@ -135,8 +135,8 @@
             "url": "/api/v2/pokemon-species/705/"
         },
         {
-            "name": "zygarde",
-            "url": "/api/v2/pokemon-species/718/"
+            "name": "charjabug",
+            "url": "/api/v2/pokemon-species/737/"
         },
         {
             "name": "sandygast",
@@ -155,12 +155,32 @@
             "url": "/api/v2/pokemon-species/780/"
         },
         {
-            "name": "charjabug",
-            "url": "/api/v2/pokemon-species/737/"
+            "name": "applin",
+            "url": "/api/v2/pokemon-species/840/"
         },
         {
             "name": "palossand",
             "url": "/api/v2/pokemon-species/770/"
+        },
+        {
+            "name": "silicobra",
+            "url": "/api/v2/pokemon-species/843/"
+        },
+        {
+            "name": "snom",
+            "url": "/api/v2/pokemon-species/872/"
+        },
+        {
+            "name": "dreepy",
+            "url": "/api/v2/pokemon-species/885/"
+        },
+        {
+            "name": "gastrodon",
+            "url": "/api/v2/pokemon-species/423/"
+        },
+        {
+            "name": "sandaconda",
+            "url": "/api/v2/pokemon-species/844/"
         }
     ]
 }

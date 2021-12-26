@@ -1,6 +1,6 @@
 {
     "generation": {
-        "name": "sun-moon",
+        "name": "generation-vii",
         "url": "/api/v2/generation/7/"
     },
     "id": 17,
@@ -28,11 +28,36 @@
         {
             "name": "form-change",
             "url": "/api/v2/move-learn-method/10/"
+        },
+        {
+            "name": "zygarde-cube",
+            "url": "/api/v2/move-learn-method/11/"
         }
     ],
     "name": "sun-moon",
     "order": 17,
-    "pokedexes": [],
+    "pokedexes": [
+        {
+            "name": "original-alola",
+            "url": "/api/v2/pokedex/16/"
+        },
+        {
+            "name": "original-melemele",
+            "url": "/api/v2/pokedex/17/"
+        },
+        {
+            "name": "original-akala",
+            "url": "/api/v2/pokedex/18/"
+        },
+        {
+            "name": "original-ulaula",
+            "url": "/api/v2/pokedex/19/"
+        },
+        {
+            "name": "original-poni",
+            "url": "/api/v2/pokedex/20/"
+        }
+    ],
     "regions": [
         {
             "name": "alola",

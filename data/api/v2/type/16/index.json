@@ -177,6 +177,42 @@
         {
             "name": "dragon-hammer",
             "url": "/api/v2/move/692/"
+        },
+        {
+            "name": "clangorous-soulblaze",
+            "url": "/api/v2/move/728/"
+        },
+        {
+            "name": "dynamax-cannon",
+            "url": "/api/v2/move/744/"
+        },
+        {
+            "name": "dragon-darts",
+            "url": "/api/v2/move/751/"
+        },
+        {
+            "name": "max-wyrmwind",
+            "url": "/api/v2/move/768/"
+        },
+        {
+            "name": "clangorous-soul",
+            "url": "/api/v2/move/775/"
+        },
+        {
+            "name": "breaking-swipe",
+            "url": "/api/v2/move/784/"
+        },
+        {
+            "name": "eternabeam",
+            "url": "/api/v2/move/795/"
+        },
+        {
+            "name": "scale-shot",
+            "url": "/api/v2/move/799/"
+        },
+        {
+            "name": "dragon-energy",
+            "url": "/api/v2/move/820/"
         }
     ],
     "name": "dragon",
@@ -231,6 +267,7 @@
             "name": "Dragon"
         }
     ],
+    "past_damage_relations": [],
     "pokemon": [
         {
             "pokemon": {
@@ -542,6 +579,90 @@
         },
         {
             "pokemon": {
+                "name": "naganadel",
+                "url": "/api/v2/pokemon/804/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "applin",
+                "url": "/api/v2/pokemon/840/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "flapple",
+                "url": "/api/v2/pokemon/841/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "appletun",
+                "url": "/api/v2/pokemon/842/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "dracozolt",
+                "url": "/api/v2/pokemon/880/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "dracovish",
+                "url": "/api/v2/pokemon/882/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "duraludon",
+                "url": "/api/v2/pokemon/884/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "dreepy",
+                "url": "/api/v2/pokemon/885/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "drakloak",
+                "url": "/api/v2/pokemon/886/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "dragapult",
+                "url": "/api/v2/pokemon/887/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "eternatus",
+                "url": "/api/v2/pokemon/890/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "regidrago",
+                "url": "/api/v2/pokemon/895/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
                 "name": "giratina-origin",
                 "url": "/api/v2/pokemon/10007/"
             },
@@ -658,6 +779,41 @@
                 "url": "/api/v2/pokemon/10146/"
             },
             "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "necrozma-ultra",
+                "url": "/api/v2/pokemon/10157/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "flapple-gmax",
+                "url": "/api/v2/pokemon/10207/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "appletun-gmax",
+                "url": "/api/v2/pokemon/10208/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "duraludon-gmax",
+                "url": "/api/v2/pokemon/10216/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "eternatus-eternamax",
+                "url": "/api/v2/pokemon/10217/"
+            },
+            "slot": 2
         }
     ]
 }

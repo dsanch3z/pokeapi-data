@@ -11,6 +11,13 @@
         },
         {
             "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc18c\uc6b8\uc2e4\ubc84"
+        },
+        {
+            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
@@ -22,6 +29,13 @@
                 "url": "/api/v2/language/6/"
             },
             "name": "SoulSilver"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Plata SoulSilver"
         },
         {
             "language": {

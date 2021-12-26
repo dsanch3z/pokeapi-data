@@ -14,6 +14,13 @@
                 "name": "generation-vi",
                 "url": "/api/v2/generation/6/"
             }
+        },
+        {
+            "game_index": 2,
+            "generation": {
+                "name": "generation-vii",
+                "url": "/api/v2/generation/7/"
+            }
         }
     ],
     "id": 264,
@@ -21,17 +28,17 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Mystery Zone"
-        },
-        {
-            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "name": "Endroit myst\u00e9r."
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Mystery Zone"
         }
     ],
     "region": null

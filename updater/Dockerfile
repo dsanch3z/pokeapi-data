@@ -1,11 +1,11 @@
-FROM docker:dind
+FROM docker:18.09.3-dind
 
 RUN apk update
 RUN apk add curl python3 git bash dos2unix openssh build-base python3-dev
 
 RUN ln -sf $(ls /usr/bin/easy_install*) /usr/bin/easy_install
 RUN easy_install pip
-RUN pip install docker-compose
+COPY --from=docker/compose:1.25.0-alpine /usr/local/bin/docker-compose /usr/local/bin/
 
 RUN mkdir /updater
 WORKDIR /updater

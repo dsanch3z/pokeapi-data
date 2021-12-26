@@ -1,12 +1,12 @@
 {
     "areas": [
         {
-            "name": "ruin-maniac-cave-10-25-different-unown-caught",
-            "url": "/api/v2/location-area/116/"
-        },
-        {
             "name": "ruin-maniac-cave-0-9-different-unown-caught",
             "url": "/api/v2/location-area/115/"
+        },
+        {
+            "name": "ruin-maniac-cave-10-25-different-unown-caught",
+            "url": "/api/v2/location-area/116/"
         }
     ],
     "game_indices": [
@@ -23,17 +23,17 @@
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Ruin Maniac Cave"
-        },
-        {
-            "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "name": "Grotte Ruinem."
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Ruin Maniac Cave"
         }
     ],
     "region": {

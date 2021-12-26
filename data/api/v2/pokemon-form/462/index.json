@@ -8,17 +8,37 @@
     "is_mega": false,
     "name": "magnezone",
     "names": [],
-    "order": 120,
+    "order": 127,
     "pokemon": {
         "name": "magnezone",
         "url": "/api/v2/pokemon/462/"
     },
     "sprites": {
         "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/462.png",
+        "back_female": null,
         "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/462.png",
+        "back_shiny_female": null,
         "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/462.png"
+        "front_female": null,
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/462.png",
+        "front_shiny_female": null
     },
+    "types": [
+        {
+            "slot": 1,
+            "type": {
+                "name": "electric",
+                "url": "/api/v2/type/13/"
+            }
+        },
+        {
+            "slot": 2,
+            "type": {
+                "name": "steel",
+                "url": "/api/v2/type/9/"
+            }
+        }
+    ],
     "version_group": {
         "name": "diamond-pearl",
         "url": "/api/v2/version-group/8/"

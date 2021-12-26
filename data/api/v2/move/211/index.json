@@ -26,190 +26,124 @@
     ],
     "flavor_text_entries": [
         {
-            "flavor_text": "\u7528\u575a\u786c\u7684\u7fc5\u8180\u6572\u6253\n\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u63d0\u9ad8\u81ea\u5df1\u7684\u9632\u5fa1\u3002",
-            "language": {
-                "name": "zh-Hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u786c\u3044\u3000\u7ffc\u3092\u3000\u76f8\u624b\u306b\u3000\u305f\u305f\u304d\u3064\u3051\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u81ea\u5206\u306e\u3000\u9632\u5fa1\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit with wings of steel. This may also\nraise the user\u2019s Defense stat.",
+            "flavor_text": "Stiff wings strike\nthe foe.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
             "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
             }
         },
         {
-            "flavor_text": "Colpisce il bersaglio con ali d\u2019acciaio. Pu\u00f2 anche\naumentare la Difesa di chi la usa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Alas macizas que golpean al objetivo y pueden subir \nla Defensa del usuario.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Trifft das Ziel mit Stahlfl\u00fcgeln. Verteidigungs-Wert\ndes Anwenders steigt eventuell.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur frappe l\u2019ennemi avec des ailes d\u2019acier.\nPeut aussi augmenter la D\u00e9fense du lanceur.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u5805\u786c\u7684\u7fc5\u8180\u649e\u64ca\n\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u63d0\u9ad8\u81ea\u5df1\u7684\u9632\u79a6\u3002",
-            "language": {
-                "name": "zh-Hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\ub2e8\ub2e8\ud55c \ub0a0\uac1c\ub97c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc758 \ubc29\uc5b4\uac00\n\uc62c\ub77c\uac08 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u304b\u305f\u3044\u3000\u3064\u3070\u3055\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u305f\u305f\u304d\u3064\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3058\u3076\u3093\u306e\u3000\u307c\u3046\u304e\u3087\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u786c\u3044\u3000\u7ffc\u3092\u3000\u76f8\u624b\u306b\u3000\u305f\u305f\u304d\u3064\u3051\u3066\n\u653b\u6483\u3059\u308b\u3002\u81ea\u5206\u306e\u3000\u9632\u5fa1\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit with wings of steel.\nThis may also raise the user\u2019s Defense stat.",
+            "flavor_text": "Stiff wings strike\nthe foe.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
             "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
             }
         },
         {
-            "flavor_text": "Colpisce il bersaglio con ali d\u2019acciaio. Pu\u00f2 anche\naumentare la Difesa di chi la usa.",
+            "flavor_text": "Strikes the foe with hard\nwings spread wide.",
             "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
+                "name": "en",
+                "url": "/api/v2/language/9/"
             },
             "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
             }
         },
         {
-            "flavor_text": "Alas macizas que golpean al objetivo y pueden subir \nla Defensa del usuario.",
+            "flavor_text": "Strikes the foe with hard\nwings spread wide.",
             "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
+                "name": "en",
+                "url": "/api/v2/language/9/"
             },
             "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
             }
         },
         {
-            "flavor_text": "Trifft das Ziel mit Stahlfl\u00fcgeln.\nVerteidigungs-Wert des Anwenders\nsteigt eventuell.",
+            "flavor_text": "The foe is hit with\nwings of steel.\nIt may also raise\nthe user\u2019s DEFENSE.",
             "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
+                "name": "en",
+                "url": "/api/v2/language/9/"
             },
             "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
             }
         },
         {
-            "flavor_text": "Le lanceur frappe l\u2019ennemi avec des ailes d\u2019acier.\nPeut aussi augmenter la D\u00e9fense du lanceur.",
+            "flavor_text": "The foe is hit with\nwings of steel.\nIt may also raise the\nuser\u2019s Defense stat.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is hit with\nwings of steel.\nIt may also raise the\nuser\u2019s Defense stat.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is hit with\nwings of steel.\nIt may also raise the\nuser\u2019s Defense stat.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi avec des\nailes d\u2019acier. Peut aussi augmenter\nla D\u00e9fense du lanceur.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
             }
         },
         {
-            "flavor_text": "\ub2e8\ub2e8\ud55c \ub0a0\uac1c\ub97c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc758 \ubc29\uc5b4\uac00\n\uc62c\ub77c\uac08 \ub54c\uac00 \uc788\ub2e4.",
+            "flavor_text": "The target is hit with wings of steel.\nIt may also raise the user\u2019s Defense stat.",
             "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
+                "name": "en",
+                "url": "/api/v2/language/9/"
             },
             "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The target is hit with wings of steel.\nIt may also raise the user\u2019s Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
             }
         },
         {
@@ -219,15 +153,15 @@
                 "url": "/api/v2/language/1/"
             },
             "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
             }
         },
         {
-            "flavor_text": "\u786c\u3044\u3000\u7ffc\u3092\u3000\u76f8\u624b\u306b\u3000\u305f\u305f\u304d\u3064\u3051\u3066\n\u653b\u6483\u3059\u308b\u3002\u81ea\u5206\u306e\u3000\u9632\u5fa1\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "flavor_text": "\ub2e8\ub2e8\ud55c \ub0a0\uac1c\ub97c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc758 \ubc29\uc5b4\uac00\n\uc62c\ub77c\uac08 \ub54c\uac00 \uc788\ub2e4.",
             "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
+                "name": "ko",
+                "url": "/api/v2/language/3/"
             },
             "version_group": {
                 "name": "x-y",
@@ -235,10 +169,10 @@
             }
         },
         {
-            "flavor_text": "The target is hit with wings of steel.\nThis may also raise the user\u2019s Defense stat.",
+            "flavor_text": "Le lanceur frappe l\u2019ennemi avec des ailes d\u2019acier.\nPeut aussi augmenter la D\u00e9fense du lanceur.",
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+                "name": "fr",
+                "url": "/api/v2/language/5/"
             },
             "version_group": {
                 "name": "x-y",
@@ -246,10 +180,10 @@
             }
         },
         {
-            "flavor_text": "Colpisce il bersaglio con ali d\u2019acciaio. Pu\u00f2 anche\naumentare la Difesa di chi la usa.",
+            "flavor_text": "Trifft das Ziel mit Stahlfl\u00fcgeln.\nVerteidigungs-Wert des Anwenders\nsteigt eventuell.",
             "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
+                "name": "de",
+                "url": "/api/v2/language/6/"
             },
             "version_group": {
                 "name": "x-y",
@@ -268,10 +202,10 @@
             }
         },
         {
-            "flavor_text": "Trifft das Ziel mit Stahlfl\u00fcgeln.\nVerteidigungs-Wert des Anwenders\nsteigt eventuell.",
+            "flavor_text": "Colpisce il bersaglio con ali d\u2019acciaio. Pu\u00f2 anche\naumentare la Difesa di chi la usa.",
             "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
+                "name": "it",
+                "url": "/api/v2/language/8/"
             },
             "version_group": {
                 "name": "x-y",
@@ -279,10 +213,10 @@
             }
         },
         {
-            "flavor_text": "Le lanceur frappe l\u2019ennemi avec des ailes d\u2019acier.\nPeut aussi augmenter la D\u00e9fense du lanceur.",
+            "flavor_text": "The target is hit with wings of steel.\nThis may also raise the user\u2019s Defense stat.",
             "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
+                "name": "en",
+                "url": "/api/v2/language/9/"
             },
             "version_group": {
                 "name": "x-y",
@@ -290,10 +224,10 @@
             }
         },
         {
-            "flavor_text": "\ub2e8\ub2e8\ud55c \ub0a0\uac1c\ub97c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc758 \ubc29\uc5b4\uac00\n\uc62c\ub77c\uac08 \ub54c\uac00 \uc788\ub2e4.",
+            "flavor_text": "\u786c\u3044\u3000\u7ffc\u3092\u3000\u76f8\u624b\u306b\u3000\u305f\u305f\u304d\u3064\u3051\u3066\n\u653b\u6483\u3059\u308b\u3002\u81ea\u5206\u306e\u3000\u9632\u5fa1\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
             "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
+                "name": "ja",
+                "url": "/api/v2/language/11/"
             },
             "version_group": {
                 "name": "x-y",
@@ -307,129 +241,305 @@
                 "url": "/api/v2/language/1/"
             },
             "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
             }
         },
         {
-            "flavor_text": "The target is hit with wings of steel.\nIt may also raise the user\u2019s Defense stat.",
+            "flavor_text": "\ub2e8\ub2e8\ud55c \ub0a0\uac1c\ub97c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc758 \ubc29\uc5b4\uac00\n\uc62c\ub77c\uac08 \ub54c\uac00 \uc788\ub2e4.",
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+                "name": "ko",
+                "url": "/api/v2/language/3/"
             },
             "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
             }
         },
         {
-            "flavor_text": "The target is hit with wings of steel.\nIt may also raise the user\u2019s Defense stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur frappe l\u2019ennemi avec des\nailes d\u2019acier. Peut aussi augmenter\nla D\u00e9fense du lanceur.",
+            "flavor_text": "Le lanceur frappe l\u2019ennemi avec des ailes d\u2019acier.\nPeut aussi augmenter la D\u00e9fense du lanceur.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
             "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
             }
         },
         {
-            "flavor_text": "The foe is hit with\nwings of steel.\nIt may also raise the\nuser\u2019s Defense stat.\n",
+            "flavor_text": "Trifft das Ziel mit Stahlfl\u00fcgeln.\nVerteidigungs-Wert des Anwenders\nsteigt eventuell.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Alas macizas que golpean al objetivo y pueden subir \nla Defensa del usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con ali d\u2019acciaio. Pu\u00f2 anche\naumentare la Difesa di chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The target is hit with wings of steel.\nThis may also raise the user\u2019s Defense stat.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
             "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
             }
         },
         {
-            "flavor_text": "The foe is hit with\nwings of steel.\nIt may also raise the\nuser\u2019s Defense stat.\n",
+            "flavor_text": "\u786c\u3044\u3000\u7ffc\u3092\u3000\u76f8\u624b\u306b\u3000\u305f\u305f\u304d\u3064\u3051\u3066\n\u653b\u6483\u3059\u308b\u3002\u81ea\u5206\u306e\u3000\u9632\u5fa1\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u305f\u3044\u3000\u3064\u3070\u3055\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u305f\u305f\u304d\u3064\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3058\u3076\u3093\u306e\u3000\u307c\u3046\u304e\u3087\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub2e8\ub2e8\ud55c \ub0a0\uac1c\ub97c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc758 \ubc29\uc5b4\uac00\n\uc62c\ub77c\uac08 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5805\u786c\u7684\u7fc5\u8180\u649e\u64ca\n\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u63d0\u9ad8\u81ea\u5df1\u7684\u9632\u79a6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi avec des ailes d\u2019acier.\nPeut aussi augmenter la D\u00e9fense du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Trifft das Ziel mit Stahlfl\u00fcgeln. Verteidigungs-Wert\ndes Anwenders steigt eventuell.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Alas macizas que golpean al objetivo y pueden subir \nla Defensa del usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con ali d\u2019acciaio. Pu\u00f2 anche\naumentare la Difesa di chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The target is hit with wings of steel. This may also\nraise the user\u2019s Defense stat.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
             "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
             }
         },
         {
-            "flavor_text": "The foe is hit with\nwings of steel.\nIt may also raise the\nuser\u2019s Defense stat.\n",
+            "flavor_text": "\u786c\u3044\u3000\u7ffc\u3092\u3000\u76f8\u624b\u306b\u3000\u305f\u305f\u304d\u3064\u3051\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u81ea\u5206\u306e\u3000\u9632\u5fa1\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u575a\u786c\u7684\u7fc5\u8180\u6572\u6253\n\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u63d0\u9ad8\u81ea\u5df1\u7684\u9632\u5fa1\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u305f\u3044\u3000\u3064\u3070\u3055\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u305f\u305f\u304d\u3064\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3058\u3076\u3093\u306e\u3000\u307c\u3046\u304e\u3087\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub2e8\ub2e8\ud55c \ub0a0\uac1c\ub97c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc758 \ubc29\uc5b4\uac00\n\uc62c\ub77c\uac08 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5805\u786c\u7684\u7fc5\u8180\u649e\u64ca\n\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u63d0\u9ad8\u81ea\u5df1\u7684\u9632\u79a6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi avec des ailes d\u2019acier.\nPeut aussi augmenter la D\u00e9fense du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Trifft das Ziel mit Stahlfl\u00fcgeln. Verteidigungs-Wert\ndes Anwenders steigt eventuell.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Alas macizas que golpean al objetivo y pueden subir \nla Defensa del usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con ali d\u2019acciaio. Pu\u00f2 anche\naumentare la Difesa di chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The target is hit with wings of steel. This may also\nraise the user\u2019s Defense stat.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
             "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
             }
         },
         {
-            "flavor_text": "The foe is hit with\nwings of steel.\nIt may also raise\nthe user\u2019s DEFENSE.",
+            "flavor_text": "\u786c\u3044\u3000\u7ffc\u3092\u3000\u76f8\u624b\u306b\u3000\u305f\u305f\u304d\u3064\u3051\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u81ea\u5206\u306e\u3000\u9632\u5fa1\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+                "name": "ja",
+                "url": "/api/v2/language/11/"
             },
             "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
             }
         },
         {
-            "flavor_text": "Strikes the foe with hard\nwings spread wide.",
+            "flavor_text": "\u7528\u575a\u786c\u7684\u7fc5\u8180\u6572\u6253\n\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u63d0\u9ad8\u81ea\u5df1\u7684\u9632\u5fa1\u3002",
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
             },
             "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "flavor_text": "Strikes the foe with hard\nwings spread wide.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "flavor_text": "Stiff wings strike\nthe foe.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "crystal",
-                "url": "/api/v2/version-group/4/"
-            }
-        },
-        {
-            "flavor_text": "Stiff wings strike\nthe foe.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
             }
         }
     ],
@@ -438,10 +548,436 @@
         "url": "/api/v2/generation/2/"
     },
     "id": 211,
+    "learned_by_pokemon": [
+        {
+            "name": "charizard",
+            "url": "/api/v2/pokemon/6/"
+        },
+        {
+            "name": "pidgey",
+            "url": "/api/v2/pokemon/16/"
+        },
+        {
+            "name": "pidgeotto",
+            "url": "/api/v2/pokemon/17/"
+        },
+        {
+            "name": "pidgeot",
+            "url": "/api/v2/pokemon/18/"
+        },
+        {
+            "name": "spearow",
+            "url": "/api/v2/pokemon/21/"
+        },
+        {
+            "name": "fearow",
+            "url": "/api/v2/pokemon/22/"
+        },
+        {
+            "name": "zubat",
+            "url": "/api/v2/pokemon/41/"
+        },
+        {
+            "name": "golbat",
+            "url": "/api/v2/pokemon/42/"
+        },
+        {
+            "name": "farfetchd",
+            "url": "/api/v2/pokemon/83/"
+        },
+        {
+            "name": "doduo",
+            "url": "/api/v2/pokemon/84/"
+        },
+        {
+            "name": "dodrio",
+            "url": "/api/v2/pokemon/85/"
+        },
+        {
+            "name": "scyther",
+            "url": "/api/v2/pokemon/123/"
+        },
+        {
+            "name": "aerodactyl",
+            "url": "/api/v2/pokemon/142/"
+        },
+        {
+            "name": "articuno",
+            "url": "/api/v2/pokemon/144/"
+        },
+        {
+            "name": "zapdos",
+            "url": "/api/v2/pokemon/145/"
+        },
+        {
+            "name": "moltres",
+            "url": "/api/v2/pokemon/146/"
+        },
+        {
+            "name": "dragonite",
+            "url": "/api/v2/pokemon/149/"
+        },
+        {
+            "name": "mew",
+            "url": "/api/v2/pokemon/151/"
+        },
+        {
+            "name": "hoothoot",
+            "url": "/api/v2/pokemon/163/"
+        },
+        {
+            "name": "noctowl",
+            "url": "/api/v2/pokemon/164/"
+        },
+        {
+            "name": "crobat",
+            "url": "/api/v2/pokemon/169/"
+        },
+        {
+            "name": "togetic",
+            "url": "/api/v2/pokemon/176/"
+        },
+        {
+            "name": "natu",
+            "url": "/api/v2/pokemon/177/"
+        },
+        {
+            "name": "xatu",
+            "url": "/api/v2/pokemon/178/"
+        },
+        {
+            "name": "yanma",
+            "url": "/api/v2/pokemon/193/"
+        },
+        {
+            "name": "murkrow",
+            "url": "/api/v2/pokemon/198/"
+        },
+        {
+            "name": "gligar",
+            "url": "/api/v2/pokemon/207/"
+        },
+        {
+            "name": "scizor",
+            "url": "/api/v2/pokemon/212/"
+        },
+        {
+            "name": "skarmory",
+            "url": "/api/v2/pokemon/227/"
+        },
+        {
+            "name": "lugia",
+            "url": "/api/v2/pokemon/249/"
+        },
+        {
+            "name": "ho-oh",
+            "url": "/api/v2/pokemon/250/"
+        },
+        {
+            "name": "taillow",
+            "url": "/api/v2/pokemon/276/"
+        },
+        {
+            "name": "swellow",
+            "url": "/api/v2/pokemon/277/"
+        },
+        {
+            "name": "wingull",
+            "url": "/api/v2/pokemon/278/"
+        },
+        {
+            "name": "pelipper",
+            "url": "/api/v2/pokemon/279/"
+        },
+        {
+            "name": "vibrava",
+            "url": "/api/v2/pokemon/329/"
+        },
+        {
+            "name": "flygon",
+            "url": "/api/v2/pokemon/330/"
+        },
+        {
+            "name": "swablu",
+            "url": "/api/v2/pokemon/333/"
+        },
+        {
+            "name": "altaria",
+            "url": "/api/v2/pokemon/334/"
+        },
+        {
+            "name": "tropius",
+            "url": "/api/v2/pokemon/357/"
+        },
+        {
+            "name": "salamence",
+            "url": "/api/v2/pokemon/373/"
+        },
+        {
+            "name": "latias",
+            "url": "/api/v2/pokemon/380/"
+        },
+        {
+            "name": "latios",
+            "url": "/api/v2/pokemon/381/"
+        },
+        {
+            "name": "empoleon",
+            "url": "/api/v2/pokemon/395/"
+        },
+        {
+            "name": "starly",
+            "url": "/api/v2/pokemon/396/"
+        },
+        {
+            "name": "staravia",
+            "url": "/api/v2/pokemon/397/"
+        },
+        {
+            "name": "staraptor",
+            "url": "/api/v2/pokemon/398/"
+        },
+        {
+            "name": "honchkrow",
+            "url": "/api/v2/pokemon/430/"
+        },
+        {
+            "name": "chatot",
+            "url": "/api/v2/pokemon/441/"
+        },
+        {
+            "name": "togekiss",
+            "url": "/api/v2/pokemon/468/"
+        },
+        {
+            "name": "yanmega",
+            "url": "/api/v2/pokemon/469/"
+        },
+        {
+            "name": "gliscor",
+            "url": "/api/v2/pokemon/472/"
+        },
+        {
+            "name": "giratina-altered",
+            "url": "/api/v2/pokemon/487/"
+        },
+        {
+            "name": "pidove",
+            "url": "/api/v2/pokemon/519/"
+        },
+        {
+            "name": "tranquill",
+            "url": "/api/v2/pokemon/520/"
+        },
+        {
+            "name": "unfezant",
+            "url": "/api/v2/pokemon/521/"
+        },
+        {
+            "name": "woobat",
+            "url": "/api/v2/pokemon/527/"
+        },
+        {
+            "name": "swoobat",
+            "url": "/api/v2/pokemon/528/"
+        },
+        {
+            "name": "leavanny",
+            "url": "/api/v2/pokemon/542/"
+        },
+        {
+            "name": "sigilyph",
+            "url": "/api/v2/pokemon/561/"
+        },
+        {
+            "name": "archen",
+            "url": "/api/v2/pokemon/566/"
+        },
+        {
+            "name": "archeops",
+            "url": "/api/v2/pokemon/567/"
+        },
+        {
+            "name": "ducklett",
+            "url": "/api/v2/pokemon/580/"
+        },
+        {
+            "name": "swanna",
+            "url": "/api/v2/pokemon/581/"
+        },
+        {
+            "name": "elgyem",
+            "url": "/api/v2/pokemon/605/"
+        },
+        {
+            "name": "beheeyem",
+            "url": "/api/v2/pokemon/606/"
+        },
+        {
+            "name": "rufflet",
+            "url": "/api/v2/pokemon/627/"
+        },
+        {
+            "name": "braviary",
+            "url": "/api/v2/pokemon/628/"
+        },
+        {
+            "name": "vullaby",
+            "url": "/api/v2/pokemon/629/"
+        },
+        {
+            "name": "mandibuzz",
+            "url": "/api/v2/pokemon/630/"
+        },
+        {
+            "name": "hydreigon",
+            "url": "/api/v2/pokemon/635/"
+        },
+        {
+            "name": "reshiram",
+            "url": "/api/v2/pokemon/643/"
+        },
+        {
+            "name": "zekrom",
+            "url": "/api/v2/pokemon/644/"
+        },
+        {
+            "name": "kyurem",
+            "url": "/api/v2/pokemon/646/"
+        },
+        {
+            "name": "fletchling",
+            "url": "/api/v2/pokemon/661/"
+        },
+        {
+            "name": "fletchinder",
+            "url": "/api/v2/pokemon/662/"
+        },
+        {
+            "name": "talonflame",
+            "url": "/api/v2/pokemon/663/"
+        },
+        {
+            "name": "hawlucha",
+            "url": "/api/v2/pokemon/701/"
+        },
+        {
+            "name": "noibat",
+            "url": "/api/v2/pokemon/714/"
+        },
+        {
+            "name": "noivern",
+            "url": "/api/v2/pokemon/715/"
+        },
+        {
+            "name": "yveltal",
+            "url": "/api/v2/pokemon/717/"
+        },
+        {
+            "name": "rowlet",
+            "url": "/api/v2/pokemon/722/"
+        },
+        {
+            "name": "dartrix",
+            "url": "/api/v2/pokemon/723/"
+        },
+        {
+            "name": "decidueye",
+            "url": "/api/v2/pokemon/724/"
+        },
+        {
+            "name": "pikipek",
+            "url": "/api/v2/pokemon/731/"
+        },
+        {
+            "name": "trumbeak",
+            "url": "/api/v2/pokemon/732/"
+        },
+        {
+            "name": "toucannon",
+            "url": "/api/v2/pokemon/733/"
+        },
+        {
+            "name": "oricorio-baile",
+            "url": "/api/v2/pokemon/741/"
+        },
+        {
+            "name": "silvally",
+            "url": "/api/v2/pokemon/773/"
+        },
+        {
+            "name": "drampa",
+            "url": "/api/v2/pokemon/780/"
+        },
+        {
+            "name": "tapu-koko",
+            "url": "/api/v2/pokemon/785/"
+        },
+        {
+            "name": "giratina-origin",
+            "url": "/api/v2/pokemon/10007/"
+        },
+        {
+            "name": "kyurem-black",
+            "url": "/api/v2/pokemon/10022/"
+        },
+        {
+            "name": "kyurem-white",
+            "url": "/api/v2/pokemon/10023/"
+        },
+        {
+            "name": "charizard-mega-x",
+            "url": "/api/v2/pokemon/10034/"
+        },
+        {
+            "name": "charizard-mega-y",
+            "url": "/api/v2/pokemon/10035/"
+        },
+        {
+            "name": "aerodactyl-mega",
+            "url": "/api/v2/pokemon/10042/"
+        },
+        {
+            "name": "scizor-mega",
+            "url": "/api/v2/pokemon/10046/"
+        },
+        {
+            "name": "latias-mega",
+            "url": "/api/v2/pokemon/10062/"
+        },
+        {
+            "name": "latios-mega",
+            "url": "/api/v2/pokemon/10063/"
+        },
+        {
+            "name": "altaria-mega",
+            "url": "/api/v2/pokemon/10067/"
+        },
+        {
+            "name": "pidgeot-mega",
+            "url": "/api/v2/pokemon/10073/"
+        },
+        {
+            "name": "salamence-mega",
+            "url": "/api/v2/pokemon/10089/"
+        },
+        {
+            "name": "oricorio-pom-pom",
+            "url": "/api/v2/pokemon/10123/"
+        },
+        {
+            "name": "oricorio-pau",
+            "url": "/api/v2/pokemon/10124/"
+        },
+        {
+            "name": "oricorio-sensu",
+            "url": "/api/v2/pokemon/10125/"
+        }
+    ],
     "machines": [
         {
             "machine": {
-                "url": "/api/v2/machine/785/"
+                "url": "/api/v2/machine/831/"
             },
             "version_group": {
                 "name": "gold-silver",
@@ -450,7 +986,7 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/786/"
+                "url": "/api/v2/machine/832/"
             },
             "version_group": {
                 "name": "crystal",
@@ -459,7 +995,7 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/787/"
+                "url": "/api/v2/machine/833/"
             },
             "version_group": {
                 "name": "ruby-sapphire",
@@ -468,7 +1004,7 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/788/"
+                "url": "/api/v2/machine/834/"
             },
             "version_group": {
                 "name": "emerald",
@@ -477,7 +1013,7 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/789/"
+                "url": "/api/v2/machine/835/"
             },
             "version_group": {
                 "name": "firered-leafgreen",
@@ -486,7 +1022,7 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/790/"
+                "url": "/api/v2/machine/836/"
             },
             "version_group": {
                 "name": "diamond-pearl",
@@ -495,7 +1031,7 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/791/"
+                "url": "/api/v2/machine/837/"
             },
             "version_group": {
                 "name": "platinum",
@@ -504,7 +1040,7 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/792/"
+                "url": "/api/v2/machine/838/"
             },
             "version_group": {
                 "name": "heartgold-soulsilver",
@@ -513,7 +1049,7 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/794/"
+                "url": "/api/v2/machine/840/"
             },
             "version_group": {
                 "name": "colosseum",
@@ -522,7 +1058,7 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/795/"
+                "url": "/api/v2/machine/841/"
             },
             "version_group": {
                 "name": "xd",
@@ -531,7 +1067,7 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/856/"
+                "url": "/api/v2/machine/906/"
             },
             "version_group": {
                 "name": "x-y",
@@ -540,7 +1076,7 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/857/"
+                "url": "/api/v2/machine/907/"
             },
             "version_group": {
                 "name": "omega-ruby-alpha-sapphire",
@@ -549,11 +1085,20 @@
         },
         {
             "machine": {
-                "url": "/api/v2/machine/858/"
+                "url": "/api/v2/machine/908/"
             },
             "version_group": {
                 "name": "sun-moon",
                 "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/909/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
             }
         }
     ],
@@ -581,59 +1126,10 @@
     "names": [
         {
             "language": {
-                "name": "zh-Hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u94a2\u7ffc"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
             },
             "name": "\u306f\u304c\u306d\u306e\u3064\u3070\u3055"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Steel Wing"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Alacciaio"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Ala de Acero"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Stahlfl\u00fcgel"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Aile d\u2019Acier"
-        },
-        {
-            "language": {
-                "name": "zh-Hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u92fc\u7ffc"
         },
         {
             "language": {
@@ -644,10 +1140,59 @@
         },
         {
             "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u92fc\u7ffc"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Ailes d\u2019Acier"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Stahlfl\u00fcgel"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Ala de Acero"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Alacciaio"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Steel Wing"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
             },
             "name": "\u306f\u304c\u306d\u306e\u3064\u3070\u3055"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u94a2\u7ffc"
         }
     ],
     "past_values": [],

@@ -25,6 +25,13 @@
         },
         {
             "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Blanco"
+        },
+        {
+            "language": {
                 "name": "it",
                 "url": "/api/v2/language/8/"
             },
@@ -60,12 +67,12 @@
             "url": "/api/v2/pokemon-species/179/"
         },
         {
-            "name": "smeargle",
-            "url": "/api/v2/pokemon-species/235/"
-        },
-        {
             "name": "togetic",
             "url": "/api/v2/pokemon-species/176/"
+        },
+        {
+            "name": "smeargle",
+            "url": "/api/v2/pokemon-species/235/"
         },
         {
             "name": "lugia",
@@ -120,10 +127,6 @@
             "url": "/api/v2/pokemon-species/459/"
         },
         {
-            "name": "togekiss",
-            "url": "/api/v2/pokemon-species/468/"
-        },
-        {
             "name": "dialga",
             "url": "/api/v2/pokemon-species/483/"
         },
@@ -134,6 +137,18 @@
         {
             "name": "arceus",
             "url": "/api/v2/pokemon-species/493/"
+        },
+        {
+            "name": "abomasnow",
+            "url": "/api/v2/pokemon-species/460/"
+        },
+        {
+            "name": "togekiss",
+            "url": "/api/v2/pokemon-species/468/"
+        },
+        {
+            "name": "gallade",
+            "url": "/api/v2/pokemon-species/475/"
         },
         {
             "name": "froslass",
@@ -164,18 +179,6 @@
             "url": "/api/v2/pokemon-species/607/"
         },
         {
-            "name": "cubchoo",
-            "url": "/api/v2/pokemon-species/613/"
-        },
-        {
-            "name": "rufflet",
-            "url": "/api/v2/pokemon-species/627/"
-        },
-        {
-            "name": "larvesta",
-            "url": "/api/v2/pokemon-species/636/"
-        },
-        {
             "name": "swanna",
             "url": "/api/v2/pokemon-species/581/"
         },
@@ -190,6 +193,22 @@
         {
             "name": "amoonguss",
             "url": "/api/v2/pokemon-species/591/"
+        },
+        {
+            "name": "jellicent",
+            "url": "/api/v2/pokemon-species/593/"
+        },
+        {
+            "name": "cubchoo",
+            "url": "/api/v2/pokemon-species/613/"
+        },
+        {
+            "name": "rufflet",
+            "url": "/api/v2/pokemon-species/627/"
+        },
+        {
+            "name": "larvesta",
+            "url": "/api/v2/pokemon-species/636/"
         },
         {
             "name": "reshiram",
@@ -216,8 +235,12 @@
             "url": "/api/v2/pokemon-species/684/"
         },
         {
-            "name": "vivillon",
-            "url": "/api/v2/pokemon-species/666/"
+            "name": "beartic",
+            "url": "/api/v2/pokemon-species/614/"
+        },
+        {
+            "name": "volcarona",
+            "url": "/api/v2/pokemon-species/637/"
         },
         {
             "name": "floette",
@@ -230,6 +253,14 @@
         {
             "name": "pangoro",
             "url": "/api/v2/pokemon-species/675/"
+        },
+        {
+            "name": "slurpuff",
+            "url": "/api/v2/pokemon-species/685/"
+        },
+        {
+            "name": "crabominable",
+            "url": "/api/v2/pokemon-species/740/"
         },
         {
             "name": "oranguru",
@@ -256,36 +287,64 @@
             "url": "/api/v2/pokemon-species/798/"
         },
         {
-            "name": "crabominable",
-            "url": "/api/v2/pokemon-species/740/"
+            "name": "blacephalon",
+            "url": "/api/v2/pokemon-species/806/"
+        },
+        {
+            "name": "scorbunny",
+            "url": "/api/v2/pokemon-species/813/"
+        },
+        {
+            "name": "wooloo",
+            "url": "/api/v2/pokemon-species/831/"
         },
         {
             "name": "solgaleo",
             "url": "/api/v2/pokemon-species/791/"
         },
         {
-            "name": "abomasnow",
-            "url": "/api/v2/pokemon-species/460/"
+            "name": "cinderace",
+            "url": "/api/v2/pokemon-species/815/"
         },
         {
-            "name": "gallade",
-            "url": "/api/v2/pokemon-species/475/"
+            "name": "dubwool",
+            "url": "/api/v2/pokemon-species/832/"
         },
         {
-            "name": "jellicent",
-            "url": "/api/v2/pokemon-species/593/"
+            "name": "milcery",
+            "url": "/api/v2/pokemon-species/868/"
         },
         {
-            "name": "beartic",
-            "url": "/api/v2/pokemon-species/614/"
+            "name": "snom",
+            "url": "/api/v2/pokemon-species/872/"
         },
         {
-            "name": "volcarona",
-            "url": "/api/v2/pokemon-species/637/"
+            "name": "duraludon",
+            "url": "/api/v2/pokemon-species/884/"
         },
         {
-            "name": "slurpuff",
-            "url": "/api/v2/pokemon-species/685/"
+            "name": "glastrier",
+            "url": "/api/v2/pokemon-species/896/"
+        },
+        {
+            "name": "vivillon",
+            "url": "/api/v2/pokemon-species/666/"
+        },
+        {
+            "name": "cursola",
+            "url": "/api/v2/pokemon-species/864/"
+        },
+        {
+            "name": "sirfetchd",
+            "url": "/api/v2/pokemon-species/865/"
+        },
+        {
+            "name": "alcremie",
+            "url": "/api/v2/pokemon-species/869/"
+        },
+        {
+            "name": "frosmoth",
+            "url": "/api/v2/pokemon-species/873/"
         }
     ]
 }

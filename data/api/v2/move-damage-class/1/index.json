@@ -1,24 +1,10 @@
 {
     "descriptions": [
         {
-            "description": "No damage",
+            "description": "\u30c0\u30e1\u30fc\u30b8\u306a\u3044",
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            }
-        },
-        {
-            "description": "Sin Da\u00f1o",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            }
-        },
-        {
-            "description": "Kein Schaden",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
             }
         },
         {
@@ -29,10 +15,24 @@
             }
         },
         {
-            "description": "\u30c0\u30e1\u30fc\u30b8\u306a\u3044",
+            "description": "Kein Schaden",
             "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "description": "Sin Da\u00f1o",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "description": "No damage",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
             }
         }
     ],
@@ -997,6 +997,66 @@
         {
             "name": "tearful-look",
             "url": "/api/v2/move/715/"
+        },
+        {
+            "name": "max-guard",
+            "url": "/api/v2/move/743/"
+        },
+        {
+            "name": "stuff-cheeks",
+            "url": "/api/v2/move/747/"
+        },
+        {
+            "name": "no-retreat",
+            "url": "/api/v2/move/748/"
+        },
+        {
+            "name": "tar-shot",
+            "url": "/api/v2/move/749/"
+        },
+        {
+            "name": "magic-powder",
+            "url": "/api/v2/move/750/"
+        },
+        {
+            "name": "teatime",
+            "url": "/api/v2/move/752/"
+        },
+        {
+            "name": "octolock",
+            "url": "/api/v2/move/753/"
+        },
+        {
+            "name": "court-change",
+            "url": "/api/v2/move/756/"
+        },
+        {
+            "name": "clangorous-soul",
+            "url": "/api/v2/move/775/"
+        },
+        {
+            "name": "decorate",
+            "url": "/api/v2/move/777/"
+        },
+        {
+            "name": "life-dew",
+            "url": "/api/v2/move/791/"
+        },
+        {
+            "name": "obstruct",
+            "url": "/api/v2/move/792/"
+        },
+        {
+            "name": "corrosive-gas",
+            "url": "/api/v2/move/810/"
+        },
+        {
+            "name": "coaching",
+            "url": "/api/v2/move/811/"
+        },
+        {
+            "name": "jungle-healing",
+            "url": "/api/v2/move/816/"
         },
         {
             "name": "shadow-down",

@@ -1,7 +1,7 @@
 {
     "areas": [
         {
-            "name": "route-20-area",
+            "name": "unova-route-20-area",
             "url": "/api/v2/location-area/704/"
         }
     ],
@@ -15,14 +15,14 @@
         }
     ],
     "id": 539,
-    "name": "route-20",
+    "name": "unova-route-20",
     "names": [
         {
             "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
             },
-            "name": "Route 20"
+            "name": "\uff12\uff10\u756a\u9053\u8def"
         },
         {
             "language": {
@@ -33,10 +33,10 @@
         },
         {
             "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
+                "name": "en",
+                "url": "/api/v2/language/9/"
             },
-            "name": "\uff12\uff10\u756a\u9053\u8def"
+            "name": "Route 20"
         }
     ],
     "region": {

@@ -8,19 +8,7 @@
             "items": {
                 "properties": {
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "name": {
                         "type": "string"
@@ -56,19 +44,7 @@
             "items": {
                 "properties": {
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "name": {
                         "type": "string"
@@ -86,23 +62,17 @@
             "type": "integer"
         },
         "pokemon": {
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "sprites": {
             "properties": {
                 "back_default": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "back_female": {
                     "type": [
                         "null",
                         "string"
@@ -114,7 +84,19 @@
                         "string"
                     ]
                 },
+                "back_shiny_female": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
                 "front_default": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "front_female": {
                     "type": [
                         "null",
                         "string"
@@ -125,30 +107,46 @@
                         "null",
                         "string"
                     ]
+                },
+                "front_shiny_female": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
                 }
             },
             "required": [
                 "back_default",
+                "back_female",
                 "back_shiny",
+                "back_shiny_female",
                 "front_default",
-                "front_shiny"
+                "front_female",
+                "front_shiny",
+                "front_shiny_female"
             ],
             "type": "object"
         },
-        "version_group": {
-            "properties": {
-                "name": {
-                    "type": "string"
+        "types": {
+            "items": {
+                "properties": {
+                    "slot": {
+                        "type": "integer"
+                    },
+                    "type": {
+                        "$ref": "/schema/v2/named_api_resource.json"
+                    }
                 },
-                "url": {
-                    "type": "string"
-                }
+                "required": [
+                    "slot",
+                    "type"
+                ],
+                "type": "object"
             },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "type": "array"
+        },
+        "version_group": {
+            "$ref": "/schema/v2/named_api_resource.json"
         }
     },
     "required": [
@@ -164,6 +162,7 @@
         "order",
         "pokemon",
         "sprites",
+        "types",
         "version_group"
     ],
     "type": "object"

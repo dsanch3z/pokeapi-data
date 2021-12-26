@@ -11,6 +11,13 @@
         },
         {
             "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "mar"
+        },
+        {
+            "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
@@ -103,16 +110,12 @@
             "url": "/api/v2/pokemon-species/224/"
         },
         {
-            "name": "mantine",
-            "url": "/api/v2/pokemon-species/226/"
+            "name": "wingull",
+            "url": "/api/v2/pokemon-species/278/"
         },
         {
             "name": "kingdra",
             "url": "/api/v2/pokemon-species/230/"
-        },
-        {
-            "name": "wingull",
-            "url": "/api/v2/pokemon-species/278/"
         },
         {
             "name": "pelipper",
@@ -147,10 +150,6 @@
             "url": "/api/v2/pokemon-species/370/"
         },
         {
-            "name": "kyogre",
-            "url": "/api/v2/pokemon-species/382/"
-        },
-        {
             "name": "sharpedo",
             "url": "/api/v2/pokemon-species/319/"
         },
@@ -177,6 +176,14 @@
         {
             "name": "gorebyss",
             "url": "/api/v2/pokemon-species/368/"
+        },
+        {
+            "name": "kyogre",
+            "url": "/api/v2/pokemon-species/382/"
+        },
+        {
+            "name": "mantine",
+            "url": "/api/v2/pokemon-species/226/"
         }
     ]
 }

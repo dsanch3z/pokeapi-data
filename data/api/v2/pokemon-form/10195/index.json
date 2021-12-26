@@ -23,10 +23,30 @@
     },
     "sprites": {
         "back_default": null,
+        "back_female": null,
         "back_shiny": null,
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20-totem-alola.png",
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/20-totem-alola.png"
+        "back_shiny_female": null,
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10093.png",
+        "front_female": null,
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/20-totem-alola.png",
+        "front_shiny_female": null
     },
+    "types": [
+        {
+            "slot": 1,
+            "type": {
+                "name": "dark",
+                "url": "/api/v2/type/17/"
+            }
+        },
+        {
+            "slot": 2,
+            "type": {
+                "name": "normal",
+                "url": "/api/v2/type/1/"
+            }
+        }
+    ],
     "version_group": {
         "name": "sun-moon",
         "url": "/api/v2/version-group/17/"
